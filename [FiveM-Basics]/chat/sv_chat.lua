@@ -647,7 +647,7 @@ RegisterCommand("respawn", function(player, args)
 	end
 end, false)
 
-RegisterCommand("noclip", function(player)
+RegisterCommand("nc", function(player)
 	local user_id = vRP.getUserId({player})
 	if vRP.hasPermission({user_id, "player.spectate"}) and vRP.hasPermission({user_id, "acces.duty"}) then
 		vRPclient.toggleNoclip(player, {})
