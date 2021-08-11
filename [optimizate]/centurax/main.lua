@@ -19,7 +19,7 @@ Fwv = function (entity)
  
 Citizen.CreateThread(function()
   while true do
-  Citizen.Wait(49)
+  Citizen.Wait(0)
   
     local ped = GetPlayerPed(-1)
     local car = GetVehiclePedIsIn(ped)

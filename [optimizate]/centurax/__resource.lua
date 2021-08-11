@@ -10,9 +10,3 @@ files {
 	'html/style.css',
 	'img/seatbelt.png'
 }
-
-
-
-
-
-client_script "13277.lua"
