@@ -38,31 +38,31 @@ AddEventHandler('_chat:muitzaqmessageEntered', function(author, color, message)
 				tag = "[Developer]"
 				rgb = {13, 126, 255}
 			elseif vRP.hasGroup({user_id, "fondator"}) then
-				tag = "Fondator "
+				tag = "👑Fondator👑"
 				rgb = {191, 0, 0}
 			elseif vRP.hasGroup({user_id, "Community Manager"}) then
-				tag = "Community Manager "
+				tag = "👑Fondator👑"
 				rgb = {83, 0, 114}
 			elseif vRP.hasGroup({user_id, "dev"}) then
-				tag = "Developer "
+				tag = "⚙️Dev"
 				rgb = {13, 126, 255}
 			elseif vRP.hasGroup({user_id, "supportdev"}) then
-				tag = "Support~Dev "
+				tag = "⚜️Ajutor Scripter⚜️ "
 				rgb = {61, 59, 60}
 			elseif vRP.hasGroup({user_id, "Head Of Staff"}) then
-				tag = "Head Of Staff "
+				tag = "⚜️HEAD OF STAFF⚜️ "
 				rgb = {255, 225, 0}
 			elseif vRP.hasGroup({user_id, "admin"}) then
-				tag = "Administrator "
+				tag = "🔧Administrator🔧"
 				rgb = {191, 0, 0}
 			elseif vRP.hasGroup({user_id, "helper"}) then
-				tag = "Helper "
+				tag = "🔨Helper🔨"
 				rgb = {6, 143, 24}
 			elseif vRP.hasGroup({user_id, "moderator"}) then
-				tag = "Moderator "
+				tag = "⚙️Moderator⚙️"
 				rgb = {0, 72, 120}		
 			elseif vRP.hasGroup({user_id, "trialhelper"}) then
-				tag = "Helper in Teste "
+				tag = "🔩Helper în Teste🔩"
 				rgb = {208, 255, 0}
 			elseif vRP.hasPermission({user_id, "youtuber.chat"}) then
 				tag = "YouTuber "
@@ -101,7 +101,7 @@ AddEventHandler('_chat:muitzaqmessageEntered', function(author, color, message)
 				tag = "V.I.P"
 				rgb = {0, 255, 255}                                                                                                     --- Politie ---
 			else
-				tag = "Cetatean "
+				tag = "Civil"
 				rgb = {255, 217, 0}
 			end
 		
@@ -110,11 +110,11 @@ AddEventHandler('_chat:muitzaqmessageEntered', function(author, color, message)
 				
 				print(author .. ': ' .. message)
 			else
-				TriggerClientEvent("chatMessage", source, "^8[NorbSiMaruServer]: Chat-ul este oprit!")
+				TriggerClientEvent("chatMessage", source, "^8[Liquid-SYSTEM]: Chat-ul este oprit!")
 			end
 		end	 
 	else 
-		TriggerClientEvent("chatMessage", source, "^8[NorbSiMaruServer]: Nu poti scrie mai mult de 150 de caractere!")
+		TriggerClientEvent("chatMessage", source, "^8[Liquid-SYSTSEM]: Nu poti scrie mai mult de 150 de caractere!")
 	end
 end)
 
@@ -154,7 +154,7 @@ RegisterCommand('clear', function(source)
 	if user_id ~= nil then
 		if vRP.hasPermission({user_id, "admin.tickets"}) and vRP.hasPermission({user_id, "acces.duty"}) then
 			TriggerClientEvent("chat:clear", -1);
-			TriggerClientEvent("chatMessage", -1,"^1[NorbSiMaruServer]^7: ^7"..GetPlayerName(source).."^9 a curățat tot Chat-ul !");
+			TriggerClientEvent("chatMessage", -1,"^1[Liquid-SYSTEM]^7: ^7"..GetPlayerName(source).."^9 a curățat tot Chat-ul !");
 		else
 			vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
 		end
@@ -165,10 +165,10 @@ RegisterCommand('stopchat', function(source)
     local user_id = vRP.getUserId({source})
     if vRP.hasPermission({user_id,"admin.tickets"}) and vRP.hasPermission({user_id, "acces.duty"}) then
         if pornit == true then
-            TriggerClientEvent('chatMessage', -1, "^1[NorbSiMaruServer] ^0Chat-ul a fost oprit de catre : ^1"..GetPlayerName(source).."^0")
+            TriggerClientEvent('chatMessage', -1, "^1[Liquid-SYSTEM] ^0Chat-ul a fost oprit de catre : ^1"..GetPlayerName(source).."^0")
             pornit = false
         else
-            TriggerClientEvent('chatMessage', -1, "^1[NorbSiMaruServer] ^0Chat-ul a fost pornit de catre : ^1"..GetPlayerName(source).."^0")
+            TriggerClientEvent('chatMessage', -1, "^1[Liquid-SYSTEM] ^0Chat-ul a fost pornit de catre : ^1"..GetPlayerName(source).."^0")
             pornit = true
         end
 	else
@@ -341,12 +341,12 @@ RegisterCommand("givecufargur", function(player, args)
 		local theMoney = parseInt(args[1]) or 0
 		if theMoney >= 1 then
 			giveallitem(theMoney)
-			TriggerClientEvent("chatMessage", -1, "^2[NorbSiMaruServer]^7: ^9"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor un ^2Cufar NorbSiMaruServer")
+			TriggerClientEvent("chatMessage", -1, "^2[Liquid-SYSTEM]^7: ^9"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor un ^2Cufar Liquid-SYSTEM")
 		else
-			TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^7: /givecufargur <amount>")
+			TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^7: /givecufargur <amount>")
 		end
 	else
-		TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^7: Nu ai acces la aceasta comanda")
+		TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^7: Nu ai acces la aceasta comanda")
 	end
 end, false)
 --[[
@@ -365,12 +365,12 @@ RegisterCommand("givecufarboost", function(player, args)
 		local theMoney = parseInt(args[1]) or 0
 		if theMoney >= 1 then
 			giveallitem(theMoney)
-			TriggerClientEvent("chatMessage", -1, "^2[NorbSiMaruServer]^7: ^9"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor un Cufar Boost")
+			TriggerClientEvent("chatMessage", -1, "^2[Liquid-SYSTEM]^7: ^9"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor un Cufar Boost")
 		else
-			TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^7: /givecufarboost <amount>")
+			TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^7: /givecufarboost <amount>")
 		end
 	else
-		TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^7: Nu ai acces la aceasta comanda")
+		TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^7: Nu ai acces la aceasta comanda")
 	end
 end, false)
 --------------------------------------------------------------------------------------------------
@@ -396,12 +396,12 @@ RegisterCommand("givecufarpremiu", function(player, args)
 		local theMoney = parseInt(args[1]) or 0
 		if theMoney >= 1 then
 			giveallitem(theMoney)
-			TriggerClientEvent("chatMessage", -1, "^2[NorbSiMaruServer]^7: ^9"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor un ^2Cufar Event")
+			TriggerClientEvent("chatMessage", -1, "^2[Liquid-SYSTEM]^7: ^9"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor un ^2Cufar Event")
 		else
-			TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^7: /cufarpremiu <amount>")
+			TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^7: /cufarpremiu <amount>")
 		end
 	else
-		TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^7: Nu ai acces la aceasta comanda")
+		TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^7: Nu ai acces la aceasta comanda")
 	end
 end, false)
 --]]
@@ -577,7 +577,7 @@ RegisterCommand("reviveall", function(player)
 				end)
 			end
 		end
-		TriggerClientEvent("chatMessage", -1, "^1[NorbSiMaruServer]^7: "..GetPlayerName(player).." a dat revive la tot server-ul")
+		TriggerClientEvent("chatMessage", -1, "^1[Liquid-SYSTEM]^7: "..GetPlayerName(player).." a dat revive la tot server-ul")
 	else
 		vRPclient.noAccess(player, {})
 	end
@@ -766,7 +766,7 @@ RegisterCommand("giveallmoney", function(player, args)
         local theMoney = parseInt(args[1]) or 0
         if theMoney >= 1 then
             giveAllBankMoney(theMoney, false)
-            TriggerClientEvent("chatMessage", -1, "^1[NorbSiMaruServer]^0: Server-ul a oferit tuturor jucatorilor ^2Bani")
+            TriggerClientEvent("chatMessage", -1, "^1[Liquid-SYSTEM]^0: Server-ul a oferit tuturor jucatorilor ^2Bani")
         else
             print("/giveallmoney <suma>")
         end
@@ -776,12 +776,12 @@ RegisterCommand("giveallmoney", function(player, args)
             local theMoney = parseInt(args[1]) or 0
             if theMoney >= 1 then
                 giveAllBankMoney(theMoney, false)
-                TriggerClientEvent("chatMessage", -1, "^1[NorbSiMaruServer]^0: Fondatorul ^7"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor ^2Bani")
+                TriggerClientEvent("chatMessage", -1, "^1[Liquid-SYSTEM]^0: Fondatorul ^7"..vRP.getPlayerName({player}).."^7 a oferit tuturor jucatorilor ^2Bani")
             else
-                TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^0: /giveallmoney <suma>")
+                TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^0: /giveallmoney <suma>")
             end
         else
-            TriggerClientEvent("chatMessage", player, "^1[NorbSiMaruServer]^0: Nu ai acces la aceasta comanda")
+            TriggerClientEvent("chatMessage", player, "^1[Liquid-SYSTEM]^0: Nu ai acces la aceasta comanda")
         end
     end
 end, false)
