@@ -1,7 +1,7 @@
 -- CONFIG --
 
 -- AFK Kick Time Limit (in seconds)
-secondsUntilKick = 1200
+secondsUntilKick = 60
 
 -- Warn players if 3/4 of the Time Limit ran up
 kickWarning = true
@@ -19,7 +19,7 @@ Citizen.CreateThread(function()
 			if currentPos == prevPos then
 				if time > 0 then
 					if kickWarning and time == math.ceil(secondsUntilKick / 4) then
-						TriggerEvent("chatMessage", "WARNING", {255, 0, 0}, "^1You'll be kicked in " .. time .. " seconds for being AFK!")
+						TriggerEvent("chatMessage", "WARNING", {255, 0, 0}, "^1Vei Primii kick in  " .. time .. " secunde pentru AFK!")
 					end
 
 					time = time - 1
