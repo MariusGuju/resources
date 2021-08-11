@@ -39,7 +39,7 @@ local function autoDecremet(user_id)
 		autoDecremet(user_id)
 	else
 		if questions[user_id] ~= -29 then
-			TriggerClientEvent("chatMessage", vRP.getUserSource({user_id}), "^2[NorbSiMaruServer]^7: Din pacate nimeni nu ti-a raspuns la intrebare")
+			TriggerClientEvent("chatMessage", vRP.getUserSource({user_id}), "^2[Liquid]^7: Din pacate nimeni nu ti-a raspuns la intrebare")
 		end
 		questions[user_id] = nil
 	end
@@ -85,7 +85,7 @@ RegisterCommand("nr", function(player, args, msg)
 			    		local users = vRP.getUsers({})
 						for uID, ply in pairs(users) do
 							if vRP.hasPermission({user_id, "admin.tickets"}) then
-								TriggerClientEvent("chatMessage", ply, "^2[NorbSiMaruServer]^7: Adminul ^2"..user_id.." ^7i-a raspuns lui ^2"..target_id)
+								TriggerClientEvent("chatMessage", ply, "^2[Liquid-SYSTEM]^7: Adminul ^2"..user_id.." ^7i-a raspuns lui ^2"..target_id)
 								TriggerClientEvent("chatMessage", ply, "^2"..response)
 							end
 						end
