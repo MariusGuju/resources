@@ -1,0 +1,37 @@
+<html>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body onload="startTime();">
+    </div>
+      <div class="hud">
+          <div class="container">
+            <div class="clock"><span id="time-text"></span>
+              <script>
+                  function startTime() {
+                    var today = new Date();var h = today.getHours();var m = today.getMinutes();m = checkTime(m);
+                    var s = today.getSeconds();
+                    var days = ["Duminica","Luni","Marti","Miercuri","Joi","Vineri","Sambata"];
+                    var z = days[today.getDay()];
+                    var dd = String(today.getDate()).padStart(2, '0');
+                    var mm = String(today.getMonth() + 1).padStart(2, '0');
+                    var yyyy = today.getFullYear();
+                    luna = mm + '/' + dd + '/' + yyyy;
+                    document.getElementById("time-text").innerHTML = z + " | "+h + ":" + m + ":" + s + " | " + luna;
+                    var t = setTimeout(startTime, 500);
+                  }
+                  function checkTime(i) {if (i < 10) {i = "0" + i};return i;}
+                </script>
+            </div>
+
+           <div class="pmoney"><span class="symbol"></span></div><div class="bmoney"><span class="symbol"></span></div>
+           <div class="giftmoney"><span class="symbol"></span></div>
+
+            <div class="job"><span class="symbol"></span></div>
+
+      </div>
+      <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>

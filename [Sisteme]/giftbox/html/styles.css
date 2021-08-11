@@ -1,0 +1,33 @@
+html {
+  overflow: hidden;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+button {
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 150px 150px;
+  background-color: rgba(255,255,255,0);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  background-image: url("https://i.imgur.com/0NfRHH7.png");
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+button:hover {
+  background-color: rgba(235,98,88,0.4);
+  color: white;
+}
+.home{
+	display: none;
+}
+

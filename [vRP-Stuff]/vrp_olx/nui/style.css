@@ -1,0 +1,213 @@
+
+body{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('img/bgf.png');
+    background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+	z-index: -10;
+	
+}
+
+.olxdiv {
+	position: absolute;
+	width: 70%;
+	height: 60%;
+	left: 50%;
+	top: 50%;
+	background-color: rgba(6, 22, 163, 0.8);
+	transform: translate(-50%, -50%);
+	border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.masinita {
+	position: absolute;
+	background-color: rgb(30, 6, 163);
+	padding: 30px;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 50%;
+	top: -10%;
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+.textstanga {
+	position: fixed;
+	left: 15%;
+	top: 20%;
+	color: rgb(211, 211, 211);
+	font-family: Montserrat;
+	text-transform: uppercase;
+}
+
+.textdreapta {
+	position: fixed;
+	padding: 10px;
+	width: 30%;
+	height: 100%;
+	right: 5%;
+	top: 10%;
+	font-family: Montserrat;
+}
+
+.textdreapta .engine {
+	position: absolute;
+	right: 0;
+	top: 15%;
+}
+
+.textdreapta .brakes{
+	position: absolute;
+	left: 0;
+	top: 15%;
+}
+
+.textdreapta .turbo{
+	position: absolute;
+	left: 0;
+	top: 55%;
+}
+.textdreapta .transmisii{
+	position: absolute;
+	right: 0;
+	top: 55%;
+	
+}
+.textdreapta h1 {
+	color: white;
+	text-align: center;
+
+}
+
+.textdreapta h2 {
+	position: absolute;
+	padding: 30px;
+	background-color: rgba(255, 255, 0, 0.6);
+	top: 50%;
+	left: 50%;
+	border-radius: 50px;
+	animation: animate 2s linear infinite;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-shadow: 1px 2px 0px rgba(0,0,0,0.7);
+	
+}
+span {
+	color: white;
+	font-size: 20px;
+}
+
+.vehicul p, .proprietar p, .pretmasina p {
+	padding: 10px;
+	border-bottom: 1px solid yellow;
+	font-size: 15px;
+}
+
+.vehiculplacuta {
+	padding: 5px;
+	font-size: 15px;
+	border: 2px solid yellow;
+	border-radius: 50px;
+	color: yellow;
+}
+
+
+.wrapper {
+    padding: 1.5rem 0;
+	filter: url('#goo');
+	
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    background: #eee;
+    color: #1a1e24;
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 4.23em;
+    text-decoration: none;
+    font-family: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+	
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: yellow;
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.8), 0 0 0 0 rgba(255, 255, 0, 0.8);
+    }
+    40% {
+        box-shadow: 0 0 0 50px rgba(92, 6, 163, 0), 0 0 0 0 rgba(255, 255, 0, 0.8);
+    }
+    80% {
+        box-shadow: 0 0 0 50px rgba(92, 6, 163, 0), 0 0 0 30px rgba(92, 6, 163, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(92, 6, 163, 0), 0 0 0 30px rgba(92, 6, 163, 0);
+    }
+}

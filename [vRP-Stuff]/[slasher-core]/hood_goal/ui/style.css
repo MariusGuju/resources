@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "pricedown"; 
+  src: url("fonts/pricedown.ttf");
+  
+}
+
+@font-face {
+  font-family: GoodTimes;
+  src: url("fonts/GOODTIME.ttf");}
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: "pricedown" ,sans-serif; 
+  font-weight: normal;
+  overflow: hidden;
+  height: 100%;
+ }
+
+ .box {
+  position: absolute;
+  bottom:1%;
+  right: 1%;
+  padding: 10px;
+  width: 180px;
+  background-color: rgba(0, 0, 0, 0.561);
+ }

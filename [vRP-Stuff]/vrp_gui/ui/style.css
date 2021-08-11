@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "pricedown"; 
+  src: url("fonts/pricedown.ttf");
+  
+}
+
+@font-face {
+  font-family: GoodTimes;
+  src: url("fonts/GOODTIME.ttf");}
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: "pricedown" ,sans-serif; 
+  font-weight: normal;
+  overflow: hidden;
+  height: 100%;
+ }
+
+.pmoney {
+  position: absolute;
+  top:23%;
+  left: 3%;
+  text-align:center;
+  color: white;
+  font-family: "pricedown" ,sans-serif; 
+  font-size: 30px;
+  color: rgb(0, 129, 198);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+
+.pmoney .symbol{
+  margin-right: 0.25vw;
+}
+
+.job {
+  font-family: 'GoodTimes', sans-serif; 
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  text-align:center;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+
+.bmoney {
+  position: absolute;
+  top:55%;
+  left: 3%;
+  text-align:center;
+  color: white;
+  font-family: 'GoodTimes', sans-serif; 
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+.bmoney .symbol{
+  margin-right: 0.25vw;
+  margin-top: 0.25vw;
+}
+.aurmoney {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  text-align:center;
+  color: white;
+  font-family: 'GoodTimes', sans-serif; 
+  font-size: 15.5px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75px 0.966667px 0px, rgb(0, 0, 0) 1.08333px 1.68333px 0px, rgb(0, 0, 0) 0.133333px 2px 0px, rgb(0, 0, 0) -0.833333px 1.81667px 0px, rgb(0, 0, 0) -1.6px 1.2px 0px, rgb(0, 0, 0) -1.98333px 0.283333px 0px, rgb(0, 0, 0) -1.86667px -0.7px 0px, rgb(0, 0, 0) -1.3px -1.51667px 0px, rgb(0, 0, 0) -0.416667px -1.95px 0px, rgb(0, 0, 0) 0.566667px -1.91667px 0px, rgb(0, 0, 0) 1.41667px -1.41667px 0px, rgb(0, 0, 0) 1.91667px -0.566667px 0px;
+}
+.aurmoney .symbol{
+  content: url('https://i.imgur.com/PE09f1p.png');
+  margin-right: 0.25vw;
+}
+.giftmoney {
+  position: absolute;
+  top:55%;
+  right: 3%;
+  text-align:center;
+  color: white;
+  font-family: 'GoodTimes', sans-serif; 
+  font-size: 15.5px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75px 0.966667px 0px, rgb(0, 0, 0) 1.08333px 1.68333px 0px, rgb(0, 0, 0) 0.133333px 2px 0px, rgb(0, 0, 0) -0.833333px 1.81667px 0px, rgb(0, 0, 0) -1.6px 1.2px 0px, rgb(0, 0, 0) -1.98333px 0.283333px 0px, rgb(0, 0, 0) -1.86667px -0.7px 0px, rgb(0, 0, 0) -1.3px -1.51667px 0px, rgb(0, 0, 0) -0.416667px -1.95px 0px, rgb(0, 0, 0) 0.566667px -1.91667px 0px, rgb(0, 0, 0) 1.41667px -1.41667px 0px, rgb(0, 0, 0) 1.91667px -0.566667px 0px;
+
+}
+.giftmoney .symbol{
+  content: url('https://i.imgur.com/OVDR5j6.png');
+  margin-right: 0.25vw;
+  margin-top: 0.25vw;
+}
+.clock {
+  font-family: 'GoodTimes', sans-serif; 
+  top:85%;
+  right:25%;
+  color: white;
+  font-size: 15px;
+  z-index: 1;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+
+.hud {
+  position: absolute;
+  top: 7%;
+  right: 3%;
+  width: 310px; 
+}
+  .hud .profile {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+   }
+  .hud .container {
+    position: absolute;
+    left:20%;
+    top: 5px;
+    width: 280px;
+    height: 110px;
+    padding: 2px 20px 15px 60px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0, 0, 0, 0.5));
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+    .hud .container .type {
+      width: 177.5px;
+      height: 12px;
+      margin-left: 15%;
+      margin-top: 2.5%;
+    }
+      .hud .container .type .svg {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0px;
+        width: 14px;
+        right:43%;
+        text-align: center;
+       }
+      .hud .container .type .progress {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -20px;
+        width: 100%;
+        height: 7px;
+        right:43%;
+        background-color: rgba(200, 200, 200, 0.3);
+        border-radius: 10px;
+       }
+        .hud .container .type .progress div {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: rgb(49, 145, 255);
+          border-radius: 10px;
+         }
+  .hud .icons {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: -16px; 
+  }
+
+

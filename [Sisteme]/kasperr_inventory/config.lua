@@ -1,0 +1,150 @@
+Config = {}
+
+Config.OpenMenu = 19 -- Key: U
+Config.AntiSpamCooldown = 2
+Config.Language = {
+    Title = "Inventar",
+    PleaseWait = "Asteapta...",
+    Error = "A aparut o problema.",
+    WarningTitle = "Avertizare!",
+    WeaponNotEquipped = "Arma nu a fost echipata!.",
+    CannotBeUsed = "Nu poate fi folosit",
+    NotEnoughtSpace = "Nu este destul spatiu.",
+    NoNearby = "Nu este nimeni in preajma"
+}
+
+items = {}
+-- Droguri
+items["weed"] = {"none", 0, "weed.png"}
+items["lsd"] = {"none", 0, "lsd.png"} 
+items["cocaine"] = {"none", 0, "cocaine.png"}
+items["seeds"] = {"none", 0, "seminteweed.png"}
+items["harness"] = {"none", 0, "harnesslsd.png"}
+items["benzoilmetilecgonina"] = {"none", 0, "benzoilmetilecgonina.png"}
+
+-- Heal
+items["pills"] = {"heal", 0, "pills.png"}
+items["medkit"] = {"heal", 0, "medkit.png"}
+-- Drinks
+items["water"] = {"drink", -25, "water.png"}
+items["arocola"] = {"drink", -25, "arocola.png"}
+items["tequila"] = {"drink", -25, "teq.png"}
+items["vodka"] = {"drink", -25, "vodka.png"}
+items["lemonaid"] = {"drink", -25, "lemon.png"}
+items["redgbll"] = {"drink", -25, "redbull.png"}
+items["milk"] = {"drink", -25, "milk.png"}
+items["coffee"] = {"drink", -25, "cafea.png"}
+items["tea"] = {"drink", -25, "tea.png"}
+items["icetea"] = {"drink", -25, "nestea.png"}
+items["orangejuice"] = {"drink", -25, "orange.png"}
+items["cocacola"] = {"drink", -25, "coke.png"}
+-- Cufere
+items["cufarpremiu"] = {"none", 0, "cufarevent.png"}
+items["cufarboost"] = {"none", 0, "cufarboost.png"}
+items["cufargur"] = {"none", 0, "cufargur.png"}
+-- Custom
+items["voucher"] = {"none", 0, "voucher.png"}
+-- Food
+items["tacos"] = {"food", -25, "tacos.png"}
+items["kolacz"] = {"food", -25, "dany.png"}
+items["pizza"] = {"food", -25, "pizza.png"}
+items["ketchup"] = {"food", -25, "ketchup.png"}
+items["sostobasco"] = {"none", 0, "tabasco.png"}
+items["sandwich"] = {"food", -25, "sand.png"}
+items["kebab"] = {"food", -25, "kebab.png"}
+items["pdonut"] = {"food", -25, "pdonut.png"}
+items["bread"] = {"food", -25, "bread.png"}
+items["donut"] = {"food", -25, "donut.png"}
+-- Weapons
+items["wbody|WEAPON_COMBATPISTOL"] = {"weapon", 0, "combatpistol.png"}
+items["wbody|WEAPON_APPISTOL"] = {"weapon", 0, "apistol.png"}
+items["wbody|WEAPON_PISTOL"] = {"weapon", 0, "pistol.png"}
+items["wbody|WEAPON_PUMPSHOTGUN"] = {"weapon", 0, "shotgun.png"}
+items["wbody|WEAPON_SNSPISTOL_MK2"] = {"weapon", 0, "sns.png"}
+items["wbody|WEAPON_SMG"] = {"weapon", 0, "smg.png"}
+items["wbody|WEAPON_STICKYBOMB"] = {"weapon", 0, "sticky.png"}
+items["wbody|WEAPON_SOMKEGRENADE"] = {"weapon", 0, "smoke.png"}
+items["wbody|WEAPON_MOLOTOV"] = {"weapon", 0, "molo.png"}
+items["wbody|WEAPON_GRENADE"] = {"weapon", 0, "grenade.png"}
+items["wbody|GADGET_PARACHUTE"] = {"weapon", 0, "parachute.png"}
+items["wbody|WEAPON_STUNGUN"] = {"weapon", 0, "tazer.png"}
+items["wbody|WEAPON_FLASHLIGHT"] = {"weapon", 0, "flashlight.png"}
+items["wbody|WEAPON_NIGHTSTICK"] = {"weapon", 0, "nightstick.png"}
+items["wbody|WEAPON_VINTAGEPISTOL"] = {"weapon", 0, "radar.png"}
+items["wbody|WEAPON_KNIFE"] = {"weapon", 0, "knife.png"}
+items["wbody|WEAPON_FLAREGUN"] = {"weapon", 0, "flaregun.png"}
+items["wbody|WEAPON_KNUCKLE"] = {"weapon", 0, "rozeta.png"}
+items["wbody|WEAPON_DAGGER"] = {"weapon", 0, "dagger.png"}
+items["wbody|WEAPON_MUSKET"] = {"weapon", 0, "musket.png"}
+items["wbody|WEAPON_CROWBAR"] = {"weapon", 0, "bara.png"}
+items["wbody|WEAPON_GOLFCLUB"] = {"weapon", 0, "crosa.png"}
+items["wbody|WEAPON_SWITCHBLADE"] = {"weapon", 0, "switchblade.png"}
+items["wbody|WEAPON_MACHETE"] = {"weapon", 0, "machete.png"}
+items["wbody|WEAPON_ADVANCEDRIFLE"] = {"weapon", 0, "arifle.png"}
+items["wbody|WEAPON_CARBINERIFLE"] = {"weapon", 0, "carbine.png"}
+items["wbody|WEAPON_SNIPERRIFLE"] = {"weapon", 0, "sniper.png"}
+items["wbody|WEAPON_HEAVYSNIPER"] = {"weapon", 0, "hsniper.png"}
+items["wbody|WEAPON_ASSAULTRIFLE"] = {"weapon", 0, "akrifle.png"}
+items["wbody|WEAPON_PETROLCAN"] = {"weapon", 0, "gascan.png"}
+items["wbody|WEAPON_FLARE"] = {"weapon", 0, "flare.png"}
+items["wbody|WEAPON_MICROSMG"] = {"weapon", 0, "microsmg.png"}
+items["wbody|WEAPON_MINISMG"] = {"weapon", 0, "minismg.png"}
+items["wbody|WEAPON_HATCHET"] = {"weapon", 0, "topor.png"}
+items["wbody|WEAPON_WRENCH"] = {"weapon", 0, "mox.png"}
+items["wbody|WEAPON_BAT"] = {"weapon", 0, "bat.png"}
+items["wbody|WEAPON_FIREEXTINGUISHER"] = {"weapon", 0, "stingator.png"}
+-- Ammo
+items["wammo|WEAPON_COMBATPISTOL"] = {"ammo", 0, "ammop.png"}
+items["wammo|WEAPON_APPISTOL"] = {"ammo", 0, "pistol_ammo_.png"}
+items["wammo|WEAPON_PISTOL"] = {"ammo", 0, "pistol_ammo.png"}
+items["wammo|WEAPON_PUMPSHOTGUN"] = {"ammo", 0, "ammov.png"}
+items["wammo|WEAPON_SNSPISTOL_MK2"] = {"ammo", 0, "ammop.png"}
+items["wammo|WEAPON_SMG"] = {"ammo", 0, "ammov.png"}
+items["wammo|WEAPON_STICKYBOMB"] = {"ammo", 0, "sticky.png"}
+items["wammo|WEAPON_SMOKEGRENADE"] = {"ammo", 0, "smoke.png"}
+items["wammo|WEAPON_MOLOTOV"] = {"ammo", 0, "molo.png"}
+items["wammo|WEAPON_GRENADE"] = {"ammo", 0, "grenade.png"}
+items["wammo|GADGET_PARACHUTE"] = {"ammo", 0, "parachute.png"}
+items["wammo|WEAPON_FLAREGUN"] = {"ammo", 0, "flaregun.png"}
+items["wammo|WEAPON_MUSKET"] = {"ammo", 0, "ammov.png"}
+items["wammo|WEAPON_ADVANCEDRIFLE"] = {"ammo", 0, "ammor.png"}
+items["wammo|WEAPON_CARBINERIFLE"] = {"ammo", 0, "ammor.png"}
+items["wammo|WEAPON_SNIPERRIFLE"] = {"ammo", 0, "ammos.png"}
+items["wammo|WEAPON_HEAVYSNIPER"] = {"ammo", 0, "ammos.png"}
+items["wammo|WEAPON_ASSAULTRIFLE"] = {"ammo", 0, "ammor.png"}
+items["wammo|WEAPON_PETROLCAN"] = {"ammo", 0, "oil.png"}
+items["wammo|WEAPON_FLARE"] = {"ammo", 0, "flare.png"}
+items["wammo|WEAPON_MICROSMG"] = {"ammo", 0, "ammov.png"}
+items["wammo|WEAPON_MINISMG"] = {"ammo", 0, "ammov.png"}
+items["wammo|WEAPON_FIREEXTINGUISHER"] = {"ammo", 0, "stingator.png"}
+-- unelte 
+items["c4"] = {"none", 0, "c4.png"}
+items["radio"] = {"none", 0, "radio.png"}
+items["hammer"] = {"none", 0, "hammer.png"}
+items["foarfeca"] = {"none", 0, "foarfeca.png"}
+items["repairkit"] = {"none", 0, "repair.png"}
+-- altele
+items["aur"] = {"none", 0, "gold.png"}
+items["jetonpacanele"] = {"none", 0, "jeton.png"}
+items["bank_money"] = {"none", 0, "banca.png"}
+items["credit"] = {"none", 0, "card.png"}
+items["trash"] = {"none", 0, "gunoi.png"}
+items["fake_id"] = {"none", 0, "fakeid.png"}
+items["police_report"] = {"none", 0, "warrant.png"}
+items["ems_report"] = {"none", 0, "emsreport.png"}
+items["gunL"] = {"none", 0, "gunl.png"}
+items["smarttv"] = {"none", 0, "tv.png"}
+items["iphonex"] = {"none", 0, "iphone.png"}
+items["galaxys8"] = {"none", 0, "samsung.png"}
+items["ipadpro"] = {"none", 0, "ipad.png"}
+items["macbookpro"] = {"none", 0, "macbook.png"}
+items["scrisori"] = {"none", 0, "letter.png"}
+items["timbre"] = {"none", 0, "stamp.png"}
+items["tigari"] = {"none", 0, "tigari.png"}
+items["catfish"] = {"none", 0, "fish1.png"}
+items["bass"] = {"none", 0, "fish2.png"}
+items["AK47"] = {"none", 0, "ak47.png"}
+items["M4A1"] = {"none", 0, "m4a1.png"}
+items["Medical Weed"] = {"none", 0, "medweed.png"}
+items["dirty_money"] = {"none",0 , "dmoney.png"}
+items["seeds"] = {"none", 0, "seeds.png"}
