@@ -1,0 +1,2 @@
+vRP = Proxy.getInterface("vRP")
+
