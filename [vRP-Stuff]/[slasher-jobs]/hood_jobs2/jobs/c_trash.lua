@@ -133,7 +133,6 @@ function vRPjobsC.startLoadingTrash()
 				if(#trashLoadLocs > trashCheckpoint)then
 					vRPjobsC.nextCheckTrashCheckpoint()
 					vRP.notify({"[GUNOIER] ~g~Ai incarcat gunoiul! Du-te la ~y~urmatoarea locatie ~g~sau ~b~intoarcete la groapa ~g~pentru a descarca!"})
-					vRP.notify({"~b~intoarcete la groapa ~g~pentru a descarca!"})
 					if(finishBlip == nil)then
 						finishBlip = AddBlipForCoord(finishTrashPoint[1], finishTrashPoint[2], finishTrashPoint[3])
 						SetBlipSprite(finishBlip, 318)
@@ -184,7 +183,7 @@ Citizen.CreateThread(function()
 				if(trashCheckpoint >= 2)then
 					DrawMarker(1, finishTrashPoint[1], finishTrashPoint[2], finishTrashPoint[3]-1.0, 0, 0, 0, 0, 0, 0, 5.0, 5.0, 200.0, 0, 255, 0, 180, 0, 0, 0, 0)
 					if(GetDistanceBetweenCoords(pos.x, pos.y, pos.z, finishTrashPoint[1], finishTrashPoint[2], finishTrashPoint[3], true) < 5.0)then
-						job_DisplayHelpText("Apasa ~INPUT_CONTEXT~ pentru a termina cursa de ~r~Gunoiera")
+						job_DisplayHelpText("Apasa ~INPUT_CONTEXT~ pentru a termina cursa de ~r~Gunoier")
 						if(IsControlJustReleased(1, 51))then
 							vRPjobsC.finishTrashJob()
 						end
@@ -216,10 +215,10 @@ Citizen.CreateThread(function()
 						SetBlipAsShortRange(theBlips[i], true)
 					end
 					if(GetDistanceBetweenCoords(pos.x, pos.y, pos.z, v[1], v[2], v[3], true) < 30.0)then
-						DrawText3D(v[1], v[2], v[3]+0.1, "~y~Gunoiera", 1.2)
+						DrawText3D(v[1], v[2], v[3]+0.1, "~y~Gunoier", 1.2)
 						DrawMarker(39, v[1], v[2], v[3]-0.5, 0, 0, 0, 0, 0, 0, 0.7, 0.7, 0.7, 0, 255, 0, 255, 0, 0, 0, 1)
 						if(GetDistanceBetweenCoords(pos.x, pos.y, pos.z, v[1], v[2], v[3], true) < 2.0)then
-							job_DisplayHelpText("Apasa ~INPUT_CONTEXT~ pentru a spawna o ~r~Gunoiera")
+							job_DisplayHelpText("Apasa ~INPUT_CONTEXT~ pentru a spawna o ~r~Masina")
 							if(IsControlJustReleased(1, 51))then
 								vRPSjobs.spawnTrashTruck({})
 							end
