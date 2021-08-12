@@ -25,9 +25,8 @@ SetDiscordRichPresenceAsset('liquid_logo') -- IMAGEM PNG ARQUIVO
 SetDiscordRichPresenceAssetText('Liquid Romania RolePlay') -- PNG DESCRI��O 1 TEXTO
 SetDiscordRichPresenceAssetSmall('liquid_logo')
 SetDiscordRichPresenceAssetSmallText('discord.io/LiquidRR') 
-SetDiscordRichPresenceAction(0, "Server Discord", "https://discord.gg/discord.io/LiquidRR")
+SetDiscordRichPresenceAction(0, "Server Discord", "https://discord.gg/sAeykumGkV")
 SetDiscordRichPresenceAction(1, "JOIN FIVEM", "fivem://connect/cfx.re/")
---SetRichPresence("[ID:" ..user_id.."] - [Nume:"..name.. "] - ".. #players .. "/32 - [Job:" .. faction .. "]" )
 SetRichPresence("[ID:" ..user_id.."] - [Nume:"..name.. "] -[Job:" .. faction .. "]- |" .. #players .."/512")
 
 end)
