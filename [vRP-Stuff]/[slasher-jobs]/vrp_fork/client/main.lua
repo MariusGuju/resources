@@ -450,7 +450,7 @@ Citizen.CreateThread(function()
 					ClearPedTasks(GetPlayerPed(-1))
 					notify('~y~Pachetul care urmeaza sa fie livrat este marcat pe GPS, folositi un stivuitor.')
 					else
-					notify('~y~Musisz przejąć hangar')
+					notify('~y~Trebuie să preia hangarul')
 					end
 				elseif IsControlJustPressed(0, Keys['G']) then
 					if PrzejetyHangar == 1 then
