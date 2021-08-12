@@ -8,7 +8,7 @@ Config.Volume = 1
 
 -- Disable/enable Notifications
 Config.Notification = true
-Config.Strings = {seatbelt_on = 'Seatbelt: ~g~connected', seatbelt_off = 'Seatbelt: ~r~disconnected'}
+Config.Strings = {seatbelt_on = 'Ti ai pus ~g~Centura', seatbelt_off = 'Ti ai scos ~r~centura'}
 -- Change to your own translations.
 
 -- Disable/enable blinker image
