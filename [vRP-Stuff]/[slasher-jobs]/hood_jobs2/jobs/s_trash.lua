@@ -38,7 +38,7 @@ function vRPjobs.spawnTrashTruck()
 			trashDrivers[user_id] = 0
 			vRPCjobs.spawnTrashTruck(thePlayer, {})
 		else
-			vRPclient.notify(thePlayer, {"[GUNOIER] ~r~Ai deja o gunoiera spawnata!"})
+			vRPclient.notify(thePlayer, {"[GUNOIER] ~r~Ai deja o gunoier spawnata!"})
 		end
 	else
 		vRPclient.notify(thePlayer, {"[GUNOIER] ~r~Nu esti angajat ca ~y~Gunoier"})

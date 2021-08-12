@@ -71,7 +71,7 @@ joburi = {
 	{'vrp:stivuitor',				"iei jobul de ~h~~y~Stivuitor","",			152.45585632324,-3105.0861816406,5.8963098526001							},
 	{'vrp:hotcase',				"iei jobul de ~h~~y~Hot de Case","",				240.71670532227,370.49703979492,105.99254608154						},
 	{'vrp:tirist',			"iei jobul de ~h~~y~Tirist","",		    -57.001544952392,-2448.6643066406,7.2357635498046						    },
-	{'vrp:taxiNorbSiMaruServer',				"iei jobul de ~h~~y~Taxi NorbSiMaruServer","",				    -1603.0242919922,206.0675201416,59.302303314209						},
+	{'vrp:taxiNorbSiMaruServer',				"iei jobul de ~h~~y~Taxi ","",				    -1603.0242919922,206.0675201416,59.302303314209						},
 	{'vrp:postas',			"iei jobul de ~h~~y~Postas","",		    -1649.1053466797,247.65171813965,62.390991210938					    },
 	{'vrp:pescar',				"iei jobul de ~h~~y~Pescar","",				    -712.55639648438,-1299.0120849609,5.1019263267517							},
 	{'vrp:info', "Informatii ~h~~y~[JOB-uri]","",				    -1632.4173583984,186.05285644531,61.280368804932							},

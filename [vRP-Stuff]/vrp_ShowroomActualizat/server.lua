@@ -230,7 +230,7 @@ function vRPshowroom.cumparaMasina(model,pret,selectie,categorie,tuning)
                                 ['@user_id'] = user_id,
                                 ['@vehicle'] = model,
                                 ['@upgrades'] = json.encode(tuning),
-                                ['@vehicle_plate'] = "NorbSiMaruServer "..plate
+                                ['@vehicle_plate'] = "Liquid|Romania "..plate
                             }, function (rows) end)
 
                             
