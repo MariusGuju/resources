@@ -13,7 +13,7 @@ AddEventHandler("vRP:playerSpawn",function(user_id, source, first_spawn)
         elseif vRP.hasGroup({user_id,"Community Manager"}) then
                 TriggerClientEvent('chatMessage', -1, "^1[STAFF]^7 Managerul ^1"..GetPlayerName(source).."["..user_id.."]^7 tocmai a intrat pe server!")
         elseif vRP.hasGroup({user_id,"dev"}) then 
-            TriggerClientEvent('chatMessage', -1, "^1[STAFF]^7 Scripterul ^1"..GetPlayerName(source).."["..user_id.."]^7 tocmai a intrat pe server!")
+            TriggerClientEvent('chatMessage', -1, "^1[STAFF]^7 Developeru ^1"..GetPlayerName(source).."["..user_id.."]^7 tocmai a intrat pe server!")
         elseif vRP.hasGroup({user_id,"Head Of Staff"}) then 
             TriggerClientEvent('chatMessage', -1, "^1[STAFF]^7 HOS-ul ^1"..GetPlayerName(source).."["..user_id.."]^7 tocmai a intrat pe server!") 
         elseif vRP.hasGroup({user_id,"admin"})  then   

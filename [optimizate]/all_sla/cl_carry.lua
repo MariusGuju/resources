@@ -3,7 +3,7 @@ local carryAnimNamePlaying = ""
 local carryAnimDictPlaying = ""
 local carryControlFlagPlaying = 0
 
-RegisterCommand("cara",function(source, args)
+RegisterCommand("carry",function(source, args)
 	if not carryingBackInProgress then
 		local player = PlayerPedId()	
 		lib = 'missfinale_c2mcs_1'
