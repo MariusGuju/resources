@@ -170,7 +170,7 @@ local function ch_ban(player,choice)
     vRP.prompt(player,"User id to ban: ","",function(player,idJucator)
       idJucator = parseInt(idJucator)
       if idJucator == 1 or idJucator == 2 or idJucator == 3 then
-        vRPclient.notify(player,{"[NorbSiMaruServer]COAIE NU-MI POTI DA BAN, MUIE"})
+        vRPclient.notify(player,{"[Liquid|Romania]COAIE NU-MI POTI DA BAN"})
       else
         vRP.isBanned(idJucator, function(banned)
           if not banned then
@@ -240,7 +240,7 @@ local function ch_serverban(player,choice)
     vRP.prompt(player,"User id to ban: ","",function(player,idJucator)
       idJucator = parseInt(idJucator)
       if idJucator == 1 or idJucator == 2 or idJucator == 3 then
-        vRPclient.notify(player,{"[NorbSiMaruServer]COAIE NU-MI POTI DA BAN, MUIE"})
+        vRPclient.notify(player,{"[Liquid|Romania]COAIE NU-MI POTI DA BAN"})
       else
         vRP.isBanned(idJucator, function(banned)
           if not banned then

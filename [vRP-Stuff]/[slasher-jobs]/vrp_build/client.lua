@@ -100,7 +100,7 @@ Citizen.CreateThread(function()
                             vRP.playAnim({false, {task="WORLD_HUMAN_CONST_DRILL"}, false})
                             SetTimeout(10000, function()
                             vRP.stopAnim( {false})
-                            vRP.notify({"[NorbSiMaruServer]Ai inceput sa lucrezi","success"})
+                            vRP.notify({"[Liquid|Romania]Ai inceput sa lucrezi","success"})
                             santierist = santierist + 1
 
                             end)
@@ -118,7 +118,7 @@ Citizen.CreateThread(function()
                 
                 if hasjob == false then
                 
-                vRP.notify({"[NorbSiMaruServer] Felicitari ai fost angajat ca Santierist","success"})
+                vRP.notify({"[Liquid|Romania] Felicitari ai fost angajat ca Santierist","success"})
 
 
                 hasjob = true
@@ -128,7 +128,7 @@ Citizen.CreateThread(function()
                     DrawMarker(20, v[1],v[2],v[3], 0, 0, 0, 0, 0, 0, 0.6001,0.6001,0.6001, 5, 144, 51, 100, 0, 0, 0, 1, 0, 0, 0)
                 end
                 elseif hasjob == true then
-                    vRP.notify({"[NorbSiMaruServer] Esti deja angajat ca Santierist","success"})
+                    vRP.notify({"[Liquid|Romania] Esti deja angajat ca Santierist","success"})
                 end
                 
             elseif IsControlJustPressed(1,246) then
@@ -149,7 +149,7 @@ Citizen.CreateThread(function()
                         table.insert(coordonate,{774.31677246094,4204.9287109375,8.3551778793335})
                     end
                 else
-                    vRP.notify({"[NorbSiMaruServer] N-ai lucrat inca.","success"})
+                    vRP.notify({"Liquid|Romania] N-ai lucrat inca.","success"})
                 end
             end
         end 

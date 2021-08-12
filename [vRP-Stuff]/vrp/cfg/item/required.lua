@@ -169,7 +169,7 @@ items["chem_set"] = {"Set de Chimie","Un mic set de chimie",function(args)
 	return choices
 end,1.0,"pocket"}
 --]]
-items["cufargur"] = {"Cufar NorbSiMaruServer","NorbSiMaruServer Community", function(args)
+items["cufargur"] = {"Cufar Liquid","Liquid|Romania Community", function(args)
 	local choices = {}
 	local idname = args[1]
 
@@ -210,14 +210,14 @@ items["cufargur"] = {"Cufar NorbSiMaruServer","NorbSiMaruServer Community", func
 						else
 							vRP.givePlayerSpecialVeh(user_id, vehName)
 							vRPclient.notify(player, {"~g~Ai castigat : ~r~"..vName})
-							TriggerClientEvent('chatMessage', -1, "[NorbSiMaruServer] ^5"..GetPlayerName(player).." ^2a castigat ^1"..vName.." ^2din pachetul de NorbSiMaruServer special")
+							TriggerClientEvent('chatMessage', -1, "[Liquid|Romania] ^5"..GetPlayerName(player).." ^2a castigat ^1"..vName.." ^2din pachetul de Liquid special")
 						end
 					end)
 
 				elseif(chance == 4)then
 					moneyReward = math.random(250, 2500)
 					vRPclient.notify(player, {"~g~Ai deschis pachetul si ai gasit ~r~$"..moneyReward})
-					TriggerClientEvent('chatMessage', -1, "[NorbSiMaruServer] ^5"..GetPlayerName(player).." ^2a gasit ^1$"..moneyReward.." ^2intr-un pachet!")
+					TriggerClientEvent('chatMessage', -1, "[Liquid|Romania] ^5"..GetPlayerName(player).." ^2a gasit ^1$"..moneyReward.." ^2intr-un pachet!")
 					vRP.giveMoney(user_id, moneyReward)
 				else
 					vRPclient.notify(player, {"~r~In acest pachet nu se afla nimic"})

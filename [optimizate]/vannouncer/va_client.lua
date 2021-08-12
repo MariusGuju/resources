@@ -7,7 +7,7 @@ m.delay = 10
 -- Prefix appears in front of each message. 
 -- Suffix appears on the end of each message.
 -- Leave a prefix/suffix empty ( '' ) to disable them.
-m.prefix = '^4[NorbSiMaruServer] '
+m.prefix = '^4[LiquidRomania] '
 m.suffix = '^7.'
 
 -- You can make as many messages as you want.
@@ -15,8 +15,8 @@ m.suffix = '^7.'
 m.messages = {   
 	'Pe acest server nu se vorbeste ooc doar la ticket,tiketul se va face dupa terminarea rp',
     'Depunerile de CV pentru Politie sau Smurd se vor face IC la sectia de politie',
-	'Aveti reclamatii sau vreti sa intrati intr-o factiune haideti pe { https://discord.gg/NorbSiMaruServer}',
-    'Cititi regulamentul serverului care il gasiti pe { https://discord.gg/NorbSiMaruServer}',
+	'Aveti reclamatii sau vreti sa intrati intr-o factiune haideti pe { discord.io/LiquidRR}',
+    'Cititi regulamentul serverului care il gasiti pe { discord.io/LiquidRR}',
     'Apelurile la Politie si Smurd se fac dupa urmatorul model Numele tau,Locatia si Problema pe care o ai',
 }
 

@@ -266,7 +266,7 @@ function vRP.ban(source,reason,admin)
 
   if user_id ~= nil then
     vRP.setBanned(user_id,1,reason,admin)
-	motiv = "De: "..admin.."\nMotiv: "..reason.."\nID-ul Tau: ["..user_id.."]\n\nPentru unban intra pe Discord: discord.io/NorbSiMaruServer"
+	motiv = "De: "..admin.."\nMotiv: "..reason.."\nID-ul Tau: ["..user_id.."]\n\nPentru unban intra pe Discord: discord.io/LiquidRR"
     vRP.kick1337(source,"[Banned] "..motiv)
   end
 end
@@ -332,16 +332,16 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
   local ids = GetPlayerIdentifiers(source)
 
   if ids ~= nil and #ids > 0 then
-    deferrals.update("[NorbSiMaruServer] Checking identifiers...")
+    deferrals.update("[Liquid|Romania] Checking identifiers...")
     vRP.getUserIdByIdentifiers(ids, function(user_id)
       -- if user_id ~= nil and vRP.rusers[user_id] == nil then -- check user validity and if not already connected (old way, disabled until playerDropped is sure to be called)
       if user_id ~= nil then -- check user validity 
-        deferrals.update("[NorbSiMaruServer] Checking banned...")
+        deferrals.update("[Liquid|Romania] Checking banned...")
         if string.len(name) >= 1 and string.len(name) < 30 then
-          deferrals.update("[NorbSiMaruServer] Checking Nickname number...")
+          deferrals.update("[Liquid|Romania] Checking Nickname number...")
         vRP.isBanned(user_id, function(banned)
           if not banned then
-            deferrals.update("[NorbSiMaruServer] Checking whitelisted...")
+            deferrals.update("[Liquid|Romania] Checking whitelisted...")
             vRP.isWhitelisted(user_id, function(whitelisted)
               if not config.whitelist or whitelisted then
                 Debug.pbegin("playerConnecting_delayed")
@@ -354,7 +354,7 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
                   vRP.user_sources[user_id] = source
 
                   -- load user data table
-                  deferrals.update("[NorbSiMaruServer] Loading datatable...")
+                  deferrals.update("[Liquid|Romania] Loading datatable...")
                   vRP.getUData(user_id, "vRP:datatable", function(sdata)
                     local data = json.decode(sdata)
                     if type(data) == "table" then vRP.user_tables[user_id] = data end
@@ -362,7 +362,7 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
                     -- init user tmp table
                     local tmpdata = vRP.getUserTmpTable(user_id)
 
-                    deferrals.update("[NorbSiMaruServer] Getting last login...")
+                    deferrals.update("[Liquid|Romania] Getting last login...")
                     vRP.getLastLogin(user_id, function(last_login)
                       tmpdata.last_login = last_login or ""
                       tmpdata.spawns = 0
@@ -371,7 +371,7 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
 
                       exports.ghmattimysql:execute("UPDATE vrp_users SET last_login = @last_login WHERE id = @user_id", {['@user_id'] = user_id, ['@last_login'] = last_login_stamp }, function (rows) end)
 
-                      print("[NorbSiMaruServer] "..name.." ("..vRP.getPlayerEndpoint(source)..") joined (user_id = "..user_id..")")
+                      print("[Liquid|Romania] "..name.." ("..vRP.getPlayerEndpoint(source)..") joined (user_id = "..user_id..")")
 
                       local embed = {
                         {
@@ -380,14 +380,14 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
                           ["description"] = name.." joined (user_id = "..user_id..")"
                         }
                       }
-                      PerformHttpRequest('https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+                      PerformHttpRequest('https://discord.com/api/webhooks/875494384483840010/SLtHH-h3ZYhHYiqlaX9SkjVc2Ic8gG17YUVgqGTjQIMzBoD303TPCrmDeDq3YNLGhfdt', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 
                       TriggerEvent("vRP:playerJoin", user_id, source, name, tmpdata.last_login)
                       deferrals.done()
                     end)
                   end)
                 else -- already connected
-                  print("[NorbSiMaruServer] "..name.." ("..vRP.getPlayerEndpoint(source)..") re-joined (user_id = "..user_id..")")
+                  print("[Liquid|Romania] "..name.." ("..vRP.getPlayerEndpoint(source)..") re-joined (user_id = "..user_id..")")
 
                   local embed = {
                     {
@@ -396,7 +396,7 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
                       ["description"] = name.." re-joined (user_id = "..user_id..")"
                     }
                   }
-                  PerformHttpRequest('https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+                  PerformHttpRequest('https://discord.com/api/webhooks/875494384483840010/SLtHH-h3ZYhHYiqlaX9SkjVc2Ic8gG17YUVgqGTjQIMzBoD303TPCrmDeDq3YNLGhfdt', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 
 
                   TriggerEvent("vRP:playerRejoin", user_id, source, name)
@@ -408,13 +408,13 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
 
                 Debug.pend()
               else
-                print("[NorbSiMaruServer] "..name.." ("..vRP.getPlayerEndpoint(source)..") (user_id = "..user_id.."),Nu are whitelist")
-                deferrals.done("[NorbSiMaruServer] Nu ai whitelist pentru a intra pe server (user_id = "..user_id.."),pentru a primi whitelist intra pe discord: invite.gg/NorbSiMaruServer pentru mai multe informatii.")
+                print("[Liquid|Romania] "..name.." ("..vRP.getPlayerEndpoint(source)..") (user_id = "..user_id.."),Nu are whitelist")
+                deferrals.done("[Liquid|Romania] Nu ai whitelist pentru a intra pe server (user_id = "..user_id.."),pentru a primi whitelist intra pe discord: discord.io/LiquidRR pentru mai multe informatii.")
               end
             end)
           else
 
-            print("[NorbSiMaruServer] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: banned (user_id = "..user_id..")")
+            print("[Liquid|Romania] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: banned (user_id = "..user_id..")")
             exports.ghmattimysql:execute("SELECT * FROM vrp_users WHERE id = @id", {['@id'] = user_id}, function (rows)
               vRP.getLastLogin(user_id, function(last_login)
                 local ep = vRP.getPlayerEndpoint(source)
@@ -424,11 +424,11 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
                 local info2 = last_login_stampinfo:split("/") -- de cand a luat ban
 
                 if rows[1].banPanaPe <= last_login_stampinfo then
-                  deferrals.done("[NorbSiMaruServer Server] REINTRA! Ai primit unban cu succes >< \n ID-ul tau: "..user_id..". \n De catre: "..rows[1].banatDe.." \n Pentru : "..rows[1].zileBan.." zile\nCauza Ban:"..rows[1].cauzaBan.." \nBan primit pe: "..last_login_stampinfo.." | ORA:"..last_login_stampinfoHour.." \n Expira pe: "..rows[1].banPanaPe.." [AI PRIMIT UNBAN] \n [ Aplica o cerere de unban pe invite.gg/NorbSiMaruServer ]")
+                  deferrals.done("[Liquid|Romania] REINTRA! Ai primit unban cu succes >< \n ID-ul tau: "..user_id..". \n De catre: "..rows[1].banatDe.." \n Pentru : "..rows[1].zileBan.." zile\nCauza Ban:"..rows[1].cauzaBan.." \nBan primit pe: "..last_login_stampinfo.." | ORA:"..last_login_stampinfoHour.." \n Expira pe: "..rows[1].banPanaPe.." [AI PRIMIT UNBAN] \n [ Aplica o cerere de unban pe discord.io/LiquidRR]")
 
                   exports.ghmattimysql:execute("UPDATE vrp_users SET banned = @banned, banatDe = @banatDe, zileBan = @zileBan, cauzaBan = @cauzaBan, banPanaPe = @banPanaPe WHERE id = @user_id", {['@user_id'] = user_id, ['@banned'] = 0, ['@banatDe'] = "NU", ['@zileBan'] = 0, ['@cauzaBan']= "MU", ['@banPanaPe']=0}, function (rowsBanned)end)
                 else
-                  deferrals.done("[NorbSiMaruServer Server] Esti banat Cumetre >< \n ID-ul tau: "..user_id..". \n De catre: "..rows[1].banatDe.." \n Pentru : "..rows[1].zileBan.." zile \nCauza Ban:"..rows[1].cauzaBan.."\n Ban primit pe: "..last_login_stampinfo.." | "..last_login_stampinfoHour.." \n Expira pe: "..rows[1].banPanaPe.." [BANAT] \n [ Aplica o cerere de unban pe invite.gg/NorbSiMaruServer ]")
+                  deferrals.done("[Liquid|Romania] Esti banat Cumetre >< \n ID-ul tau: "..user_id..". \n De catre: "..rows[1].banatDe.." \n Pentru : "..rows[1].zileBan.." zile \nCauza Ban:"..rows[1].cauzaBan.."\n Ban primit pe: "..last_login_stampinfo.." | "..last_login_stampinfoHour.." \n Expira pe: "..rows[1].banPanaPe.." [BANAT] \n [ Aplica o cerere de unban pe discord.io/LiquidRR]")
                 end
               end)
             end)
@@ -436,17 +436,17 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
           end
         end)
       else
-        print("[NorbSiMaruServer] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: Numele tau este prea lung")
-        deferrals.done("[NorbSiMaruServer] Numele tau este prea lung.")
+        print("[Liquid|Romania] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: Numele tau este prea lung")
+        deferrals.done("[Liquid|Romania] Numele tau este prea lung.")
       end
       else
-        print("[NorbSiMaruServer] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: identification error")
-        deferrals.done("[NorbSiMaruServer] Identification error.")
+        print("[Liquid|Romania] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: identification error")
+        deferrals.done("[Liquid|Romania] Identification error.")
       end
     end)
   else
-    print("[NorbSiMaruServer] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: missing identifiers")
-    deferrals.done("[NorbSiMaruServer] Missing identifiers.")
+    print("[Liquid|Romania] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: missing identifiers")
+    deferrals.done("[Liquid|Romania] Missing identifiers.")
   end
   Debug.pend()
 end)
@@ -476,7 +476,7 @@ AddEventHandler("playerDropped",function(reason)
         ["description"] = " disconnected (user_id = "..user_id..")"
       }
     }
-    PerformHttpRequest('https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest('https://discord.com/api/webhooks/875494384483840010/SLtHH-h3ZYhHYiqlaX9SkjVc2Ic8gG17YUVgqGTjQIMzBoD303TPCrmDeDq3YNLGhfdt', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 
     vRP.users[vRP.rusers[user_id]] = nil
     vRP.rusers[user_id] = nil

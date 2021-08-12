@@ -78,10 +78,10 @@ AddEventHandler('vrp:taxiNorbSiMaruServer', function()
 	local player = vRP.getUserSource({user_id})
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Taxi NorbSiMaruServer"}) then
-	vRPclient.notify(player, {"~r~Deja ai job-ul de Taxi NorbSiMaruServer!"})
+	vRPclient.notify(player, {"~r~Deja ai job-ul de Taxi !"})
 	else if ore >= 2 then
 		vRP.addUserGroup({user_id,"Taxi NorbSiMaruServer"})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum este Taxi NorbSiMaruServer !"})
+		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum este Taxi!"})
 	else
 		vRPclient.notify(player, {"Nu ai ~r~2 ORE JUCATE~s~!"})
 	   end

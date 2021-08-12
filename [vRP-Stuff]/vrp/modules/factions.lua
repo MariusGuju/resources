@@ -287,7 +287,7 @@ local function ch_leaveGroup(player,choice)
 	local theFaction = vRP.getUserFaction(user_id)
 	if user_id ~= nil then
 		if(vRP.hasUserFaction(user_id))then
-			vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Ai parasit factiunea ~g~"..theFaction.."!"})
+			vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Ai parasit factiunea ~g~"..theFaction.."!"})
 			vRP.removeUserFaction(user_id,theFaction)
 		end
 		if(vRP.hasGroup(user_id,"onduty"))then
@@ -302,7 +302,7 @@ local function ch_offduty(player,choice)
 	local theFaction = vRP.getUserFaction(user_id)
 	if user_id ~= nil then
 		if(vRP.hasUserFaction(user_id))then
-			vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Te-ai pus ~r~OFF-DUTY ~w~in factiunea ~b~"..theFaction.."!"})
+			vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Te-ai pus ~r~OFF-DUTY ~w~in factiunea ~b~"..theFaction.."!"})
 			if(vRP.hasGroup(user_id,"onduty"))then
 				vRP.removeUserGroup(user_id,"onduty")
 			end
@@ -316,7 +316,7 @@ local function ch_onduty(player,choice)
 	local theFaction = vRP.getUserFaction(user_id)
 	if user_id ~= nil then
 		if(vRP.hasUserFaction(user_id))then
-			vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Te-ai pus ~g~ON-DUTY ~w~in factiunea ~b~"..theFaction.."!"})
+			vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Te-ai pus ~g~ON-DUTY ~w~in factiunea ~b~"..theFaction.."!"})
 			vRP.addUserGroup(user_id,"onduty")
 		end
 		vRP.openMainMenu(player)
@@ -338,24 +338,24 @@ local function ch_inviteFaction(player,choice)
 					if(target)then
 						local name = vRP.getPlayerName(target)
 						if(vRP.hasUserFaction(id))then
-							vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Jucatorul ~r~"..name.." face parte dintr-o factiune!"})
+							vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Jucatorul ~r~"..name.." face parte dintr-o factiune!"})
 							return
 						else
-							vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~L-ai adaugat pe ~r~"..name.." ~w~in ~g~"..theFaction.."!"})
-							vRPclient.notify(target,{"~r~[NorbSiMaruServer]\n~w~Ai fost adaugat in ~g~"..theFaction.."!"})
+							vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~L-ai adaugat pe ~r~"..name.." ~w~in ~g~"..theFaction.."!"})
+							vRPclient.notify(target,{"~r~[Liquid|Romania]\n~w~Ai fost adaugat in ~g~"..theFaction.."!"})
 							--print("ch_inviteFaction: FACTION: "..theFaction.." | GRUPA: "..factionRank)
 							vRP.addUserFaction(id,theFaction)
 							vRP.addUserGroup(id,"onduty")
 							--vRP.addUserGroup(id,factionRank)
 						end
 					else
-						vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Nu s-a gasit niciun jucator online cu ID-ul ~r~"..id.."~w~!"})
+						vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Nu s-a gasit niciun jucator online cu ID-ul ~r~"..id.."~w~!"})
 					end
 				else
-					vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Locuri indisponibile\nSloturi: ~r~"..fSlots})
+					vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Locuri indisponibile\nSloturi: ~r~"..fSlots})
 				end
 			else
-				vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Acest ID pare INVALID."})
+				vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Acest ID pare INVALID."})
 			end
 		end)
 	end
@@ -805,10 +805,10 @@ local function ch_removefaction(player,choice)
 					local theFaction = vRP.getUserFaction(id)
 					local name = vRP.getPlayerName(theTarget)
 					if(theFaction == "user")then
-						vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~ID-ul "..id.." nu este intr-o factiune!"})
+						vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~ID-ul "..id.." nu este intr-o factiune!"})
 					else
 						vRP.removeUserFaction(id,theFaction)
-						vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Factiunea ~g~'"..theFaction.."~w~ scoasa lui ~r~"..name})
+						vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Factiunea ~g~'"..theFaction.."~w~ scoasa lui ~r~"..name})
 						if(vRP.hasGroup(id,"onduty"))then
 							vRP.removeUserGroup(id,"onduty")
 						end
@@ -819,17 +819,17 @@ local function ch_removefaction(player,choice)
 						if(faction ~= "") and (faction ~= nil)then
 							if(faction == "Politie")then
 								vRP.removeUserFaction(id,faction)
-								vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Factiunea '~g~"..faction.."' scoasa lui ID ~r~"..id})
+								vRPclient.notify(player,{"~r~Liquid|Romania]\n~w~Factiunea '~g~"..faction.."' scoasa lui ID ~r~"..id})
 							else
-								vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Aceasta factiune nu exista!"})
+								vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Aceasta factiune nu exista!"})
 							end
 						else
-							vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Trebuie sa scrii o factiune."})
+							vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Trebuie sa scrii o factiune."})
 						end
 					end)
 				end
 			else
-				vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Acest ID pare INVALID."})
+				vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Acest ID pare INVALID."})
 			end
 		end)
 	end
@@ -851,26 +851,26 @@ local function ch_factionleader(player,choice)
 								local name = vRP.getPlayerName(theTarget)
 								local theFaction = vRP.getUserFaction(id)
 								if(theFaction == "user")then
-									vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Jucatorul ~r~"..name.." nu este intr-o factiune!"})
+									vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Jucatorul ~r~"..name.." nu este intr-o factiune!"})
 								else
 									if(lider == 1) then
 										vRP.setFactionLeader(id,theFaction)
-										vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Jucatorul ~r~"..name.." a fost adaugat ca Lider in factiunea ~g~"..theFaction})
+										vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Jucatorul ~r~"..name.." a fost adaugat ca Lider in factiunea ~g~"..theFaction})
 									else
 										vRP.setFactionCoLeader(id,theFaction)
-										vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Jucatorul ~r~"..name.." a fost adaugat ca Co-Lider in factiunea ~g~"..theFaction})
+										vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Jucatorul ~r~"..name.." a fost adaugat ca Co-Lider in factiunea ~g~"..theFaction})
 									end
 								end
 							else
-								vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Trebuie sa pui 1 daca este lider sau 0 daca nu este lider."})
+								vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Trebuie sa pui 1 daca este lider sau 0 daca nu este lider."})
 							end
 						end
 					end)
 				else
-					vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Acest ID pare INVALID."})
+					vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Acest ID pare INVALID."})
 				end
 			else
-				vRPclient.notify(player,{"~r~[NorbSiMaruServer]\n~w~Nu s-a gasit niciun jucator online cu ID-ul ~r~"..id.."~w~!"})
+				vRPclient.notify(player,{"~r~[Liquid|Romania]\n~w~Nu s-a gasit niciun jucator online cu ID-ul ~r~"..id.."~w~!"})
 			end
 		end)
 	end

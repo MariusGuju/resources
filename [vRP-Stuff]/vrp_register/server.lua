@@ -76,7 +76,7 @@ AddEventHandler('insereaza', function()
 					if varsta >= 12 and varsta <= 150 then
 						if (checkName(nume)) then
 							if (checkName(prenume)) then
-								vRPclient.notify(player,{"Te-ai inregistrat cu ~g~succes~w~ pe  NorbSiMaruServer~w~ Romania!"})
+								vRPclient.notify(player,{"Te-ai inregistrat cu ~g~succes~w~ pe  Liquid|Romania~w~ Romania!"})
 								TriggerClientEvent('inregistrat',player,user_id,nume,prenume,varsta)
 
 								exports.ghmattimysql:execute("UPDATE vrp_user_identities SET firstname = @firstname, name = @name, age = @age WHERE user_id = @user_id", {
@@ -136,7 +136,7 @@ AddEventHandler("playerConnecting", function (name,kick,defer)
 	Citizen.Wait(50)
 
 	if(name:find("<") ~= nil or name:find(">") ~= nil) then
-		defer.done("nu-ti merge cu NorbSiMaruServer Romania")
+		defer.done("nu-ti merge cu Liquid|Romania")
 		return
 	end
 	defer.done()

@@ -533,7 +533,7 @@
 		-- GRUPA PE CARE O PRIMESTI LA INCEPUT
 			["user"] = {
 			_config = {
-			onspawn = function(player) 	vRPclient.notify(player,{"Salut! Bine ai venit pe NorbSiMaruServer ~b~ ROMANIA~w~ ! Apasa [~o~F1~w~] sau [~o~K~w~] Pentru meniuri!"}) end
+			onspawn = function(player) 	vRPclient.notify(player,{"Salut! Bine ai venit pe Liquid|Romania ~b~ ROMANIA~w~ ! Apasa [~o~F1~w~] sau [~o~K~w~] Pentru meniuri!"}) end
 			},
 			"player.phone",
 			"player.calladmin",

@@ -120,7 +120,7 @@ AddEventHandler('onResourceStart', function(resource)
                         print('Started map ' .. resource)
                         SetMapName(resource)
                     end
-                    SetMapName("Orasul NorbSiMaruServer")
+                    SetMapName("Orasul Liquid Romania")
 
                     currentMap = resource
                 else

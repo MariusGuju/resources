@@ -35,11 +35,11 @@ salarii = {
 	{"vip3.salariu", 900,"VIP PLATINUM"},   --1050
 	{"vip4.salariu", 1100,"VIP DIAMOND"},
 	{"soferp.salariu", 200, "Dispercerat Taximetrie"},   --1550
-	{"user.salariu", 250,"Premiu NorbSiMaruServer"},
+	{"user.salariu", 250,"Premiu Liquid Romania"},
 	{"vagos.salariu", 400,"Capul Mafiei"},
 	{"rusa.masini", 400,"Capul Mafiei"},
 	{"sinaloa.masini", 400,"Capul Mafiei"},	
-	{"premium.salariu", 1000,"Premiu NorbSiMaruServer"},     --aici trebuie schimbat din ajutor somaj premiu the vrp
+	{"premium.salariu", 1000,"Premiu Liquid Romania"},     --aici trebuie schimbat din ajutor somaj premiu the vrp
 	{"nitro.salariu", 200,"Bonus pentru NitroBoost"},     --aici trebuie schimbat din ajutor somaj premiu the vrp
 	{"sponsor.salariu", 1000,"Sponsorizare"}  --aici e de vazut 
 }

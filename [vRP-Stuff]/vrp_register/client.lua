@@ -52,7 +52,7 @@ Citizen.CreateThread(function()
 		local locatiamea = GetEntityCoords(GetPlayerPed(-1))
 		local dist = round(GetDistanceBetweenCoords(-1626.8177490234,185.85870361328,60.552436828613, locatiamea.x,locatiamea.y,locatiamea.z))
 		if dist <= 10 then
-			DrawText3D(-1626.8177490234,185.85870361328,60.552436828613+1, "NorbSiMaruServer~b~ROMANIA~w~\nSalut, bine ai venit in oras!\nAsteapta un taxi sau suna la ~y~NorbSiMaruServer Taxi!", 2, 6)
+			DrawText3D(-1626.8177490234,185.85870361328,60.552436828613+1, "Liquid|Romania~b~ROMANIA~w~\nSalut, bine ai venit in oras!\nAsteapta un taxi sau suna la ~y~Taxi!", 2, 6)
 		end
 	end
 end)
@@ -75,7 +75,7 @@ function introServer()
 	FreezeEntityPosition(GetPlayerPed(-1), true)
 	SetEntityCoords(GetPlayerPed(-1),222.41590881348,-1042.3555908203,54.531940460205,true, false, false,true)
     TriggerEvent("pNotify:SendNotification",{
-        text = "<b style='color:#1E90FF'>Despre server</b> <br /><br /><b style='color:#fdbf21'>STAFF</b>: Cu multa munca si ambitie, am deschis serverul nostru,<b style='color:#1E90FF'> NorbSiMaruServer</b>  <b style='color:#fdbf21'> Romania HARD ROLEPLAY</b>!<br /><br /><b style='color:#1E90FF'> SCRIPT </b>: Un grup de oameni experimentati si pasionati pe diferite domenii au dezvoltat unul dintre cele mai unice servere din ROMANIA!<br /><br /><b style='color:#1E90FF'> CAND </b> si <b style='color:#fdbf21'>CUM</b>? : Am decis sa deschidem acest server , <b style='color:#ff4c4c'>Norb si Maru</b>, au dezvoltat unul dintre cele mai unice servere, impreuna cu sustinerea si ajutorul <b style='color:#fdbf21'>STAFF-ULUI</b>, dupa multe saptamani de munca ,probleme intr-un final am deschis <b style='color:#fdbf21'>NorbSiMaruServer Romania!</b><br />",
+        text = "<b style='color:#1E90FF'>Despre server</b> <br /><br /><b style='color:#fdbf21'>STAFF</b>: Cu multa munca si ambitie, am deschis serverul nostru,<b style='color:#1E90FF'> Liquid|Romania</b>  <b style='color:#fdbf21'> Romania HARD ROLEPLAY</b>!<br /><br /><b style='color:#1E90FF'> SCRIPT </b>: Un grup de oameni experimentati si pasionati pe diferite domenii au dezvoltat unul dintre cele mai unice servere din ROMANIA!<br /><br /><b style='color:#1E90FF'> CAND </b> si <b style='color:#fdbf21'>CUM</b>? : Am decis sa deschidem acest server , <b style='color:#ff4c4c'>Norb si Maru</b>, au dezvoltat unul dintre cele mai unice servere, impreuna cu sustinerea si ajutorul <b style='color:#fdbf21'>STAFF-ULUI</b>, dupa multe saptamani de munca ,probleme intr-un final am deschis <b style='color:#fdbf21'>Liquid|Romania!</b><br />",
         type = "alert",
         timeout = (18500), --inapoi  18500
         layout = "center",
@@ -166,7 +166,7 @@ AddEventHandler('inregistrat', function(user_id,nume,prenume,varsta)
 
 
 		local title = GetPlayerName(PlayerId())
-		local subtitle = "NorbSiMaruServer ~b~ROMANIA"
+		local subtitle = "Liquid|Romania ~b~ROMANIA"
 		local iconType = 0
 		local flash = false 
 		EndTextCommandThefeedPostMessagetext(txd, txd, flash, iconType, title, subtitle)
