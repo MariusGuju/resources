@@ -142,7 +142,7 @@ AddEventHandler('__cfx_internal:commandFallback', function(command)
 							},
 						}
           }
-          PerformHttpRequest("https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+          PerformHttpRequest("https://discord.com/api/webhooks/875853588889473074/4U-isuKISxTltVFVTawzYg2A6J74VHzPP1l8zZ2W1neK4YDaVibAepylc4fl1H0xvm5h", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 		end
     end
 
@@ -160,6 +160,14 @@ RegisterCommand('clear', function(source)
 		end
 	end
 end)
+
+---AA2---
+RegisterCommand("aa2", function(player, args)
+	local user_id = vRP.getUserId({player})
+	if vRP.hasPermission({user_id, "admin.tickets"}) then
+		vRPclient.teleport(player, {-1923.1958007812,1389.3449707031,219.94528198242})
+	end
+end, false)
 
 RegisterCommand('stopchat', function(source)
     local user_id = vRP.getUserId({source})
