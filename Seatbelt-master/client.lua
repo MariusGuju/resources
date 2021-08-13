@@ -56,7 +56,7 @@ Citizen.CreateThread(function()
       speedBuffer[2] = speedBuffer[1]
       speedBuffer[1] = GetEntitySpeed(car)
 
-      if not SeatbeltON and speedBuffer[2] ~= nil and GetEntitySpeedVector(car, true).y > 1.0 and speedBuffer[1] > (Config.Speed / 3.6) and (speedBuffer[2] - speedBuffer[1]) > (speedBuffer[1] * 0.255) then
+      if SeatbeltON == false and speedBuffer[2] ~= nil and GetEntitySpeedVector(car, true).y > 1.0 and speedBuffer[1] > (Config.Speed / 3.6) and (speedBuffer[2] - speedBuffer[1]) > (speedBuffer[1] * 0.255) then
         local co = GetEntityCoords(ped)
         local fw = Fwv(ped)
         SetEntityCoords(ped, co.x + fw.x, co.y + fw.y, co.z - 0.47, true, true, true)
