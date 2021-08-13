@@ -208,7 +208,7 @@ RegisterCommand('stats', function(source, args)
         TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "========================================================")
 end)
 
-RegisterCommand('verificajucator', function(source, args)
+RegisterCommand('id', function(source, args)
 	local user_id = vRP.getUserId({source})
 	local target_id = parseInt(args[1])
 	local tplayer = vRP.getUserSource({target_id})
@@ -227,11 +227,11 @@ RegisterCommand('verificajucator', function(source, args)
     else
     	VIP = "Nu"
     end
-	    if vRP.hasPermission({user_id,"player.ban"}) then
+	    if vRP.hasPermission({user_id,"user"}) then
 	    	if tplayer ~= nil then
 		    	CancelEvent()
 		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "=============== ^0NUME: ^2"..nume.."^0 ====== ^0ID: ^5"..tid.."^0 ===============")
-		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Are bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Gifbotxuri: ^8"..giftbox.."^0, Warn : ^5"..warnuri)
+		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Are bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0,^0, Warn : ^5"..warnuri)
 		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Lucreaza ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate.."^0, Aur: ^3"..aur)
 		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "========================================================")
 		    else
@@ -253,7 +253,7 @@ RegisterCommand('addgroup', function(source, args, rawCommand)
             vRP.addUserGroup({target_id,group})
             vRPclient.notify(tplayer,{"~y~Ai primit Gradul de ~g~"..group})
         else
-            print ("Playerul nu e pe server bossule")
+            print ("Playerul nu e pe server ")
         end
     else print("Ce incerci boss ?") end
 end)
@@ -293,7 +293,7 @@ RegisterCommand("ore", function(source, args, rawCommand)
 	local player = vRP.getUserSource({user_id})
     if idnou ~= nil then
         if user_id ~= nil then
-            if vRP.hasGroup({user_id,"scripter"}) then
+            if vRP.hasGroup({user_id,"user"}) then
                 local ore = vRP.getUserHoursPlayed({tonumber(idnou)})
                 vRPclient.notify(player,{"~r~[~s~ID ~b~"..tonumber(idnou).."~r~] ~s~ are ~r~"..ore.." ~s~ore ~b~jucate"})
             
