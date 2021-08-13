@@ -9,8 +9,8 @@ local tafdb = true -- Text Above For Duffle-Bag -||-
 local txt = "Persoana" -- /me text
 local bwtxt = "* Persoana a scos o arma din portbagaj *"
 local dbtxt = "* Persoana a scos o arma din geanta *"
-local dbtxterr = "Vere - Arma poate fi scoasa doar din portbagaj sau din geanta"
-local bwtxterr = "Vere - Arma poate fi scoasa doar din portbagaj"
+local dbtxterr = " Arma poate fi scoasa doar din portbagaj sau din geanta"
+local bwtxterr = " Arma poate fi scoasa doar din portbagaj"
 local swtxt = "* Persoana a scos o arma. *"
 local mwtxt = "* Persoana a scos un melee *"
 
@@ -132,7 +132,7 @@ meleeweaponslist = {
 	"WEAPON_DAGGER",
 	"WEAPON_HATCHET",
 	"WEAPON_MACHETE",
-	--"WEAPON_FLASHLIGHT",
+	"WEAPON_FLASHLIGHT",
 	"WEAPON_SWITCHBLADE",
 	"WEAPON_POOLCUE",
 	"WEAPON_PIPEWRENCH"
@@ -381,7 +381,7 @@ Citizen.CreateThread(function()
 									end
 								else
 									Wait(1)
-									drawNotification("~p~ELF ~r~"..dbtxterr.."")
+									drawNotification("~p~Liquid - ~r~"..dbtxterr.."")
 									SetCurrentPedWeapon(playerPed, -1569615261)
 								end
 							else	
@@ -399,7 +399,7 @@ Citizen.CreateThread(function()
 								else
 									if bigWeaponOut == false and GetVehiclePedIsIn(playerPed, false) == 0 then
 									Wait(1)
-									drawNotification("~p~ELF ~r~"..dbtxterr.."")
+									drawNotification("~p~Liquid - ~r~"..dbtxterr.."")
 									SetCurrentPedWeapon(playerPed, -1569615261)
 									end
 								end
@@ -407,7 +407,7 @@ Citizen.CreateThread(function()
 						else
 							if bigWeaponOut == false and GetVehiclePedIsIn(playerPed, false) == 0 then
 								Wait(1)
-								drawNotification("~p~ELF ~r~"..bwtxterr.."")
+								drawNotification("~p~Liquid - ~r~"..bwtxterr.."")
 								SetCurrentPedWeapon(playerPed, -1569615261)
 							end
 						end
