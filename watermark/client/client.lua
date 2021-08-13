@@ -42,7 +42,7 @@ Citizen.CreateThread(function()
         y = 0.82
 		--DrawSprite("logo","logo",x,y,0.06*0.7, 0.1*0.7,0.0,255,255,255,255)
 		drawHudText(x, y + 0.05,0.0,0.0,0.3,"Online: "..#GetActivePlayers().."/"..maxPlayers,255,255,255,255,1,fontId,1)
-		drawHudText(x, y + 0.0657,0.0,0.0,0.3,"discord.io/discord.io/LiquidRR",255, 119, 0,255,1,fontId,1)
+		drawHudText(x, y + 0.0657,0.0,0.0,0.3,"discord.io/LiquidRR",255, 119, 0,255,1,fontId,1)
 		Wait(1)
 	end
 end)
