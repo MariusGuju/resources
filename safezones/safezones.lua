@@ -1,11 +1,12 @@
 inSafeZone = false
 safeZone = nil
-local maxspeed = 30
+local maxspeed = 50
 local kmh = 3.6 -- RO: 1.6 daca vreti mile pe ora :c || EN: 1.6 if you want to use miles per hour 
 local CreateThread = Citizen.CreateThread
 local safeZones = { 
-    ['Showroom'] = {pos = vector3(-50.030426025391,-1112.9226074219,26.435813903809),radius = 55.0},
+    ['Showroom'] = {pos = vector3(-50.030426025391,-1112.9226074219,26.435813903809),radius = 55.0}, safezones 
     ['Spital'] = {pos = vector3(294.54925537109,-582.82391357422,43.175903320312),radius = 35.0},
+	['Primarie'] = {pos = vector3(-1626.9324951172,185.83743286133,60.556934356689),radius = 55.0},
     ['Spital'] = {pos = vector3(-474.73635864258,-327.21185302734,34.370166778564),radius = 35.0}
 }
 

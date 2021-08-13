@@ -685,15 +685,10 @@ RegisterCommand('spawnveh',function(source)
 		vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
 	end
 end)
-
----sayasay---
-RegisterCommand('say', function(source, args, rawCommand)
-	TriggerClientEvent('chatMessage', -1, (source == 0) and 'Consola', { 255, 255, 255 }, rawCommand:sub(5))
- end)
  
  RegisterCommand('asay', function(source, args, rawCommand)
    if (source == 0) then
-	 TriggerClientEvent('chatMessage', -1,'^1Saturn ^3Roleplay ^4România', { 255, 255, 255 }, rawCommand:sub(5))
+	 TriggerClientEvent('chatMessage', -1,'^1Liquid ^3Roleplay ^4România', { 255, 255, 255 }, rawCommand:sub(5))
    else
 	 local user_id = vRP.getUserId({source})
 	 if vRP.hasPermission({user_id, "say.chat"}) then
