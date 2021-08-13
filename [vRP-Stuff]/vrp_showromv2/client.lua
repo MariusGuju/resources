@@ -547,7 +547,7 @@ RegisterNUICallback('testeazaMasina', function(data, cb)
         SendNUIMessage({
             action = "inchideShowroom"
         })
-        local timp = 30
+        local timp = 60
     
         Wait(10)
 
@@ -556,7 +556,7 @@ RegisterNUICallback('testeazaMasina', function(data, cb)
             while true do
                 Wait(1000)
                 timp = timp - 1
-                if timp == 0 then
+                if timp == 0 or IsControlJustReleased(1,23) then
                     rablactuala = GetVehiclePedIsUsing(GetPlayerPed(-1))
                     DeleteEntity(rablactuala)
                     for k in pairs(categoriile) do
