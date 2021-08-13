@@ -203,8 +203,8 @@ RegisterCommand('stats', function(source, args)
     end
     CancelEvent()
         TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "=============== ^0NUME: ^2"..nume.."^0 ====== ^0ID: ^5"..user_id.."^0 ===============")
-        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Ai bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Gifbotxuri: ^8"..aur.."^0, Warn : ^5"..warnuri)
-        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Lucrezi ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate.."^0, Aur: ^3"..aur)
+        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Ai bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Warn : ^5"..warnuri)
+        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Lucrezi ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate..)
         TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "========================================================")
 end)
 
@@ -227,7 +227,7 @@ RegisterCommand('id', function(source, args)
     else
     	VIP = "Nu"
     end
-	    if vRP.hasPermission({user_id,"user"}) then
+	    if vRP.hasPermission({user_id,"user.salariu"}) then
 	    	if tplayer ~= nil then
 		    	CancelEvent()
 		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "=============== ^0NUME: ^2"..nume.."^0 ====== ^0ID: ^5"..tid.."^0 ===============")
