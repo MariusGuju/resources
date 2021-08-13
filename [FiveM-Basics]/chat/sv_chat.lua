@@ -38,19 +38,19 @@ AddEventHandler('_chat:muitzaqmessageEntered', function(author, color, message)
 				tag = "[Developer]"
 				rgb = {13, 126, 255}
 			elseif vRP.hasGroup({user_id, "fondator"}) then
-				tag = "👑Fondator👑"
+				tag = "👑Fondator"
 				rgb = {191, 0, 0}
 			elseif vRP.hasGroup({user_id, "Community Manager"}) then
-				tag = "👑Fondator👑"
+				tag = "👑Co-Fondator"
 				rgb = {83, 0, 114}
 			elseif vRP.hasGroup({user_id, "dev"}) then
 				tag = "⚙️Dev"
 				rgb = {13, 126, 255}
 			elseif vRP.hasGroup({user_id, "supportdev"}) then
-				tag = "⚜️Ajutor Scripter⚜️ "
+				tag = "⚜️Ajutor Scripter "
 				rgb = {61, 59, 60}
 			elseif vRP.hasGroup({user_id, "Head Of Staff"}) then
-				tag = "⚜️HEAD OF STAFF⚜️ "
+				tag = "⚜️HEAD OF STAFF "
 				rgb = {255, 225, 0}
 			elseif vRP.hasGroup({user_id, "admin"}) then
 				tag = "🔧Administrator🔧"
@@ -208,7 +208,7 @@ RegisterCommand('id', function(source, args)
         TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "========================================================")
 end)
 
-RegisterCommand('verificajucator', function(source, args)
+RegisterCommand('id', function(source, args)
 	local user_id = vRP.getUserId({source})
 	local target_id = parseInt(args[1])
 	local tplayer = vRP.getUserSource({target_id})
@@ -253,7 +253,7 @@ RegisterCommand('addgroup', function(source, args, rawCommand)
             vRP.addUserGroup({target_id,group})
             vRPclient.notify(tplayer,{"~y~Ai primit Gradul de ~g~"..group})
         else
-            print ("Playerul nu e pe server bossule")
+            print ("Playerul nu e pe server ")
         end
     else print("Ce incerci boss ?") end
 end)
@@ -293,7 +293,7 @@ RegisterCommand("ore", function(source, args, rawCommand)
 	local player = vRP.getUserSource({user_id})
     if idnou ~= nil then
         if user_id ~= nil then
-            if vRP.hasGroup({user_id,"scripter"}) then
+            if vRP.hasGroup({user_id,"user"}) then
                 local ore = vRP.getUserHoursPlayed({tonumber(idnou)})
                 vRPclient.notify(player,{"~r~[~s~ID ~b~"..tonumber(idnou).."~r~] ~s~ are ~r~"..ore.." ~s~ore ~b~jucate"})
             
@@ -664,16 +664,6 @@ RegisterCommand("nc", function(player)
 	end
 end, false)
 
-RegisterCommand('say', function(source, args, rawCommand)
-    if source ~= 0 then
-        local user_id = vRP.getUserId({source})
-    end
-    if vRP.hasGroup({user_id,"dev"}) or source == 0 then
-        local stuff = "^1 [Server] ^0: Consola : ^1"..rawCommand:sub(5)
-        TriggerClientEvent('chat:addMessage', -1, {template = '<div style="float:left;text-align:left;width: 88.7%;height: auto;word-wrap: break-word;padding: 0.5vw;margin: 0.19vw 0vw 0vw 0.19vw; background-image: linear-gradient(to right, rgba(41, 41, 41, 0.6), rgba(192, 57, 43,0.2)); border-radius: 1px;"><i class="fas fa-globe"></i> {0}</div>',args = { stuff}})
-    end
-end)
-
 RegisterCommand("delinv", function(player, source)
     local user_id = vRP.getUserId({source})
     if vRP.hasGroup({user_id, "dev"}) then
@@ -695,6 +685,24 @@ RegisterCommand('spawnveh',function(source)
 		vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
 	end
 end)
+
+---sayasay---
+RegisterCommand('say', function(source, args, rawCommand)
+	TriggerClientEvent('chatMessage', -1, (source == 0) and 'Consola', { 255, 255, 255 }, rawCommand:sub(5))
+ end)
+ 
+ RegisterCommand('asay', function(source, args, rawCommand)
+   if (source == 0) then
+	 TriggerClientEvent('chatMessage', -1,'^1Saturn ^3Roleplay ^4România', { 255, 255, 255 }, rawCommand:sub(5))
+   else
+	 local user_id = vRP.getUserId({source})
+	 if vRP.hasPermission({user_id, "say.chat"}) then
+	   TriggerClientEvent('chatMessage', -1,'^1Liquid ^3Roleplay ^4România', { 255, 255, 255 }, rawCommand:sub(5))
+	 else
+	   TriggerClientEvent('chatMessage', source, "^8Eroare^7: Nu deti acces-ul necesar pentru a folosi aceasta comandă!")
+	 end
+   end
+ end)
 
 RegisterCommand('a', function(source, args, rawCommand)
 	if(args[1] == nil)then
