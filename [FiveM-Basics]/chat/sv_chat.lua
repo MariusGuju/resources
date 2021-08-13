@@ -163,7 +163,7 @@ end)
 
 RegisterCommand('stopchat', function(source)
     local user_id = vRP.getUserId({source})
-    if vRP.hasPermission({user_id,"stop.chat"}) and vRP.hasPermission({user_id, "stop.chat"}) then
+    if vRP.hasPermission({user_id,"stop.chat"}) and vRP.hasPermission({user_id, "acces.duty"}) then
         if pornit == true then
             TriggerClientEvent('chatMessage', -1, "^1[Liquid-SYSTEM] ^0Chat-ul a fost oprit de catre : ^1"..GetPlayerName(source).."^0")
             pornit = false
@@ -195,12 +195,12 @@ RegisterCommand('stats', function(source, args)
     end
     CancelEvent()
         TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "=============== ^0NUME: ^2"..nume.."^0 ====== ^0ID: ^5"..user_id.."^0 ===============")
-        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Ai bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Warn : ^5"..warnuri)
-        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Lucrezi ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate..)
+        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Ai bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Gifbotxuri: ^8"..aur.."^0, Warn : ^5"..warnuri)
+        TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "^0Lucrezi ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate.."^0, Aur: ^3"..aur)
         TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "========================================================")
 end)
 
-RegisterCommand('id', function(source, args)
+RegisterCommand('verificajucator', function(source, args)
 	local user_id = vRP.getUserId({source})
 	local target_id = parseInt(args[1])
 	local tplayer = vRP.getUserSource({target_id})
@@ -219,12 +219,12 @@ RegisterCommand('id', function(source, args)
     else
     	VIP = "Nu"
     end
-	    if vRP.hasPermission({user_id,"user"}) then
+	    if vRP.hasPermission({user_id,"player.ban"}) then
 	    	if tplayer ~= nil then
 		    	CancelEvent()
 		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "=============== ^0NUME: ^2"..nume.."^0 ====== ^0ID: ^5"..tid.."^0 ===============")
-		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Are bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Warn : ^5"..warnuri)
-		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Lucreaza ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate.."^0")
+		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Are bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Gifbotxuri: ^8"..giftbox.."^0, Warn : ^5"..warnuri)
+		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Lucreaza ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate.."^0, Aur: ^3"..aur)
 		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "========================================================")
 		    else
 		        vRPclient.notify(source,{"~r~Jucatorul nu este pe server!"})
@@ -233,14 +233,6 @@ RegisterCommand('id', function(source, args)
 	    	vRPclient.notify(source,{"~r~Nu ai acces la aceasta comanda!"})
 	    end
 end)
-
----AA2---
-RegisterCommand("aa2", function(player, args)
-	local user_id = vRP.getUserId({player})
-	if vRP.hasPermission({user_id, "admin.tickets"}) then
-		vRPclient.teleport(player, {-1921.8933105469,1389.7957763672,219.94528198242})
-	end
-end, false)
 
 RegisterCommand('addgroup', function(source, args, rawCommand)
     local target_id = parseInt(args[1])
@@ -253,14 +245,14 @@ RegisterCommand('addgroup', function(source, args, rawCommand)
             vRP.addUserGroup({target_id,group})
             vRPclient.notify(tplayer,{"~y~Ai primit Gradul de ~g~"..group})
         else
-            print ("Playerul nu e pe server ")
+            print ("Playerul nu e pe server bossule")
         end
     else print("Ce incerci boss ?") end
 end)
 
 RegisterCommand('playeri',function(source,args,rawCommand)
     local onlinePlayers = GetNumPlayerIndices()
-    TriggerClientEvent('chatMessage',source,"[Liquid-SYSTEM]",{255,70,50},"Jucatori Online: "..onlinePlayers)
+    TriggerClientEvent('chatMessage',source,"[PLAYERI]",{255,70,50},"Jucatori Online: "..onlinePlayers)
 end)
 
 
@@ -287,6 +279,29 @@ RegisterCommand("tpto", function(player, args)
     end
 end, false)
 
+RegisterCommand("ore", function(source, args, rawCommand)
+    local idnou = args[1]
+	local user_id = vRP.getUserId({source})
+	local player = vRP.getUserSource({user_id})
+    if idnou ~= nil then
+        if user_id ~= nil then
+            if vRP.hasGroup({user_id,"scripter"}) then
+                local ore = vRP.getUserHoursPlayed({tonumber(idnou)})
+                vRPclient.notify(player,{"~r~[~s~ID ~b~"..tonumber(idnou).."~r~] ~s~ are ~r~"..ore.." ~s~ore ~b~jucate"})
+            
+            else
+                vRPclient.notify(player,{"Comanda ~r~restrictionata ~s~! Nu ai acces la ~o~comanda ~g~administrativa ~s~: ~r~/ore"})
+            end
+        end
+    else
+        if user_id ~= nil then
+			local ore = vRP.getUserHoursPlayed({user_id})
+			local name = GetPlayerName(player)
+			vRPclient.notify(player,{"Ai ~r~"..tonumber(ore).." ~b~ore ~s~jucate !"})
+			TriggerClientEvent("chatMessage",-1, "[^8SERVER^0] Jucatorul ^5"..name.."^0 are ^9"..tonumber(ore).."^0 ore jucate!")
+        end
+    end
+end)
 RegisterCommand('rev', function(source, args, msg)
 	local user_id = vRP.getUserId({source})
 	msg = msg:sub(4)
