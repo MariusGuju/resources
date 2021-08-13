@@ -472,7 +472,7 @@ AddEventHandler("playerDropped",function(reason)
     local embed = {
       {
         ["color"] = 0xFF0000,
-        ["title"] = "**".. "A IESIT DE PE SERVER FUTU-I MAICA LUI DE SOBOLAN".."**",
+        ["title"] = "**".. "A IESIT DE PE SERVER ".."**",
         ["description"] = " disconnected (user_id = "..user_id..")"
       }
     }
