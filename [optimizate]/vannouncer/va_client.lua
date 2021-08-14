@@ -14,7 +14,6 @@ m.suffix = '^7.'
 -- You can use ^0-^9 in your messages to change text color.
 m.messages = {   
 	'Pe acest server nu se vorbeste ooc doar la ticket,tiketul se va face dupa terminarea rp',
-    'Depunerile de CV pentru Politie sau Smurd se vor face IC la sectia de politie',
 	'Aveti reclamatii sau vreti sa intrati intr-o factiune haideti pe { discord.io/LiquidRR}',
     'Cititi regulamentul serverului care il gasiti pe { discord.io/LiquidRR}',
     'Apelurile la Politie si Smurd se fac dupa urmatorul model Numele tau,Locatia si Problema pe care o ai',
