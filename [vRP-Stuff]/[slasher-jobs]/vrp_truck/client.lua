@@ -101,7 +101,7 @@ end
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(49)
+		Citizen.Wait(1)
 		local pos = GetEntityCoords(GetPlayerPed(-1), true)
 		if(theTrailer) and (leftBay == false)then
 			local trailerCoords = GetEntityCoords(theTrailer)
@@ -183,7 +183,7 @@ end
 
 CreateThread(function()
 	while true do
-		Citizen.Wait(49)
+		Citizen.Wait(1)
 		local pos = GetEntityCoords(GetPlayerPed(-1), true)
 		if(inJob == true)then
 			x3, y3, z3 = jobDetails[2], jobDetails[3], jobDetails[4]

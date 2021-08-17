@@ -58,11 +58,11 @@ body{
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.19));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.19));
 
 	width: 262px;
 
@@ -112,11 +112,11 @@ body{
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.19));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.19));
 
 
 
@@ -148,11 +148,11 @@ body{
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.19));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.19));
 
 	padding: 12px 16px;
 
@@ -196,9 +196,9 @@ body{
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
    background-color: rgba(29, 29, 29, .9);
 
@@ -362,11 +362,11 @@ h6 {
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.19));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.19));
 
 
 
@@ -380,11 +380,11 @@ h6 {
 
 	border-top-right-radius: 23px;
 
-	border: 1px solid rgb(188, 136, 6);
+	border: 1px solid rgb(85, 187, 204);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-	background:rgb(188, 136, 6);
+	background:rgb(85, 187, 204);
 
 
 
@@ -432,11 +432,11 @@ h6 {
 
 	border-top-right-radius: 13px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.17));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.17));
 
 	color: white;
 
@@ -480,11 +480,11 @@ h6 {
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.17));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.17));
 
 	text-align: center;
 
@@ -526,11 +526,11 @@ h6 {
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.17));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.17));
 
 	text-align: center;
 
@@ -574,7 +574,7 @@ h6 {
 
 .btn-group .button:hover {
 
-	background: linear-gradient(to right,rgba(188, 136, 6, 0.2), rgba(188, 136, 6, 0.43));
+	background: linear-gradient(to right,rgba(85, 187, 204, 0.2), rgba(85, 187, 204, 0.43));
 
 }
 
@@ -582,7 +582,7 @@ h6 {
 
 .btn-groups .button:hover {
 
-	background: linear-gradient(to right,rgba(188, 136, 6, 0.2), rgba(188, 136, 6, 0.43));
+	background: linear-gradient(to right,rgba(85, 187, 204, 0.2), rgba(85, 187, 204, 0.43));
 
 }
 
@@ -598,7 +598,7 @@ h6 {
 
 .btn-groups2 .button:hover {
 
-	background: linear-gradient(to right,rgba(188, 136, 6, 0.2), rgba(188, 136, 6, 0.43));
+	background: linear-gradient(to right,rgba(85, 187, 204, 0.2), rgba(85, 187, 204, 0.43));
 
 }
 
@@ -630,11 +630,11 @@ h6 {
 
 	border-top-right-radius: 13px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.17));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.17));
 
 	color: white;
 
@@ -664,7 +664,7 @@ h6 {
 
 .butonexit .button:hover {
 
-	background: linear-gradient(to right,rgba(188, 136, 6, 0.12), rgba(188, 136, 6, 0.34));
+	background: linear-gradient(to right,rgba(85, 187, 204, 0.12), rgba(85, 187, 204, 0.34));
 
 }
 
@@ -696,11 +696,11 @@ h6 {
 
 	border-top-right-radius: 13px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-    background: linear-gradient(to right,rgba(255,255,255,0), rgba(188, 136, 6, 0.17));
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(85, 187, 204, 0.17));
 
 	color: white;
 
@@ -732,7 +732,7 @@ h6 {
 
 .butonGoback .button:hover {
 
-	background: linear-gradient(to right,rgba(188, 136, 6, 0.12), rgba(188, 136, 6, 0.34));
+	background: linear-gradient(to right,rgba(85, 187, 204, 0.12), rgba(85, 187, 204, 0.34));
 
 }
 
@@ -748,9 +748,9 @@ h6 {
 
 	border-top-right-radius: 23px;
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
     background-color: rgba(29, 29, 29, .9);
 
@@ -856,11 +856,11 @@ p {
 
 	border: 1px solid rgb(97, 66, 255);
 
-    border: 1px solid rgba(188, 136, 6, 0.77);
+    border: 1px solid rgba(85, 187, 204, 0.77);
 
-    box-shadow: 0px 0px 3px 2px rgb(188, 136, 6);
+    box-shadow: 0px 0px 3px 2px rgb(85, 187, 204);
 
-	background: rgb(188, 136, 6);
+	background: rgb(85, 187, 204);
 
 
 
@@ -998,7 +998,7 @@ p {
 
 	font-size: 15px;
 
-	color: rgb(188, 136, 6);
+	color: rgb(85, 187, 204);
 
 	margin-top: -56px;
 

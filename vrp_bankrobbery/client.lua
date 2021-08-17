@@ -144,7 +144,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		if robbing then
-			Citizen.Wait(1000)
+			Citizen.Wait(10000)
 			if(secondsRemaining > 0)then
 				secondsRemaining = secondsRemaining - 1
 			end

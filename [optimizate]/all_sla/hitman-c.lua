@@ -39,7 +39,7 @@ end
 
 Citizen.CreateThread(function()
 	while true do
-		Wait(1000)
+		Wait(10)
 		if(targetPlayer)then
 			isBlipDrawn = false
 			drawRouteToPlayer()

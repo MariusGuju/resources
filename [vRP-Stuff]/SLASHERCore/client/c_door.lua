@@ -88,7 +88,7 @@ Citizen.CreateThread(function()
 
   while true do
 
-    Citizen.Wait(100)
+    Citizen.Wait(10)
 
     if IsControlJustPressed(table.unpack(LockHotkey)) then
 
@@ -114,7 +114,7 @@ Citizen.CreateThread(function()
 
   while true do
 
-    Citizen.Wait(100)
+    Citizen.Wait(10)
 
     local x,y,z = table.unpack(GetEntityCoords(GetPlayerPed(-1), true))
 

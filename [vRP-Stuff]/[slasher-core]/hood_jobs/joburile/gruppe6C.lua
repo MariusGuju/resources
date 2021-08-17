@@ -18,7 +18,7 @@ function vRPeskJobsC.puneChestiiGruppe6(chestii,startJobInfo)
     startJob = startJobInfo
         Citizen.CreateThread(function()
             while startJob do
-                Wait(200)
+                Wait(1)
                 for k,v in pairs (chestii) do
                     while GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()),v[3],v[4],v[5], true) <= 3.0 and chestiiJob do
                         DrawMarker(v.markerid, v[3],v[4],v[5] -0.5 , 0, 0, 0, 0, 0, 0, 0.5001,0.5001,0.5001, 255,255,255, 100, 0, 0, 0, 1, 0, 0, 0)
@@ -89,7 +89,7 @@ function vRPeskJobsC.bagaBancomatele(bancomate)
 
             Citizen.CreateThread(function()
                 while true do
-                    Wait(200)
+                    Wait(2)
                    -- for k,v in pairs (bancomate) do
                         while GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()),v[2],v[3],v[4], true) <= 3.0 and duSacii and v.status do
                             DrawMarker(26, v[2],v[3],v[4] -0.5 , 0, 0, 0, 0, 0, 0, 0.5001,0.5001,0.5001, 255,255,255, 100, 0, 0, 0, 1, 0, 0, 0)
@@ -125,7 +125,7 @@ end
 
 Citizen.CreateThread(function()
     while true do
-        Wait(200)
+        Wait(2)
         if masinaSpawn then
             local veh = GetStockPosition(10)
             local ped = PlayerPedId()

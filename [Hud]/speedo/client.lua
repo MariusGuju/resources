@@ -80,7 +80,7 @@ Citizen.CreateThread(function()
 			})
 		end
 
-		Citizen.Wait(500)
+		Citizen.Wait(4)
 	end
 end)
 
@@ -102,7 +102,7 @@ Citizen.CreateThread(function()
 			end
 		end
 
-		Citizen.Wait(500)
+		Citizen.Wait(4)
 	end
 end)
 
@@ -171,7 +171,7 @@ Citizen.CreateThread(function()
 
     while true do
         -- Loop forever and update HUD every frame
-        Citizen.Wait(100)
+        Citizen.Wait(4)
 
         -- Get player PED, position and vehicle and save to locals
         local player = GetPlayerPed(-1)
@@ -291,7 +291,7 @@ Citizen.CreateThread(function()
                 end
             end
         end
-        Citizen.Wait(1000)
+        Citizen.Wait(4)
     end
 end)
 

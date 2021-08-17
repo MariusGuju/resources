@@ -100,7 +100,7 @@ local atms = {
 if bankMenu then
 	Citizen.CreateThread(function()
 	while true do
-		Wait(10)
+		Wait(1)
 	if nearBank() or nearATM() then
 			DisplayHelpText("Apasa ~INPUT_PICKUP~ pentru a iti accesa contul ~b~")
 
