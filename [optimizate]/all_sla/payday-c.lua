@@ -43,7 +43,7 @@ AddEventHandler('salarPrimit', function(deLaGrupa,salar,bonuslevel,level)
 		function Initialize(scaleform)
 			local scaleform = RequestScaleformMovie(scaleform)
 			while not HasScaleformMovieLoaded(scaleform) do
-				Citizen.Wait(1000)
+				Citizen.Wait(1)
 			end
 			PushScaleformMovieFunction(scaleform, "SHOW_SHARD_WASTED_MP_MESSAGE")
             PushScaleformMovieFunctionParameterString("AI PRIMIT ~g~ SALARIUL")
@@ -63,7 +63,7 @@ AddEventHandler('salarPrimit', function(deLaGrupa,salar,bonuslevel,level)
 		scaleform = Initialize("mp_big_message_freemode")
 		
 		while true do
-			Citizen.Wait(1000)
+			Citizen.Wait(1)
 			DrawScaleformMovieFullscreen(scaleform, 255, 255, 255, 255, 0)
 		end
 	

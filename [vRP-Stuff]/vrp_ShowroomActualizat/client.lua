@@ -7,7 +7,7 @@ vRPserver = Tunnel.getInterface("esk_showroom","esk_showroom")
 
 
 local coordonateOpenShowroom = {-29.197132110596,-1104.6080322266,26.422359466553}
-local coordonateInShowroom = {-787.33374023438,312.41784667968,40.959129333496}
+local coordonateInShowroom = {-41.861339569092,-1098.4163818359,26.422332763672}
 
 
 local inShowroom = false

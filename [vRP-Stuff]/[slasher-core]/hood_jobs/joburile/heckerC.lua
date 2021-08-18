@@ -10,7 +10,7 @@ perm = nil
 function vRPeskJobsC.puneHEKERMENUL(lokatzii)
 	Citizen.CreateThread(function()
 		while true do
-			Wait(200)
+			Wait(2)
 			local pos = GetEntityCoords(GetPlayerPed(-1))
 			for k,v in pairs(lokatzii)do
 

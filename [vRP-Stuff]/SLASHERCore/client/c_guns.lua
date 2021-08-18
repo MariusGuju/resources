@@ -819,7 +819,7 @@ local function SetTempWeaponConfig(weapon, component, tint)
 				tint = tint,
 			}
 			local fakeWeapon = CreateFakeWeaponObject(weapon, true)
-			Citizen.Wait(49)
+			Citizen.Wait(1)
 			if currentTempWeaponConfig.component then
 				local attachWorldModel = GetWeaponComponentTypeModel(currentTempWeaponConfig.component)
 				RequestModel(attachWorldModel)

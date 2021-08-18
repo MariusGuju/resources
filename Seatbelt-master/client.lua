@@ -141,7 +141,7 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(3500)
+		Citizen.Wait(50)
     if not SeatbeltON and InVehicle and not IsPauseMenuActive() and Config.LoopSound and ShowWindow then
       TriggerEvent("seatbelt:sounds", "seatbelt", Config.Volume)
 		end    

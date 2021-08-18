@@ -362,6 +362,51 @@ else
 end
 end
 
+local function ch_playergivemoneyto(player,choice)
+  -- get nearest player
+  local user_id = vRP.getUserId({player})
+  if user_id ~= nil then
+    vRPclient.getNearestPlayers(player,{15},function(nplayers)
+      usrList = ""
+      for k,v in pairs(nplayers) do
+        usrList = usrList .. "[" .. vRP.getUserId(k) .. "]" .. GetPlayerName(k) .. " | "
+      end
+      if usrList ~= "" then
+        vRP.prompt({player,"Jucatori din apropriere: " .. usrList .. "","",function(player,nuser_id) 
+          nuser_id = nuser_id
+          if nuser_id ~= nil and nuser_id ~= "" then 
+            local target = vRP.getUserSource({tonumber(nuser_id)})
+            if target ~= nil then
+              vRP.prompt({player,lang.money.give.prompt(),"",function(player,amount)
+                local amount = parseInt(amount)
+                if amount > 0 then
+                  if vRP.tryPayment({user_id,amount}) then
+                    local pID = vRP.getUserId({target})
+                    local money = vRP.getMoney({pID})                   
+                    vRP.giveMoney({pID,amount})
+                    vRPclient.notify(player,{lang.money.given({amount})})
+                    vRPclient.notify(target,{lang.money.received({amount})})
+
+                  else
+                    vRPclient.notify(player,{lang.money.not_enough()})
+                  end
+                else
+                  vRPclient.notify(player,{lang.common.invalid_value()})
+                end
+              end})
+            else
+              vRPclient.notify(player,{lang.common.no_player_near()})
+            end
+          else
+            vRPclient.notify(player,{lang.common.no_player_near()})
+          end
+        end})
+      else
+        vRPclient.notify(player,{"~r~Niciun jucator in apropriere."})
+      end
+    end)
+  end
+end
 local function ch_tptocoords(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id ~= nil and onduty[user_id] == 0 then
@@ -688,6 +733,9 @@ vRP.registerMenuBuilder("main", function(add, data)
         end
         if vRP.hasPermission(user_id,"player.giveitem") then
           menu["Give item"] = {ch_giveitem}
+        end
+		if vRP.hasPermission(user_id,"player.calladmin") then
+          menu["Ofera bani"] = {ch_playergivemoneyto}
         end
         if vRP.hasPermission(user_id,"player.calladmin") then
           menu["Call admin"] = {ch_calladmin}

@@ -6,7 +6,7 @@ RegisterCommand("alarm_on", function(source, args, rawCommand)
 
     Citizen.CreateThread(function()
         while not PrepareAlarm("PRISON_ALARMS") do
-            Citizen.Wait(100)
+            Citizen.Wait(1)
         end
         StartAlarm("PRISON_ALARMS", true)
     end)
@@ -20,7 +20,7 @@ RegisterCommand("alarm_off", function(source, args, rawCommand)
 
     Citizen.CreateThread(function()
         while not PrepareAlarm("PRISON_ALARMS") do
-            Citizen.Wait(100)
+            Citizen.Wait(1)
         end
         StopAllAlarms(true)
     end)

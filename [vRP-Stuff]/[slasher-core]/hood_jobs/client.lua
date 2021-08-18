@@ -7,8 +7,8 @@ vRPSeskJobs = Tunnel.getInterface("esk_jobs","esk_jobs")
 local joburi = {
     {"Postas",133.06480407715,96.315269470215,83.507583618164, marker = 20, blip = 318, blipcolor = 9},
     {"Livrator Bancar",-1.9383909702301,-660.24426269531,33.480281829834, marker = 20, blip = 175, blipcolor = 2},
-    {"Taximetrist",-302.52777099609,-616.77026367188,33.557689666748, marker = 23, blip = 56, blipcolor = 46}
-    {"Hacker",980.87463378906,-1705.8547363281,31.117679595947,marker = 20, blip = 0, blipcolor = 0}
+    {"Taximetrist",-302.52777099609,-616.77026367188,33.557689666748, marker = 23, blip = 56, blipcolor = 46},
+    {"Hacker",980.87463378906,-1705.8547363281,31.117679595947, marker = 20, blip = 0, blipcolor = 0}
 }
 
 
@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
         EndTextCommandSetBlipName(blip)
     end
     while true do
-        Wait(200)
+        Wait(2)
         for k,v in pairs (joburi) do
             while GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()),v[2],v[3],v[4], true) <= 6.0 do
                 DrawMarker(v.marker, v[2],v[3],v[4] -0.5 , 0, 0, 0, 0, 0, 0, 0.5001,0.5001,0.5001, 255,255,255, 100, 0, 0, 0, 1, 0, 0, 0)

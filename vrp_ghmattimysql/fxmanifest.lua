@@ -5,7 +5,7 @@ description "vRP GHMattiMySQL db driver bridge"
 
 dependencies{
   "vrp",
-  "GHMattiMySQL"
+  "ghmattimysql"
 }
 
 -- server scripts

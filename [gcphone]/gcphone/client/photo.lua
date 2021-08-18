@@ -28,7 +28,7 @@ Citizen.CreateThread(function()
 			CellCamActivate(false, false)
 			if firstTime == true then 
 				firstTime = false 
-				Citizen.Wait(2500)
+				Citizen.Wait(1200)
 				displayDoneMission = true
 			end
 		end
