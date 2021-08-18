@@ -1023,7 +1023,7 @@ end,
 5.00})
 
 -- give money to player
-local function ch_playergivemoneyto(player,choice)
+local ch_playergivemoneyto = {function}(player,choice)
   -- get nearest player
   local user_id = vRP.getUserId({player})
   if user_id ~= nil then
@@ -1067,7 +1067,7 @@ local function ch_playergivemoneyto(player,choice)
       end
     end)
   end
-end
+end,"Ofera banii unui jucator din apropiere"}
 
 -- ADD STATIC MENU CHOICES // STATIC MENUS NEED TO BE ADDED AT vRP/cfg/gui.lua
 vRP.addStaticMenuChoices({"police_weapons", police_weapons}) -- police gear
@@ -1119,7 +1119,7 @@ vRP.registerMenuBuilder({"main", function(add, data)
     end
 
     if vRP.hasPermission(user_id,"player.calladmin") then
-      menu["Ofera bani"] = {ch_playergivemoneyto}
+      choices["Ofera bani"] = ch_playergivemoneyto
     end
 	
     if vRP.hasPermission({user_id,"toggle.service"}) then
