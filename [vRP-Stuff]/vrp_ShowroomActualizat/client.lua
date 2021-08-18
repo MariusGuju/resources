@@ -7,7 +7,7 @@ vRPserver = Tunnel.getInterface("esk_showroom","esk_showroom")
 
 
 local coordonateOpenShowroom = {-29.197132110596,-1104.6080322266,26.422359466553}
-local coordonateInShowroom = {-41.861339569092,-1098.4163818359,26.422332763672}
+local coordonateInShowroom = {227.95265197754,-991.97448730469,-98.999984741211}
 
 
 local inShowroom = false
@@ -262,7 +262,7 @@ end
 local categoriile = {}
 function openShowroom()
     inShowroom = true
-    SetEntityCoords(GetPlayerPed(-1), -787.33374023438,312.41784667968,40.959129333496)
+    SetEntityCoords(GetPlayerPed(-1), 227.95265197754,-991.97448730469,-98.999984741211)
     SetEntityVisible(GetPlayerPed(-1), false)
     Wait(100) -- IMPORTANT, LASA-L AICI DETAH CA POATE IAR FUTI CEVA!!!
     SetNuiFocus(true, true)
@@ -347,13 +347,13 @@ function spawnRablament(model)
     SetNuiFocus(true, true)
     rablactuala = GetVehiclePedIsUsing(GetPlayerPed(-1))
     if rablactuala == nil then
-        local nveh = CreateVehicle(model, -787.33374023438,312.41784667968,40.959129333496+1.5, 220.0, false, false)
+        local nveh = CreateVehicle(model, 227.95265197754,-991.97448730469,-98.999984741211+1.5, 220.0, false, false)
         SetPedIntoVehicle(GetPlayerPed(-1),nveh,-1)
         SetVehicleEngineOn(nveh,false,false,0)
         SetVehicleDirtLevel(nveh,0.0)
     else
         DeleteEntity(rablactuala)
-        local nveh = CreateVehicle(model, -787.33374023438,312.41784667968,40.959129333496+1.5, 220.0, false, false)
+        local nveh = CreateVehicle(model, 227.95265197754,-991.97448730469,-98.999984741211+1.5, 220.0, false, false)
         SetPedIntoVehicle(GetPlayerPed(-1),nveh,-1)
         SetVehicleEngineOn(nveh,false,true,true)
         SetVehicleDirtLevel(nveh,0.0)
@@ -553,12 +553,13 @@ RegisterNUICallback('testeazaMasina', function(data, cb)
         Wait(10)
 
         spawntestvehicle()
+        Wait(1000)
+        rablactuala = GetVehiclePedIsUsing(GetPlayerPed(-1))
         CreateThread(function()
             while true do
                 Wait(1000)
                 timp = timp - 1
-                if timp == 0 then
-                    rablactuala = GetVehiclePedIsUsing(GetPlayerPed(-1))
+                if timp == 0 or not IsPedInAnyVehicle(PlayerPedId(),false) then
                     DeleteEntity(rablactuala)
                     for k in pairs(categoriile) do
                         categoriile[k] = nil
