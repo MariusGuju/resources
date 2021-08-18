@@ -1022,7 +1022,7 @@ function(args)
 end,
 5.00})
 
--- give money to player
+-- oferi bani unui jucator din apropiere
 local function ch_playergivemoneyto(player,choice)
   -- get nearest player
   local user_id = vRP.getUserId({player})
