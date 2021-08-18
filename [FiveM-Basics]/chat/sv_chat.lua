@@ -310,6 +310,9 @@ RegisterCommand("ore", function(source, args, rawCommand)
         end
     end
 end)
+
+
+
 RegisterCommand('rev', function(source, args, msg)
 	local user_id = vRP.getUserId({source})
 	msg = msg:sub(4)
@@ -319,6 +322,8 @@ RegisterCommand('rev', function(source, args, msg)
 	  if target ~= nil then
 		if vRP.hasPermission({user_id, "admin.tickets"}) and vRP.hasPermission({user_id, "acces.duty"}) then
 		  vRPclient.varyHealth(target,{300})
+		  vRP.varyHunger({msg,-100})
+		  vRP.varyThirst({msg,-100})
 		  --TriggerClientEvent('chatMessage', source, "^8Server^7 : I-ai dat Revive lui : "..GetPlayerName(target).."!")
 		 -- TriggerClientEvent('chatMessage', target, "^8Server^7 : Adminul "..GetPlayerName(source).." ti-a dat revive !")
 		 vRPclient.notify(source,{"[~g~Server~w~] : I-ai dat Revive lui : "..GetPlayerName(target).."!"})

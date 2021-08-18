@@ -32,6 +32,8 @@ function Fwv(entity)
   return { x = math.cos(hr) * 2.0, y = math.sin(hr) * 2.0 }
 end
  
+
+-- funtionalitatea centurii e aici
 Citizen.CreateThread(function()
 	while true do
 	Citizen.Wait(0)
@@ -56,7 +58,7 @@ Citizen.CreateThread(function()
       speedBuffer[2] = speedBuffer[1]
       speedBuffer[1] = GetEntitySpeed(car)
 
-      if SeatbeltON == false and speedBuffer[2] ~= nil and GetEntitySpeedVector(car, true).y > 1.0 and speedBuffer[1] > (Config.Speed / 3.6) and (speedBuffer[2] - speedBuffer[1]) > (speedBuffer[1] * 0.255) then
+      if not SeatbeltON and speedBuffer[2] ~= nil and GetEntitySpeedVector(car, true).y > 0 and speedBuffer[1] > (Config.Speed / 3.6) and (speedBuffer[2] - speedBuffer[1]) > (speedBuffer[1] * 0.255) then
         local co = GetEntityCoords(ped)
         local fw = Fwv(ped)
         SetEntityCoords(ped, co.x + fw.x, co.y + fw.y, co.z - 0.47, true, true, true)
@@ -114,6 +116,8 @@ Citizen.CreateThread(function()
   end
 end)
 
+
+
 Citizen.CreateThread(function()
   while true do
     Citizen.Wait(10)
@@ -141,9 +145,10 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(50)
+		Citizen.Wait(3500)
     if not SeatbeltON and InVehicle and not IsPauseMenuActive() and Config.LoopSound and ShowWindow then
       TriggerEvent("seatbelt:sounds", "seatbelt", Config.Volume)
 		end    
 	end
 end)
+

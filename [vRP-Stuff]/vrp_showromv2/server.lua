@@ -213,20 +213,29 @@ end
 
 function vRPshowroom.cumparaMasina(model,pret,selectie,categorie,tuning)
     local user_id = vRP.getUserId({source})
+    print(user_id)
+    local user_id2 = vRP.getUserId(source)
+    print(user_id2)
     local player = vRP.getUserSource({user_id})
-print("talent")
+    
+print("talentguju")
     if vehicles[categorie][selectie].numeVehicul == model then
         if vehicles[categorie][selectie].price == pret then
-            
+            print("talentguju2")
             exports.ghmattimysql:execute("SELECT * FROM vrp_user_vehicles WHERE user_id = @user_id AND vehicle = @vehicle", {['@user_id'] = user_id, ['@vehicle'] = model}, function (haveCar)
+            print("talentguju3")
                 if #haveCar > 0 then
                     vRPclient.notify(player,{"Ai deja aceasta masina!"})
                 else
+                print("talentguju4")
                     if vRP.tryPayment({user_id,pret}) then
+                    print("talentguju5")
                         vRP.getUserIdentity({user_id, function(identity)
+                        print("talentguju6")
                         local plate = generateStringNumber("DDDLLL")
-    
-print("talent")
+                        print("talentguju7")
+
+print("talentguju8")
                             exports.ghmattimysql:execute("INSERT IGNORE INTO vrp_user_vehicles(user_id,vehicle,upgrades,vehicle_plate) VALUES(@user_id,@vehicle,@upgrades,@vehicle_plate)", {
                                 ['@user_id'] = user_id,
                                 ['@vehicle'] = model,

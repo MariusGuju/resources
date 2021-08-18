@@ -18,8 +18,8 @@ Config.Blinker = true
 Config.Control = 323
 
 -- KM/H (must be have decimal value)
-Config.Speed = 100.0
+Config.Speed = 60
 
 Config.AlarmOnlySpeed = true
-Config.AlarmSpeed = 20
+Config.AlarmSpeed = 50
 
