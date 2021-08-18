@@ -578,30 +578,30 @@
 		},
 		["vip1"] = {
 			"vip1.salariu",
-			"vip1.masini"
+			"vip1.vehicle"
 
 		},
 		["vip2"] = {
 			"vip2.salariu",
-			"vip1.masini",
+			"vip1.vehicle",
 			"packetvip2.acces",
-			"vip2.masini"
+			"vip2.vehicle"
 
 		},
 		["vip3"] = {
 			"vip3.salariu",
-			"vip1.masini",
-			"vip2.masini",
-			"vip3.masini"
+			"vip1.vehicle",
+			"vip2.vehicle",
+			"vip3.vehicle"
 
 		},
 		["vip4"] = {
 			"vip4.salariu",
 			"sponsor.menu",
-			"vip1.masini",
-			"vip2.masini",
-			"vip3.masini",
-			"vip4.masini"
+			"vip1.vehicle",
+			"vip2.vehicle",
+			"vip3.vehicle",
+			"vip4.vehicle"
 
 		},
 		["premiumgur"] = {
