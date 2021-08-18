@@ -177,22 +177,6 @@ local vehicles = {
                 },
         
         [20] = {
-        tablename = 'Barci',     
-            {numeVehicul = "marquis",price = 40000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Adjutor Yacht", maxspeed= 150, maxspeedbar = 91, tip = 'Yacht'},
-            {numeVehicul = "jetmax",price = 45000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Barca", maxspeed= 150, maxspeedbar = 91, tip = 'Barca'},
-            {numeVehicul = "longfin",price = 40000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Magnum 44' Luxury Speed Boat", maxspeed= 150, maxspeedbar = 91, tip = 'Barca'},
-            {numeVehicul = "seashark",price = 30000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Skijet", maxspeed= 150, maxspeedbar = 91, tip = 'Skijet'},
-            {numeVehicul = "dinghy2",price = 40000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Dinghy", maxspeed= 150, maxspeedbar = 91, tip = 'Skijet'},
-        },
-        
-        [21] = {
-        tablename = 'Avioane',                      
-            {numeVehicul = "luxor",price = 700000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Avion Privat", maxspeed= 300, maxspeedbar = 91, tip = 'Avion'},
-            {numeVehicul = "dodo",price = 400000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Haviland Canada DHC-2", maxspeed= 300, maxspeedbar = 91, tip = 'Avion'},
-            {numeVehicul = "velum",price = 250000, speed = 52, acceleration = 46, brakes = 42, hp = 49, numemasina = "Piper PA-46", maxspeed= 300, maxspeedbar = 91, tip = 'Avion'},
-        },
-        
-        [22] = {
         tablename = 'Masini VIP',
         
             {numeVehicul = "rmodpagani", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Pagani RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SILVER'},
