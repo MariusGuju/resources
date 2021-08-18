@@ -1118,7 +1118,7 @@ vRP.registerMenuBuilder({"main", function(add, data)
       choices["Player"] = ch_player_menu -- opens player submenu
     end
 
-    if vRP.hasPermission(user_id,"player.calladmin") then
+    if vRP.hasPermission({user_id,"player.calladmin"}) then
       choices["Ofera bani"] = {ch_playergivemoneyto}
     end
 	
