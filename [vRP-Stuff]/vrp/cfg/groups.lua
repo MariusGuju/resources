@@ -250,6 +250,7 @@
 			"staff.duty",
 			"stop.chat",
 			"say.chat",
+			"say.smeker",
 			"vMenu.Staff",
 			"permisie.tinta",
 			"player.spectate",

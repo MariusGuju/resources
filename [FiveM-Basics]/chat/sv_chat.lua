@@ -704,6 +704,21 @@ end)
    end
  end)
 
+ RegisterCommand('aasay', function(source, args, rawCommand)
+	if (source == 0) then
+	  TriggerClientEvent('chatMessage', -1, { 255, 255, 255 }, rawCommand:sub(5))
+	else
+	  local user_id = vRP.getUserId({source})
+	  if vRP.hasPermission({user_id, "say.smeker"}) then
+		TriggerClientEvent('chatMessage', -1, { 255, 255, 255 }, rawCommand:sub(5))
+	  else
+		TriggerClientEvent('chatMessage', source, "^8Eroare^7: Nu deti acces-ul necesar pentru a folosi aceasta comandă!")
+	  end
+	end
+  end)
+
+
+
 RegisterCommand('a', function(source, args, rawCommand)
 	if(args[1] == nil)then
 		TriggerClientEvent('chatMessage', source, "^3SYNTAXA: /"..rawCommand.." [Mesaj]") 
