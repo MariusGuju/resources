@@ -405,10 +405,9 @@ cfg.garage_types = {
 },
 ["VIP1"] = {
   _config = {vtype="car",blipid=357,blipcolor=28,permissions={"vip1.vehicle"}},
-
   ["rmodpagani"] = {"Pagani RMOD",74000, "vip"},
   ["dawnonyx"] = {"Rolls Royce Dawn Onyx ",74000, "vip"},
-  ["rmodmustang"] = {"Ford Mustang RMOD",74000, "vip"},
+  ["rmodmustang"] = {"Ford Mustang RMOD",74000, "vip"}
 
   },
 ["VIP2"] = {
