@@ -1022,7 +1022,7 @@ function(args)
 end,
 5.00})
 
--- give money to player
+-- oferi bani unui jucator din apropiere
 local function ch_playergivemoneyto(player,choice)
   -- get nearest player
   local user_id = vRP.getUserId({player})
@@ -1118,8 +1118,8 @@ vRP.registerMenuBuilder({"main", function(add, data)
       choices["Player"] = ch_player_menu -- opens player submenu
     end
 
-    if vRP.hasPermission(user_id,"player.calladmin") then
-      menu["Ofera bani"] = {ch_playergivemoneyto}
+    if vRP.hasPermission({user_id,"player.calladmin"}) then
+      choices["Ofera bani"] = {ch_playergivemoneyto}
     end
 	
     if vRP.hasPermission({user_id,"toggle.service"}) then
