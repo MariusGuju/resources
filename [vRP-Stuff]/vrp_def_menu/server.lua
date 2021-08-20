@@ -1024,17 +1024,17 @@ end,
 
 -- oferi bani unui jucator din apropiere
 
-local ch_playergivemoneyto = {function(player,choice) 
+local ch_playergivemoneyto = {function(player,choice)
   -- get nearest player
   local user_id = vRP.getUserId({player})
   if user_id ~= nil then
     vRPclient.getNearestPlayers(player,{15},function(nplayers)
       usrList = ""
       for k,v in pairs(nplayers) do
-        usrList = usrList .. "[" .. vRP.getUserId(k) .. "]" .. GetPlayerName(k) .. " | "
+        usrList = usrList .. "[" .. vRP.getUserId({k}) .. "]" .. GetPlayerName(k) .. " | "
       end
       if usrList ~= "" then
-        vRP.prompt({player,"Introduceti ID persoanei careia doriti sa ii transferati bani",function(player,nuser_id) 
+        vRP.prompt({player,"Jucatori din apropriere: " .. usrList .. "","",function(player,nuser_id) 
           nuser_id = nuser_id
           if nuser_id ~= nil and nuser_id ~= "" then 
             local target = vRP.getUserSource({tonumber(nuser_id)})
