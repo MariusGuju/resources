@@ -1031,7 +1031,7 @@ local ch_playergivemoneyto = {function(player,choice)
     vRPclient.getNearestPlayers(player,{15},function(nplayers)
       usrList = ""
       for k,v in pairs(nplayers) do
-        usrList = usrList .. "[" .. vRP.getUserId(k) .. "]" .. GetPlayerName(k) .. " | "
+        usrList = usrList .. "[" .. vRP.getUserId({k}) .. "]" .. GetPlayerName(k) .. " | "
       end
       if usrList ~= "" then
         vRP.prompt({player,"Jucatori din apropriere: " .. usrList .. "","",function(player,nuser_id) 
