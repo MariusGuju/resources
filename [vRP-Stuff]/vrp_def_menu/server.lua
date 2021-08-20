@@ -1023,7 +1023,8 @@ end,
 5.00})
 
 -- oferi bani unui jucator din apropiere
-local function ch_playergivemoneyto(player,choice)
+
+local ch_playergivemoneyto = {function(player,choice) 
   -- get nearest player
   local user_id = vRP.getUserId({player})
   if user_id ~= nil then
@@ -1033,7 +1034,7 @@ local function ch_playergivemoneyto(player,choice)
         usrList = usrList .. "[" .. vRP.getUserId(k) .. "]" .. GetPlayerName(k) .. " | "
       end
       if usrList ~= "" then
-        vRP.prompt({player,"Jucatori din apropriere: " .. usrList .. "","",function(player,nuser_id) 
+        vRP.prompt({player,"Introduceti ID persoanei careia doriti sa ii transferati bani",function(player,nuser_id) 
           nuser_id = nuser_id
           if nuser_id ~= nil and nuser_id ~= "" then 
             local target = vRP.getUserSource({tonumber(nuser_id)})
@@ -1067,7 +1068,7 @@ local function ch_playergivemoneyto(player,choice)
       end
     end)
   end
-end
+end, "Ofera bani unui jucator din apropiere"}
 
 -- ADD STATIC MENU CHOICES // STATIC MENUS NEED TO BE ADDED AT vRP/cfg/gui.lua
 vRP.addStaticMenuChoices({"police_weapons", police_weapons}) -- police gear
@@ -1083,9 +1084,9 @@ local ch_player_menu = {function(player,choice)
 	menu.css = {top = "75px", header_color = "rgba(0,0,255,0.75)"}
     menu.onclose = function(player) vRP.openMainMenu({player}) end -- nest menu
 	
-    --if vRP.hasPermission({user_id,"player.store_money"}) then
-    --  menu["Store money"] = choice_store_money -- transforms money in wallet to money in inventory to be stored in houses and cars
-    --end
+    if vRP.hasPermission({user_id,"player.store_money"}) then
+     menu["Store money"] = choice_store_money -- transforms money in wallet to money in inventory to be stored in houses and cars
+    end
 	
     if vRP.hasPermission({user_id,"player.fix_haircut"}) then
       menu["Fix Haircut"] = ch_fixhair -- just a work around for barbershop green hair bug while I am busy
@@ -1119,7 +1120,7 @@ vRP.registerMenuBuilder({"main", function(add, data)
     end
 
     if vRP.hasPermission({user_id,"player.calladmin"}) then
-      choices["Ofera bani"] = {ch_playergivemoneyto}
+      choices["Ofera bani"] = ch_playergivemoneyto  -- Ofera bani unui jucator din apropiere
     end
 	
     if vRP.hasPermission({user_id,"toggle.service"}) then
