@@ -164,7 +164,7 @@ Citizen.CreateThread(function()
 		SetBlipScale(blip, 0.8)
 		SetBlipAsShortRange(blip, true)
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString("Robbable Bank")
+		AddTextComponentString("Jaf Banca")
 		EndTextCommandSetBlipName(blip)
 	end
 end)
