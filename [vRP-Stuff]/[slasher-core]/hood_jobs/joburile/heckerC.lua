@@ -7,17 +7,19 @@ helpCycle = 4000
 hackeando = {}
 perm = nil
 
+
 function vRPeskJobsC.puneHEKERMENUL(lokatzii)
 	Citizen.CreateThread(function()
 		while true do
 			Wait(2)
 			local pos = GetEntityCoords(GetPlayerPed(-1))
 			for k,v in pairs(lokatzii)do
-
+				print(PlayerPedId())
+				print(v)
 				while GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()),v[1],v[2],v[3], true) <= 10.0 do
 					Wait(0)
 					DrawMarker(27, v[1], v[2], v[3]-0.9, 0, 0, 0, 0, 0, 0, 1.0001, 1.0001, 0.5001, 100, 200, 100,255, 0, 0, 0,0)
-					if  GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()),v[1],v[2],v[3], true) <= 2.0  then
+					if  GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()),v[1],v[2],v[3], true) <= 2.0  then 
 						if not hackeando[k] then
 							DrawText3D(v[1], v[2], v[3], "~w~APASA ~g~[E] ~w~PENTRU ~r~a HEKERII~w~",255,255,255)
 							if IsControlJustPressed(1, 38) then
