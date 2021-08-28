@@ -144,6 +144,7 @@ end
 
 local iamasinainplm = {    
     {"asea","user.salariu","VW Jetta 1998"},
+    {"packer","user.salariu","Tir Personal"},
     {"bmwe38","user.salariu","BMW Seria 7 e38"},
     {"civic","user.salariu","Honda Civic 2000"},
     {"corsa05","user.salariu","Opel Corsa 2005"},

@@ -144,6 +144,7 @@ Config = {
       masini = {
         {"tico","user.salariu","Tico"},
 		{"dacia1310","user.salariu","Dacia 1310"},
+    {"packer","user.salariu","Tir Personal"},
 		{"logan2004","user.salariu","Dacia Logan"},
 		{"loganmcv","user.salariu","Dacia Logan MCV"},
 		{"sandero21","user.salariu","Dacia Sandero"},

@@ -1688,13 +1688,13 @@
 
 --===============[ JOBURI NOI ~ START]===============--
 
-	  --[[["Postas"] = {
+	  ["Postas"] = {
 		_config = { gtype = "job",
 		onspawn = function(player) vRPclient.notify(player,{"Esti postas"}) end
   	  },
   		"job.salariu",
   		"suntpostas.plm"
- 	  },]]
+ 	  },
   	  ["Hacker"] = {
 		_config = { gtype = "job",
 		onspawn = function(player) vRPclient.notify(player,{"Esti Hacker"}) end

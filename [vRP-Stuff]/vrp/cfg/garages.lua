@@ -245,6 +245,7 @@ cfg.garage_types = {
 ["House Garage"] = {
   _config = {vtype="car",blipid=357,blipcolor=69},
   ["2004astra"] = {"Opel Astra J",3500, ""},
+  ["packer"] = {"Tir personal",3500, ""},
   ["ap2"] = {"Honda S2000 AP2 ",9000, ""},
   ["asea"] = {"VW Jetta 1998 ",2000, ""},
   ["asterope"] = {"Dacia Logan 2004 ",2100, ""},

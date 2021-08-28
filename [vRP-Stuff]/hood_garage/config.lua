@@ -254,6 +254,7 @@ Config = {
         {"jukonxl","user.salariu","GMC Yukon X"},
         {"kangoo","user.salariu","Renault Kangoo"},
         {"v250","user.salariu","Mercedes V250"},
+        {"packer","user.salariu","Tir Personal"},
         {"yukonxl","user.salariu","GMC"},
                 --pana la vans
         {"4c","user.salariu","Alfa Romeo 4C"},
