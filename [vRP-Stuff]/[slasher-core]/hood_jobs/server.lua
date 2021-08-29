@@ -21,12 +21,12 @@ function vRPeskJobs.puneJob(infoJob)
         if infoJob == 1 then
             infoJobAngajat[user_id] = "Postas"
             vRPeskJobs.punePostas(player)
-            --vRP.addGroup({user_id,"Postas"})
+            vRP.addGroup({user_id,"Postas"})
             vRPclient.eskNotify(player,{"Te-ai angajat ca si ~b~"..infoJobAngajat[user_id],6000})
         elseif infoJob == 2 then
             infoJobAngajat[user_id] = "Livrator Bancar"
             vRPeskJobs.bagaGruppe6(player)
-            --vRP.addGroup({user_id,"Livrator Bancar"})
+            vRP.addGroup({user_id,"Livrator Bancar"})
             vRPclient.eskNotify(player,{"Te-ai angajat ca si ~b~"..infoJobAngajat[user_id],6000})
         end
     else
@@ -49,7 +49,7 @@ RegisterCommand("quitjob", function(source)
             infoJobAngajat[user_id] = nil
             vRPeskJobs.quitGruppe6(player)
         end
-        --vRP.addUserGroup({user_id,"Somer"})
+        vRP.addUserGroup({user_id,"Somer"})
     else
         vRPclient.eskNotify(source,{"Trebuie sa iti iei un job pentru a putea folosii aceasta comanda",6000})
     end
