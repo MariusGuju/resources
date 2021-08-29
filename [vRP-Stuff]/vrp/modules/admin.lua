@@ -2,7 +2,7 @@ local htmlEntities = module("lib/htmlEntities")
 local Tools = module("lib/Tools")
 
 
-local webhookAdmin = 'https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4'
+local webhookAdmin = 'https://discordapp.com/api/webhooks/881492818156212266/Su5Cm5NC5hj3io9_bEK5Tzp43KxzCx6ynWA5GLi_lmZMK5j5eylYJP2NJW3LKL7rARhc'
 
 function vRP.sendStaffMessage(msg)
 	for k, v in pairs(vRP.rusers) do
