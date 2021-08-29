@@ -1756,6 +1756,14 @@
   	  },
   		"job.salariu"
 	  },
+
+	  ["Miner"] = {
+		_config = { gtype = "job",
+		onspawn = function(player) vRPclient.notify(player,{"Lucrezi ca Miner"}) end
+  	  },
+  		"job.salariu"
+	  },
+
 	  ["Uber Eatz"] = {
 		_config = { gtype = "job",
 		onspawn = function(player) vRPclient.notify(player,{"Lucrezi la Uber Eatz"}) end
