@@ -592,7 +592,7 @@ end
 
 RegisterCommand('resetticket', function(source, args, msg)
     local user_id = vRP.getUserId(source)
-    if vRP.hasGroup(user_id, "dev") then
+    if vRP.hasPermission(user_id,"tickete.clear") then
         vRPclient.notify(source, {"~g~Rapoartele au fost resetate cu succes"})
         exports.ghmattimysql:execute("UPDATE `vrp_users` SET `raport` = 0")
     end
