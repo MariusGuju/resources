@@ -534,7 +534,7 @@ end
 local function ch_calladmin(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id ~= nil then
-    vRP.prompt(player,"Describe your problem:","",function(player,desc) 
+    vRP.prompt(player," Descrie problema:","",function(player,desc) 
       desc = desc or ""
       if desc ~= nil and desc ~= "" then
       local answered = false
@@ -573,7 +573,7 @@ local function ch_calladmin(player,choice)
                   ["description"] = "Administratorul "..GetPlayerName(v).."("..sender_id..") i-a acceptat ticket-ul lui "..GetPlayerName(player).."["..user_id.."]"
                 }
               }
-              PerformHttpRequest("https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+              PerformHttpRequest("https://discordapp.com/api/webhooks/881496976926076978/mLE-bS2wDHhupRl-sWDZ7d57VmxFzU63R1_-oJ3Isaqerse82JMvyCA8hGDVlRAKJH0q", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
             else
               vRPclient.notify(v,{"Ticket dejaluat."})
             end
@@ -583,14 +583,14 @@ local function ch_calladmin(player,choice)
       end
       end
       else
-        vRPclient.notify(player,{"Empty Admin Call."})
+        vRPclient.notify(player,{"Mesaj Gol."})
       --end
     end
     end)
   end
 end
 
-RegisterCommand('resetraport', function(source, args, msg)
+RegisterCommand('resetticket', function(source, args, msg)
     local user_id = vRP.getUserId(source)
     if vRP.hasGroup(user_id, "dev") then
         vRPclient.notify(source, {"~g~Rapoartele au fost resetate cu succes"})
@@ -598,9 +598,9 @@ RegisterCommand('resetraport', function(source, args, msg)
     end
 end)
 
-RegisterCommand('rapoarte', function(source, args, msg)
+RegisterCommand('Tickete', function(source, args, msg)
     local user_id = vRP.getUserId(source)
-    if vRP.hasPermission(user_id,"admin.tickets") then
+    if vRP.hasPermission(user_id,"tickete.check") then
         exports.ghmattimysql:execute("SELECT `raport`, `id` FROM `vrp_users` WHERE `raport` != 0", {}, function(rows)
             local content = "<em><b>RAPORT STAFF</b></em>"
             for i, v in pairs(rows) do
@@ -740,7 +740,7 @@ vRP.registerMenuBuilder("main", function(add, data)
     --       menu["Ofera bani"] = {ch_playergivemoneyto}
     --     end
         if vRP.hasPermission(user_id,"player.calladmin") then
-          menu["Call admin"] = {ch_calladmin}
+          menu["Cheama Admin"] = {ch_calladmin}
         end
 
         vRP.openMenu(player,menu)
