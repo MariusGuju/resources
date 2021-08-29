@@ -1,9 +1,8 @@
-fx_version "adamant"
-games {'gta5'}
+description "Transport Medical"
 
 dependency "vrp"
 
-client_scripts{
+client_scripts{ 
   "lib/Tunnel.lua",
   "lib/Proxy.lua",
   "npc.lua",

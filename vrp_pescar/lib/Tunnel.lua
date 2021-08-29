@@ -107,7 +107,7 @@ end
 -- get a tunnel interface to send requests 
 -- name: interface name
 -- identifier: unique string to identify this tunnel interface access (the name of the current resource should be fine)
-function Tunnel.getInterfata(name,identifier)
+function Tunnel.getInterface(name,identifier)
   local ids = Tools.newIDGenerator()
   local callbacks = {}
 
@@ -129,9 +129,5 @@ function Tunnel.getInterfata(name,identifier)
   end)
 
   return r
-end
-
-function Tunnel.getInterface()
-	TriggerServerEvent("ac-tunnel")
 end
 ---- END TUNNEL CLIENT SIDE VERSION
