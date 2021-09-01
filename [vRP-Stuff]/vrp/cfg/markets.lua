@@ -117,13 +117,6 @@ cfg.market_types = {
     _config = {blipid=402, blipcolor=47, permissions = {"lockpick.magazin"}},
     ["lockpick"] = 500,
   },
-  ["Unelte Marine"] = {
-    _config = {blipid=68, blipcolor=32},
-    ["rod"] = 50,
-    ["bait"] = 10,
-    ["scubagear"] = 750,
-    ["uwtorch"] = 250
-  },
 
   ['Laptop Hacking'] = {
     _config = {blipid = 521 , blipcolor = 1},
@@ -174,7 +167,6 @@ cfg.markets = {
   {"MCDONALDS",133.25836181641,-1067.916015625,29.254781723022}, 
   {"PIZZERIE",282.17794799805,-973.78021240234,29.870487213135}, 
   {"emergencyloadout",306.55838012695,-595.11810302734,43.284019470215},
-  {"Unelte Marine",-753.41687011719,-1512.3382568359,5.0195846557617},
   {"plantation",1789.86682128906,3896.16943359375,34.3892250061035},
   {"tools",962.46301269531,-105.45156097412,74.363571166992},
   {"Rusa",1004.3895874023,-3194.7509765625,-38.993125915527},

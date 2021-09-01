@@ -304,7 +304,7 @@ RegisterCommand("deal", function(source)
 		--	vRPclient.notify(player,{"Du transportul prima data!"})
 		--end
 	else 
-		vRPclient.notify(player, {"~y~[DrugDeal] ~r~Asteapta 3 minute pentru a folosi comanda din nou!"})
+		vRPclient.notify(player, {"~y~[DrugDeal] ~r~Asteapta un minute pentru a folosi comanda din nou!"})
 	end	
 end)
 
@@ -346,13 +346,13 @@ RegisterCommand("stopdeal", function(source)
 		vRPCeskJobs.stopSelling(source,{})
 		transport = false
 	else
-		vRPclient.notify(player, {"~y~[DrugDeal] ~r~Asteapta 3 minute pentru a folosi comanda din nou!"})
+		vRPclient.notify(player, {"~y~[DrugDeal] ~r~Asteapta un minute pentru a folosi comanda din nou!"})
 	end
 end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(180000)
+		Citizen.Wait(60000)
 		users = vRP.getUsers({})
 		for i, v in pairs(users) do
 			if(comandaDeal[i] == true)then
