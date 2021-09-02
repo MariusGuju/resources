@@ -77,7 +77,7 @@ Citizen.CreateThread(function()
 					end
 					if isVip ~= 0 then
 						r, g, b = 200, 247, 197
-						vipStatus = "V.I.P "..isVip
+						vipStatus = "V.I.P "
 					else
 						vipStatus = "Nu"
 					end
