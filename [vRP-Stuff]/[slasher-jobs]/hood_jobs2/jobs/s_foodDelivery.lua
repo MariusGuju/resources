@@ -71,7 +71,7 @@ function vRPjobs.payFoodDeliveryDriver()
 	local user_id = vRP.getUserId({thePlayer})
 	local theJob = vRPjobs.getPlayerJob(user_id)
 	if((theJob == "Uber Eatz") and (fDeliveryDrivers[user_id] ~= nil))then
-		local rewardMoney = math.random(5, 10)
+		local rewardMoney = math.random(80000, 100000)
 		vRP.giveMoney({user_id, rewardMoney})
 		vRPclient.notify(thePlayer, {"[UBER EATZ] ~g~Ai livrat comanda si ai primit ~y~$"..rewardMoney})
 		updateGoalContributie = rewardMoney / 2

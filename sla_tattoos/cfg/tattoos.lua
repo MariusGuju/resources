@@ -46,38 +46,7 @@ cfg.tattoos = {
 		["MP_Bea_M_Lleg_000"] = {"Left Leg Tattoo",500,"<img src='https://i.imgur.com/V3nlE87.png' height='162' width='280' />"},
 		["MP_Bea_F_RLeg_000"] = {"Right Leg Tattoo",500,"<img src='https://i.imgur.com/cB43Ac5.png' height='162' width='280' />"}
 	},
-	["mpbusiness_overlays"] = {
-		_config = {blipid=75,blipcolor=48,title="Business Tattoos"},
-		["CLEAR"] = {">Clear Tattoos",500,""},
-		["MP_Buis_M_Neck_000"] = {"Neck Tattoo 1",500,"<img src='https://i.imgur.com/asSYqaY.png' height='162' width='280' />"},
-		["MP_Buis_M_Neck_001"] = {"Neck Tattoo 2",500,"<img src='https://i.imgur.com/ywQfxmI.png' height='162' width='280' />"},
-		["MP_Buis_M_Neck_002"] = {"Neck Tattoo 3",500,"<img src='https://i.imgur.com/mVWEqFi.png' height='162' width='280' />"},
-		["MP_Buis_M_Neck_003"] = {"Neck Tattoo 4",500,"<img src='https://i.imgur.com/4wgRrFU.png' height='162' width='280' />"},
-		["MP_Buis_M_LeftArm_000"] = {"Left Arm Tattoo 1",500,"<img src='https://i.imgur.com/K7z0Thz.png' height='162' width='280' />"},
-		["MP_Buis_M_LeftArm_001"] = {"Left Arm Tattoo 2",500,"<img src='https://i.imgur.com/ibc0zCa.png' height='162' width='280' />"},
-		["MP_Buis_M_RightArm_000"] = {"Right Arm Tattoo 1",500,"<img src='https://i.imgur.com/JzSsPLp.png' height='162' width='280' />"},
-		["MP_Buis_M_RightArm_001"] = {"Right Arm Tattoo 2",500,"<img src='https://i.imgur.com/UrfQmm7.png' height='162' width='280' />"},
-		["MP_Buis_M_Stomach_000"] = {"Stomach Tattoo 1",500,"<img src='https://i.imgur.com/nIQxDch.png' height='162' width='280' />"},
-		["MP_Buis_M_Chest_000"] = {"Chest Tattoo 1",500,"<img src='https://i.imgur.com/oUK84Gs.png' height='162' width='280' />"},
-		["MP_Buis_M_Chest_001"] = {"Chest Tattoo 2",500,"<img src='https://i.imgur.com/Xlct3De.png' height='162' width='280' />"},
-		["MP_Buis_M_Back_000"] = {"Back Tattoo 1",500,"i<mg src='https://i.imgur.com/aEIySud.png' height='162' width='280' />"},
-		["MP_Buis_F_Chest_000"] = {"Chest Tattoo 3",500,"<img src='https://i.imgur.com/Qoqfrov.png' height='162' width='280' />"},
-		["MP_Buis_F_Chest_001"] = {"Chest Tattoo 4",500,"<img src='https://i.imgur.com/wrFjQQY.png' height='162' width='280' />"},
-		["MP_Buis_F_Chest_002"] = {"Chest Tattoo 5",500,"<img src='https://i.imgur.com/ySLeepu.png' height='162' width='280' />"},
-		["MP_Buis_F_Stom_000"] = {"Stomach Tattoo 2",500,"<img src='https://i.imgur.com/rOJh5nA.png' height='162' width='280' />"},
-		["MP_Buis_F_Stom_001"] = {"Stomach Tattoo 3",500,"<img src='https://i.imgur.com/5svi3UG.png' height='162' width='280' />"},
-		["MP_Buis_F_Stom_002"] = {"Stomach Tattoo 4",500,"<img src='https://i.imgur.com/8AbgbHB.png' height='162' width='280' />"},
-		["MP_Buis_F_Back_000"] = {"Back Tattoo 2",500,"i<mg src='https://i.imgur.com/dClYTBl.png' height='162' width='280' />"},
-		["MP_Buis_F_Back_001"] = {"Back Tattoo 3",500,"<img src='https://i.imgur.com/2zYQzfw.png' height='162' width='280' />"},
-		["MP_Buis_F_Neck_000"] = {"Neck Tattoo 5",500,"<img src='https://i.imgur.com/1niQWuJ.png' height='162' width='280' />"},
-		["MP_Buis_F_Neck_001"] = {"Neck Tattoo 6",500,"<img src='https://i.imgur.com/DIBhQet.png' height='162' width='280' />"},
-		["MP_Buis_F_RArm_000"] = {"Right Arm Tattoo 3",500,"<img src='https://i.imgur.com/vz0Id5Y.png' height='162' width='280' />"},
-		["MP_Buis_F_LArm_000"] = {"Left Arm Tattoo 3",500,"<img src='https://i.imgur.com/JbBDM2U.png' height='162' width='280' />"},
-		["MP_Buis_F_LLeg_000"] = {"Left Leg Tattoo",500,"<img src='https://i.imgur.com/1q2Mhhq.png' height='162' width='280' />"},
-		["MP_Buis_F_RLeg_000"] = {"Right Leg Tattoo",500,"<img src='https://i.imgur.com/QhuL65R.png' height='162' width='280' />"}
-
-	},
-
+	
 	["mphipster_overlays"] = {
 		_config = {blipcolor=48,title="Hipster Tattoos"},
 		["CLEAR"] = {">Clear Tattoos",500,""},

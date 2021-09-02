@@ -462,8 +462,8 @@ local ch_ajail = {function(player,choice)
                   jail_time = 1
                 end
                 vRPclient.teleport(target,{1687.8145751953,2518.6625976563,-120.84989929199}) -- teleport to inside jail
-								TriggerClientEvent('chatMessage', -1, "", {0,0,0}, "^1[Admin Jail] Admin ^2"..GetPlayerName(player).." ^1has jailed ^2"..GetPlayerName(target).." ^1for ^2"..jail_time.." ^1minutes")
-								TriggerClientEvent('chatMessage', -1, "", {0,0,0}, "^1[Admin Jail] Reason: ^2"..jail_reason)
+								TriggerClientEvent('chatMessage', -1, "", {0,0,0}, "^1[Admin Jail] Admin ^2"..GetPlayerName(player).." ^1 i-a dat jail lui ^2"..GetPlayerName(target).." ^1for ^2"..jail_time.." ^1minutes")
+								TriggerClientEvent('chatMessage', -1, "", {0,0,0}, "^1[Admin Jail] Motiv: ^2"..jail_reason)
 								vRP.setHunger({tonumber(target_id),0})
 								vRP.setThirst({tonumber(target_id),0})
 								
@@ -471,21 +471,21 @@ local ch_ajail = {function(player,choice)
 								
 								vRPclient.setHandcuffed(target,{true})
 								local user_id = vRP.getUserId({player})
-								vRPbm.logInfoToFile("jailLog.txt","[Admin Jail] "..user_id .. " jailed "..target_id.." for " .. jail_time .. " minutes reason "..jail_reason)
+								vRPbm.logInfoToFile("jailLog.txt","[Admin Jail] "..user_id .. " jail "..target_id.." pentru " .. jail_time .. " minute , motiv: "..jail_reason)
               end
             else
-              vRPclient.notify(player,{"Invalid reason."})
+              vRPclient.notify(player,{"Motiv Invalid."})
             end
           end})
         else
-          vRPclient.notify(player,{"The jail time can't be empty."})
+          vRPclient.notify(player,{"Trebuie sa pui un timp."})
         end
       end})
     else
-      vRPclient.notify(player,{"No player ID selected."}) 
+      vRPclient.notify(player,{"Niciun ID Selectat."}) 
     end
   end})
-end,"Send a player to admin jail."}
+end,"Trimite un player la admin jail."}
 
 local a_unjail = {function(player,choice) 
 	vRP.prompt({player,"Player ID:","",function(player,target_id) 
@@ -499,21 +499,21 @@ local a_unjail = {function(player,choice)
 							local target = vRP.getUserSource({tonumber(target_id)})
 							if target ~= nil then
 								aUnjailed[target] = tonumber(target_id)
-								vRPclient.notify(player,{"Target will be released soon."})
+								vRPclient.notify(player,{"Playerul va fi eliberat incurand ."})
 							else
-								vRPclient.notify(player,{"That ID seems invalid."})
+								vRPclient.notify(player,{"ID-ul pare Invalid."})
 							end
 						else
-							vRPclient.notify(player,{"Target is not jailed."})
+							vRPclient.notify(player,{"Jucatorul nu este in jail."})
 						end
 					end
 				end
 			end})
 		else
-			vRPclient.notify(player,{"No player ID selected."})
+			vRPclient.notify(player,{"Niciun id selectat."})
 		end 
 	end})
-end,"Frees a jailed player."}
+end,"A eliberat un player."}
 
 
 -- dynamic jail
