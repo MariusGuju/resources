@@ -30,13 +30,13 @@ function initPlayer(thePlayer, user_id)
 	if(vRP.hasGroup({user_id,"fondator"}) or vRP.hasGroup({user_id,"dev"}) or vRP.hasGroup({user_id,"helper"}) or vRP.hasGroup({user_id,"Co-Fondator"}) or vRP.hasGroup({user_id,"moderator"}) or vRP.hasGroup({user_id,"moderator"}) or vRP.hasGroup({user_id,"trialhelper"}) or vRP.hasGroup({user_id,"Head Of Staff"}) or vRP.hasGroup({user_id,"admin"}) or vRP.hasGroup({user_id,"admin"}))then
 		isAdmin = 1
 	end
-	if(vRP.hasGroup({user_id,"Vip 1"}))then
+	if(vRP.hasGroup({user_id,"vip1"}))then
 		isVip = 1
-	elseif(vRP.hasGroup({user_id,"Vip 2"}))  then
+	elseif(vRP.hasGroup({user_id,"vip2"}))  then
 		isVip = 2
-	elseif(vRP.hasGroup({user_id,"Vip 3"}))  then
+	elseif(vRP.hasGroup({user_id,"vip3"}))  then
 		isVip = 3
-	elseif(vRP.hasGroup({user_id,"Vip 4"})) then
+	elseif(vRP.hasGroup({user_id,"vip4"})) then
 		isVip = 4
 	end
 	if vRP.hasGroup({user_id,"ems"}) then
