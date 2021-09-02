@@ -13,7 +13,7 @@ Proxy.addInterface("vRP_petrolier",vRPpetrolier)
 function vRPpetrolier.muiesyndicate(cursatermianta)
     local user_id = vRP.getUserId({source})
     local player = vRP.getUserSource({user_id})
-    local bani = math.random(30000,55000)
+    local bani = math.random(300000,350000)
     if cursatermianta then
         vRP.giveMoney({user_id,bani})
         vRPclient.notify(player,{"Ai primit "..bani})

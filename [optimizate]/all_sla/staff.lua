@@ -41,10 +41,10 @@ function refferal(player, choice)
                             local jucatorref = vRP.getUserSource({idceliref})
                             exports.ghmattimysql:execute("UPDATE vrp_users SET refferal = refferal + 1 WHERE id = @user_id", {['@user_id'] = idceliref})
                             exports.ghmattimysql:execute("UPDATE vrp_users SET folositref = 1 WHERE id = @user_id", {['@user_id'] = user_id})
-                            vRPclient.notify(player,{"Felicitari , te-ai afiliat cu ~g~"..idceliref.."~w~ , si pentru asta ai primit : ~g~500RON"})
-                            vRP.giveMoney({user_id,500})
+                            vRPclient.notify(player,{"Felicitari , te-ai afiliat cu ~g~"..idceliref.."~w~ , si pentru asta ai primit : ~g~25000RON"})
+                            vRP.giveMoney({user_id,25000})
                             local userref = vRP.getUserSource({idceliref})
-                            exports.ghmattimysql:execute("UPDATE vrp_user_moneys SET bank = bank + @suma WHERE user_id = @user_id", {['@suma'] = 500,['@user_id'] = idceliref})
+                            exports.ghmattimysql:execute("UPDATE vrp_user_moneys SET bank = bank + @suma WHERE user_id = @user_id", {['@suma'] = 25000,['@user_id'] = idceliref})
                             if userref ~= nil then
                                 vRPclient.notify(userref,{user_id.." a fost afiliat de tine si , ~w~ai primit ~g~500RON ~w~pentru asta !"})
                             end
@@ -68,7 +68,7 @@ vRP.registerMenuBuilder({"main", function(add, data)
 	local user_id = vRP.getUserId({data.player})
 	if user_id ~= nil then
 		local choices = {}
-		choices["Referal"] = {refferal, "Te afiliezi cu cineva si primesti : <font color='green'>$500</font>"}
+		choices["Referal"] = {refferal, "Te afiliezi cu cineva si primesti : <font color='green'>$25000</font>"}
 	    add(choices)
     end
 end})

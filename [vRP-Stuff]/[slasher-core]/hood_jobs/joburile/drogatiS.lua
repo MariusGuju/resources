@@ -245,14 +245,14 @@ RegisterCommand("deal", function(source)
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
 	local ore = vRP.getUserHoursPlayed({user_id})
-	local oreramase = 20 - ore
+	local oreramase = 40 
 	--print('test: '..ore)
 	if(comandaDeal[user_id] ~= true) then
 		comandaDeal[user_id] = true
 		--if transport == false then
 			vRPclient.eskNotify(player,{"~w~Vinde droguri! Ai grija la politisti!",8000})
 			if ore <= 20 then
-				vRPclient.notify(player,{"~w~Pentru a vinde Stack-uri trebuie sa ai ~g~"..oreramase.." ore!"})				
+				vRPclient.notify(player,{"~w~Pentru a vinde Stack-uri trebuie sa ai ~g~"..oreramase.." de  ore!"})				
 			end
 			vRP.buildMenu({"Vinde Droguri", {user_id = user_id, player = player}, function(menu)
 				menu.name="Vinde Droguri"
@@ -269,7 +269,7 @@ RegisterCommand("deal", function(source)
 				menu[menu2] = {function(player,choice) vindeGrame(player,"cocaina") end, "Vinde cateva grame de cocaina"}
 				menu[menu3] = {function(player,choice) vindeGrame(player,"metanfetamina") end, "Vinde cateva grame de metanfetamina"}
 
-				if (ore >= 25) then
+				if (ore >= 40) then
 					menu[menu4] = {function(player,choice) vindeStash(player,"stack_iarba") end, "Vinde stash de iarba"}
 					menu[menu5] = {function(player,choice) vindeStash(player,"stack_cocaina") end, "Vinde stash de cocaina"}
 					menu[menu6] = {function(player,choice) vindeStash(player,"stack_metanfetamina") end, "Vinde stash de metanfetamina"}
@@ -311,12 +311,12 @@ end)
 
 
 local preturi = {
-	{"iarba",108},
-	{"stack_iarba",300},
-	{"cocaina",200},
-	{"stack_cocaina",750},
-	{"metanfetamina",175},
-	{"stack_metanfetamina",625}
+	{"iarba",75000},
+	{"stack_iarba",400000},
+	{"cocaina",85000},
+	{"stack_cocaina",420000},
+	{"metanfetamina",80000},
+	{"stack_metanfetamina",410000}
 }
 
 function vRPeskJobs.checkDrugs(item)

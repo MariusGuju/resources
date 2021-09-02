@@ -35,7 +35,7 @@ local function findThePlayer(player,choice)
 			  },
 			}
 		  }
-		  PerformHttpRequest('https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
+		  PerformHttpRequest('https://discordapp.com/api/webhooks/882967035024384060/iyXAFO7kKfruL8Dd73OAozE2P8IwjDLQsSlKCJHxVj5nMUXCuMY7VQRZwH8IX7_sOLBC', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
 		vRP.closeMenu({player})
 	end
 end
