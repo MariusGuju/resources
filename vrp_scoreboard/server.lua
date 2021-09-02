@@ -27,7 +27,7 @@ function initPlayer(thePlayer, user_id)
 
 	local thePlayer = vRP.getUserSource({user_id})
 	
-	if(vRP.hasGroup({user_id,"Fondator999"}) or vRP.hasGroup({user_id,"Dev999"}) or vRP.hasGroup({user_id,"Helper999"}) or vRP.hasGroup({user_id,"Co-Fondator999"}) or vRP.hasGroup({user_id,"Supermoderator999"}) or vRP.hasGroup({user_id,"Moderator999"}) or vRP.hasGroup({user_id,"Helperteste999"}) or vRP.hasGroup({user_id,"Headofstaff999"}) or vRP.hasGroup({user_id,"Superadmin999"}) or vRP.hasGroup({user_id,"Admin999"}))then
+	if(vRP.hasGroup({user_id,"fondator"}) or vRP.hasGroup({user_id,"dev"}) or vRP.hasGroup({user_id,"helper"}) or vRP.hasGroup({user_id,"Co-Fondator"}) or vRP.hasGroup({user_id,"moderator"}) or vRP.hasGroup({user_id,"moderator"}) or vRP.hasGroup({user_id,"trialhelper"}) or vRP.hasGroup({user_id,"Head Of Staff"}) or vRP.hasGroup({user_id,"admin"}) or vRP.hasGroup({user_id,"admin"}))then
 		isAdmin = 1
 	end
 	if(vRP.hasGroup({user_id,"Vip 1"}))then
