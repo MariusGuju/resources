@@ -56,7 +56,7 @@
 			"test.masina"
 		},
 		
-		--
+		
 		["Traficant"] = {
 		"traficant.acces",
 		"traficant.service"
@@ -86,7 +86,7 @@
 			"police.menu",
 			"mafia.arme"
 		},
-		--
+		
 		["mofo"] = {
 		"mofo.vehicle"
 		},

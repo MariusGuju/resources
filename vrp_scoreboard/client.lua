@@ -5,7 +5,7 @@ vRPSsb = Tunnel.getInterface("vRP_scoreboard","vRP_scoreboard")
 
 -- config 
 local playersOnPage = 50
-local maxPlayers = 256
+local maxPlayers = 600
 ----
 
 local listOn = false
