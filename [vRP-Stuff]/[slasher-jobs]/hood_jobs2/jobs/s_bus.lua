@@ -101,7 +101,7 @@ end
 function vRPjobs.payBusDriverAtStop()
 	local thePlayer = source
 	local user_id = vRP.getUserId({thePlayer})
-	local thePay = math.random(30000,45000)
+	local thePay = math.random(4, 7)
 	vRP.giveMoney({user_id, thePay})
 	updateGoalContributie = thePay / 2
 	exports.ghmattimysql:execute("UPDATE vrp_users SET goalj= goalj + @updategoal WHERE id = @user_id", {['user_id'] = user_id,['@updategoal'] = updateGoalContributie }, function (rows) end)
@@ -112,7 +112,7 @@ end
 function vRPjobs.payBusDriver(routesDone)
 	local thePlayer = source
 	local user_id = vRP.getUserId({thePlayer})
-	local rewardMoney = routesDone + 60000
+	local rewardMoney = routesDone * 2
 	vRP.giveMoney({user_id, rewardMoney})
 	vRPclient.notify(thePlayer, {"[BUS] ~g~Ai primit ~y~$"..rewardMoney.." ~g~pentru tura de ~b~Sofer Autobuz"})
 	busDrivers[user_id] = nil

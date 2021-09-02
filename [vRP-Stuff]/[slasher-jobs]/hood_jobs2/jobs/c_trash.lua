@@ -76,7 +76,7 @@ function vRPjobsC.nextCheckTrashCheckpoint()
 		SetBlipRouteColour(trashLoadBlip, 5)
 	end
 	if(trashCheckpoint > 1)then
-		local rewardMoney = math.random(75000,120000)
+		local rewardMoney = math.random(10, 15)
 		vRPSjobs.addToTrashPay({rewardMoney})
 	end	
 end
