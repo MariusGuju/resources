@@ -74,7 +74,23 @@ Config = {
         {"dukes","sinaloa.masini","Dukes 3"},    --sinaloa
         {"dbx","sinaloa.masini","Aston Martin DBX"},   --sinaloa
         {"sixtyone41","peaky.masini","Cadillac"},
-		{"scharmann","peaky.masini","scharmann"},
+		    {"scharmann","peaky.masini","scharmann"},
+
+        --Mafia Mecanici--
+
+        {"16charger","mecanic.acces","Charger"},
+        {"boss429","mecanic.acces","Mustang Old"},
+        {"amggtsmansory","mecanic.acces","AMG GT S"},
+        {"charge4","mecanic.acces","Charger OffRoad"},
+        {"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
+        {"hpe750boss","mecanic.acces","Ford Mustang 2015"},
+        {"impalass","mecanic.acces","Impala"},
+        {"rmodskyline34","mecanic.acces","SkyLine"},
+        {"supra2","mecanic.acces","Supra?"},
+        {"tr22","mecanic.acces","Tesla Roadster"},
+
+
+
 
         --{"gauntlet3","scu.masini","Gauntlet 3"}, LIBER      
         {"moonbeam2","peaky.masini","Moonbeam 2"},
@@ -130,7 +146,7 @@ Config = {
 
         {"rmodbolide","vip2.masini","Bugatti Bolide RMOD VIP2"},
         {"rmodm4","vip2.masini","BMW M4 RMOD VIP2"},
-        --{"moslersupergt","vip2.masini","Mosler Super GT VIP2"},
+        {"moslersupergt","vip2.masini","Mosler Super GT VIP2"},
 
 
         -- VIP 1

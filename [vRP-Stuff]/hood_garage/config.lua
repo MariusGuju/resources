@@ -99,6 +99,26 @@ Config = {
         --{"gauntlet3","scu.masini","Gauntlet 3"}, LIBER      
         {"moonbeam2","crips.masini","Moonbeam 2"},
         --{"voodoo","scu.masini","Voodoo"}, LIBER 
+
+
+
+         --Mafia Mecanici--
+
+        {"16charger","mecanic.acces","Charger"},
+        {"boss429","mecanic.acces","Mustang Old"},
+        {"amggtsmansory","mecanic.acces","AMG GT S"},
+        {"charge4","mecanic.acces","Charger OffRoad"},
+        {"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
+        {"hpe750boss","mecanic.acces","Ford Mustang 2015"},
+        {"impalass","mecanic.acces","Impala"},
+        {"rmodskyline34","mecanic.acces","SkyLine"},
+        {"supra2","mecanic.acces","Supra?"},
+        {"tr22","mecanic.acces","Tesla Roadster"},
+
+
+
+
+
         {"Mb400","cosa.masini","Mercedes-Benz EQC400"}, 
         {"bentayga17","narcos.masini","Bentley Bentayga"}, 
         {"wraith","narcos.masini","Rolls Royce Avarus"},

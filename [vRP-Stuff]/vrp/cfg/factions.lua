@@ -113,7 +113,7 @@ cfg.factions = {
 	},
 
 	["Mecanic"] = {
-		fSlots = 20,
+		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
