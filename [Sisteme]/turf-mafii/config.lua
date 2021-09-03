@@ -20,7 +20,7 @@ config = {
 	zones = {
 		{
 			coords = {x = -185.08790588379, y = -1300.9184570312, z = 31.296089172363},
-			zone = {radius = 140.0, color = 61}, 
+			zone = {radius = 140.0, color = 83}, 
 			blip = {draw = false, id = 0, color = 0, text = ""}
 		}
 	}
