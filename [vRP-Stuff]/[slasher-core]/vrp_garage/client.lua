@@ -287,6 +287,20 @@ local iamasinainplm = {
     {"comet2","user.salariu","Porsche 718 Cayman S"},
     {"db9v","user.salariu","Aston Martin DB9V Cabrio"},
     {"f430s","user.salariu","Ferrari F430 S"},
+    
+--Mafia Mecanici--
+
+    {"16charger","mecanic.acces","Charger"},
+    {"boss429","mecanic.acces","Mustang Old"},
+    {"amggtsmansory","mecanic.acces","AMG GT S"},
+    {"charge4","mecanic.acces","Charger OffRoad"},
+    {"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
+    {"hpe750boss","mecanic.acces","Ford Mustang 2015"},
+    {"impalass","mecanic.acces","Impala"},
+    {"rmodskyline34","mecanic.acces","SkyLine"},
+    {"supra2","mecanic.acces","Supra?"},
+    {"tr22","mecanic.acces","Tesla Roadster"},
+
     {"f812","user.salariu","Ferrari F812"},
     {"fct","user.salariu","Ferrari Califronia"},
     {"filthynsx","user.salariu","Acura NSX"},
