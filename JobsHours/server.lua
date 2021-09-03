@@ -23,39 +23,6 @@ AddEventHandler('vrp:stivuitor', function()
 	end
 end)
 
-RegisterServerEvent('vrp:hotdecase')
-AddEventHandler('vrp:hotdecsae', function()
-	local user_id = vRP.getUserId({source})
-	local player = vRP.getUserSource({user_id})
-	local ore = vRP.getUserHoursPlayed({source})
-	if vRP.hasGroup({user_id,"Gunoier"}) then
-	vRPclient.notify(player, {"~r~Deja ai job-ul de hot de case !"})
-	else if ore >= 0  then
-		vRP.addUserGroup({user_id,"Hot de case"})
-		--vRP.giveInventoryItem({user_id,"permis",1,false})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Hot de Case!"})
-	else
-		vRPclient.notify(player, {"~w~Nu ai ~r~ORELE ~w~necesare"})
-	   end
-	end
-end)
-
-RegisterServerEvent('vrp:constructor')
-AddEventHandler('vrp:constructor', function()
-	local user_id = vRP.getUserId({source})
-	local player = vRP.getUserSource({user_id})
-	local ore = vRP.getUserHoursPlayed({source})
-	if vRP.hasGroup({user_id,"Tirist"}) then
-	vRPclient.notify(player, {"~r~Deja ai job-ul de Constructor!"})
-	else if ore >= 0 then
-		vRP.addUserGroup({user_id,"Tirist"})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Constructor!"})
-	else
-		vRPclient.notify(player, {"~w~Nu ai ~r~20 de ORE JUCATE ~w~de conducere"})
-	   end
-	end
-end)
-
 RegisterServerEvent('vrp:tirist')
 AddEventHandler('vrp:tirist', function()
 	local user_id = vRP.getUserId({source})
@@ -69,21 +36,6 @@ AddEventHandler('vrp:tirist', function()
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Tirist!"})
 	else
 		vRPclient.notify(player, {"~w~Nu ai ~r~ORELE ~w~necesare"})
-	   end
-	end
-end)
-RegisterServerEvent('vrp:taxiNorbSiMaruServer')
-AddEventHandler('vrp:taxiNorbSiMaruServer', function()
-	local user_id = vRP.getUserId({source})
-	local player = vRP.getUserSource({user_id})
-	local ore = vRP.getUserHoursPlayed({source})
-	if vRP.hasGroup({user_id,"Taxi NorbSiMaruServer"}) then
-	vRPclient.notify(player, {"~r~Deja ai job-ul de Taxi !"})
-	else if ore >= 0 then
-		vRP.addUserGroup({user_id,"Taxi NorbSiMaruServer"})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum este Taxi!"})
-	else
-		vRPclient.notify(player, {"Nu ai ~r~2 ORE JUCATE~s~!"})
 	   end
 	end
 end)
@@ -104,21 +56,7 @@ AddEventHandler('vrp:pescar', function()
 	end
 end)
 
-RegisterServerEvent('vrp:postas')
-AddEventHandler('vrp:postas', function()
-	local user_id = vRP.getUserId({source})
-	local player = vRP.getUserSource({user_id})
-	local ore = vRP.getUserHoursPlayed({source})
-	if vRP.hasGroup({user_id,"Postas"}) then
-	vRPclient.notify(player, {"~r~Deja ai job-ul de Postas!"})
-	else if ore >= 0 then
-		vRP.addUserGroup({user_id,"Postas"})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum este Postas!"})
-	else
-		vRPclient.notify(player, {"Nu ai ~r~10 de ORE JUCATE~s~!"})
-	   end
-	end
-end)
+
 
 RegisterServerEvent('vrp:uber')
 AddEventHandler('vrp:uber', function()
@@ -138,22 +76,6 @@ AddEventHandler('vrp:uber', function()
 	end
 end)
 
-RegisterServerEvent('vrp:taxi')
-AddEventHandler('vrp:taxi', function()
-	local user_id = vRP.getUserId({source})
-	local player = vRP.getUserSource({user_id})
-	local ore = vRP.getUserHoursPlayed({source})
-	if vRP.hasGroup({user_id,"Taxi"}) then
-	vRPclient.notify(player, {"~r~Deja ai job-ul de Taxi !"})
-	else if ore >= 0  then
-		vRP.addUserGroup({user_id,"Taxi"})
-		vRP.giveInventoryItem({user_id,"permis",1,false})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Taximetrist !"})
-	else
-		vRPclient.notify(player, {"~w~Nu ai ~r~PERMIS ~w~de conducere"})
-	   end
-	end
-end)
 
 RegisterServerEvent('vrp:mecanic')
 AddEventHandler('vrp:mecanic', function()
