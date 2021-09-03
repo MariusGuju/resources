@@ -30,7 +30,7 @@ AddEventHandler('vrp:hotdecsae', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Gunoier"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de hot de case !"})
-	else if ore >= 25  then
+	else if ore >= 0  then
 		vRP.addUserGroup({user_id,"Hot de case"})
 		--vRP.giveInventoryItem({user_id,"permis",1,false})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Hot de Case!"})
@@ -47,7 +47,7 @@ AddEventHandler('vrp:constructor', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Tirist"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Constructor!"})
-	else if ore >= 15 then
+	else if ore >= 0 then
 		vRP.addUserGroup({user_id,"Tirist"})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Constructor!"})
 	else
@@ -63,7 +63,7 @@ AddEventHandler('vrp:tirist', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Tirist"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Tirist !"}) 
-	else if ore >= 5  then
+	else if ore >= 0  then
 		vRP.addUserGroup({user_id,"Tirist"})
 		--vRP.giveInventoryItem({user_id,"permis",1,false})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Tirist!"})
@@ -79,7 +79,7 @@ AddEventHandler('vrp:taxiNorbSiMaruServer', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Taxi NorbSiMaruServer"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Taxi !"})
-	else if ore >= 2 then
+	else if ore >= 0 then
 		vRP.addUserGroup({user_id,"Taxi NorbSiMaruServer"})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum este Taxi!"})
 	else
@@ -95,7 +95,7 @@ AddEventHandler('vrp:pescar', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Pescar"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Pescar!"})
-	else if ore >= 5 then
+	else if ore >= 0 then
 		vRP.addUserGroup({user_id,"Pescar"})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum este Pescar !"})
 	else
@@ -111,7 +111,7 @@ AddEventHandler('vrp:postas', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Postas"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Postas!"})
-	else if ore >= 10 then
+	else if ore >= 0 then
 		vRP.addUserGroup({user_id,"Postas"})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum este Postas!"})
 	else
@@ -127,7 +127,7 @@ AddEventHandler('vrp:uber', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Uber"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Uber !"})
-	else if ore >= 50  then
+	else if ore >= 0  then
 		vRP.addUserGroup({user_id,"Uber"})
 		vRP.giveInventoryItem({user_id,"permis",1,false})
                 vRP.giveInventoryItem({user_id,"autorizatie",1,false})
@@ -162,7 +162,7 @@ AddEventHandler('vrp:mecanic', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Mecanic"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Mecanic !"})
-	else if ore >= 2  then
+	else if ore >= 0  then
 		vRP.addUserGroup({user_id,"Mecanic"})
 		vRP.giveInventoryItem({user_id,"permis",1,false})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Mecanic!"})
@@ -179,7 +179,7 @@ AddEventHandler('vrp:pizza', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Pizza"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de sofer Pizza"})
-	else if ore >= 3 then
+	else if ore >= 0 then
 		vRP.addUserGroup({user_id,"Pizza"})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum livrezi la Pizza!"})
 	else
@@ -195,7 +195,7 @@ AddEventHandler('vrp:soferautobuz', function()
 	local ore = vRP.getUserHoursPlayed({source})
 	if vRP.hasGroup({user_id,"Sofer Autobuz"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Sofer Bancar !"})
-	else if ore >= 5 then
+	else if ore >= 0 then
 		vRP.addUserGroup({user_id,"Sofer Autobuz"})
 		 vRP.giveInventoryItem({user_id,"permis",1,false})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Sofer Autobuz!"})
@@ -209,16 +209,6 @@ RegisterServerEvent('vrp:info')
 AddEventHandler('vrp:info', function()
 	local src = source
 	local mesaj = [[
-		^0[^9INFO-JOB^0]
-		^0[^4Taxi^0] - 2 ore
-		^0[^4Pescar^0] - 0 ore
-		^0[^4Hot De Case^0] - 25 or
-		^0[^9Tirist^0] - 5 ore 
-		^0[^9Constructor^0] - 15 ore
-		^0[^9Livrator Banca Bani^0] - 15 ore
-		^0[^9Autobuz^0] - 15 ore
-		^0[^4Pescar^0] - 5 ore
-		^0[^9Postas ^0] - 10 ore
 	]]
 	TriggerClientEvent('chatMessage', src, ""..mesaj)
 end)
