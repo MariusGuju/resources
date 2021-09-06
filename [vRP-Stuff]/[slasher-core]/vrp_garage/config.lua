@@ -84,12 +84,7 @@ Config = {
         {"charge4","mecanic.acces","Charger OffRoad"},
         {"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
         {"hpe750boss","mecanic.acces","Ford Mustang 2015"},
-        {"impalass","mecanic.acces","Impala"},
-        {"rmodskyline34","mecanic.acces","SkyLine"},
-        {"supra2","mecanic.acces","Supra?"},
-        {"tr22","mecanic.acces","Tesla Roadster"},
-
-
+        {"19Raptor","mecanic.acces","Ford Raptor"}, 
 
 
         --{"gauntlet3","scu.masini","Gauntlet 3"}, LIBER      
@@ -160,7 +155,6 @@ Config = {
       masini = {
         {"tico","user.salariu","Tico"},
 		{"dacia1310","user.salariu","Dacia 1310"},
-    {"packer","user.salariu","Tir Personal"},
 		{"logan2004","user.salariu","Dacia Logan"},
 		{"loganmcv","user.salariu","Dacia Logan MCV"},
 		{"sandero21","user.salariu","Dacia Sandero"},
@@ -276,6 +270,15 @@ Config = {
         {"minivan","fan.vehicle","Masina Fan Courier"},
         {"hauler","tirist.vehicle","Scania TRUCK"}]]
       }
-  }
+  },
+
+  [8] = {
+    tipGaraj = "~g~Masini Job",
+    marker = {102, 255, 51},
+    masini = {
+      {"packer","tirist.vehicle","Tir Personal"}
+    }
+} 
+
  }
 }

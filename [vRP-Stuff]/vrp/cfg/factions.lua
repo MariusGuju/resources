@@ -8,26 +8,25 @@ cfg.factions = {
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
 		  	[2] = {rank = "Agent", salary = 700},  
-			[3] = {rank = "Agent Sef", salary = 800},  
-			[4] = {rank = "Sub-Inspector", salary = 900},  
-			[5] = {rank = "Inspector-Sef", salary = 1000}, 
+			[3] = {rank = "Sub-Ofiter", salary = 800},  
+			[4] = {rank = "Ofiter", salary = 900},  
+			[5] = {rank = "Inspector", salary = 1000}, 
       		[6] = {rank = "Comisar", salary = 1100}, 
-      		[7] = {rank = "Chestor", salary = 1200},    
+      		[7] = {rank = "Chestor Principal", salary = 1200},    
 			[8] = {rank = "Chestor General", salary = 1300}
 		}
   },
   ["S.I.A.S"] = {
 		fType = "M.A.I",
-		fSlots = 20,
+		fSlots = 30,
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
-			[2] = {rank = "Agent S.I.A.S", salary = 700},  
+			[2] = {rank = "Recrut S.I.A.S", salary = 700},  
 			[3] = {rank = "Agent Sef S.I.A.S", salary = 800},    
-			[4] = {rank = "Inspector S.I.A.S", salary = 900}, 
-			[5] = {rank = "Comisar S.I.A.S", salary = 1000},
-			[6] = {rank = "Comisar Sef S.I.A.S", salary = 1100}, 
-			[7] = {rank = "Chestor Secundar S.I.A.S", salary = 1200},  
-			[8] = {rank = "Chestor General S.I.A.S", salary = 1300}
+			[4] = {rank = "Caporal S.I.A.S", salary = 900}, 
+			[5] = {rank = "Sergent S.I.A.S", salary = 1000},
+			[6] = {rank = "Co-Genral S.I.A.S", salary = 1100}, 
+			[7] = {rank = "General S.I.A.S", salary = 1200}
 		}
 	},
 	
@@ -37,12 +36,10 @@ cfg.factions = {
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
 			[2] = {rank = "Asistent", salary = 500}, 
-			[3] = {rank = "Asistent-Sef", salary = 600},
-			[4] = {rank = "Paramedic Smurd", salary = 700}, 
-			[5] = {rank = "Chirurg", salary = 800},   
-			[6] = {rank = "Sef de Tura SMURD", salary = 900},  
-			[7] = {rank = "Sef Spital", salary = 1000},
-			[8] = {rank = "Director SMURD", salary = 1100},
+			[3] = {rank = "Paramedi", salary = 600},
+			[4] = {rank = "Chirurg", salary = 700}, 
+			[5] = {rank = "Sef-Adjunct Spital", salary = 800},   
+			[6] = {rank = "Sef Spital", salary = 900}
 		}
 	},
 ------Hitman Legacy----------------
@@ -51,8 +48,12 @@ cfg.factions = {
 		fType = "Serviciul Criminalistic",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
-		    [2] = {rank = "Hitman", salary = 671}, 
-			[3] = {rank = "Lider Hitman", salary = 1201}
+		    [2] = {rank = "Rang A", salary = 671}, 
+			[3] = {rank = "Rang B", salary = 1201},
+			[4] = {rank = "Rang S", salary = 1201},
+			[5] = {rank = "Co-Lider Hitman", salary = 1201},
+			[6] = {rank = "Lider Hitman", salary = 1201}
+
 		}
 	},
 	
@@ -63,25 +64,31 @@ cfg.factions = {
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
-		    [2] = {rank = "Rusa", salary = 1},
-			[3] = {rank = "Co-Lider Rusa", salary = 1},
-			[4] = {rank = "Lider Rusa", salary = 1}
+		    [2] = {rank = "Sageata Grove Street", salary = 1},
+			[3] = {rank = "Membru Grove Street", salary = 1},
+			[4] = {rank = "Camatar Grove Street", salary = 1},
+			[5] = {rank = "Interlop Grove Street", salary = 1},
+			[6] = {rank = "Co-Lider Grove Street", salary = 1},
+			[7] = {rank = "Lider Grove Street", salary = 1}
 		}
 	},
 	
-	["Mafia Sinaloa Cartel"] = {
-		fSlots = 12,
+	["Crips"] = {
+		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
-		    [2] = {rank = "Sinaloa Cartel", salary = 1},
-			[3] = {rank = "Co-Lider Sinaloa Cartel", salary = 1},
-			[3] = {rank = "Lider Sinaloa Cartel", salary = 1}
+		    [2] = {rank = "Sageata Crips", salary = 1},
+			[3] = {rank = "Membru Crips", salary = 1},
+			[4] = {rank = "Camatar Crips", salary = 1},
+			[5] = {rank = "Interlop Crips", salary = 1},
+			[6] = {rank = "Co-Lider Crips", salary = 1},
+			[7] = {rank = "Lider Crips", salary = 1}
 		}
 	},
 
 	["Mafia Siciliana"] = {
-		fSlots = 12,
+		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
@@ -91,7 +98,7 @@ cfg.factions = {
 	},
 	
 	["Mafia Peaky Blinders"] = {
-		fSlots = 12,
+		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
@@ -101,14 +108,17 @@ cfg.factions = {
 		}
 	},
 	
-	["Mafia LosVagos"] = {
-		fSlots = 12,
+	["Mafia Camorra"] = {
+		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
-		  	[2] = {rank = "LosVagos", salary = 1},
-			[3] = {rank = "Co-Lider LosVagos", salary = 1},
-			[4] = {rank = "Lider LosVagos", salary = 1}
+		    [2] = {rank = "Sageata Camorra", salary = 1},
+			[3] = {rank = "Membru Camorra", salary = 1},
+			[4] = {rank = "Camatar Camorra", salary = 1},
+			[5] = {rank = "Interlop Camorra", salary = 1},
+			[6] = {rank = "Co-Lider Camorra", salary = 1},
+			[7] = {rank = "Lider Camorra", salary = 1}
 		}
 	},
 
@@ -116,25 +126,43 @@ cfg.factions = {
 		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
-			[1] = {rank = "Somer", salary = 1}, 
-		  	[2] = {rank = "Ucenic Mecanic", salary = 1},
-			[3] = {rank = "Mecanic", salary = 1},
-			[4] = {rank = "Mecanic Sef", salary = 1},
-			[5] = {rank = "Responsabil Mecanic", salary = 1},
-			[6] = {rank = "Proprietar Service", salary = 1}
+			[1] = {rank = "Somer", salary = 100001}, 
+		  	[2] = {rank = "Ucenic Mecanic", salary = 400001},
+			[3] = {rank = "Mecanic", salary = 650001},
+			[4] = {rank = "Responsabil Mecanic", salary = 800001},
+			[5] = {rank = "Mecanic Sef", salary = 1250001},
+			[6] = {rank = "Proprietar Service", salary = 1750001}
 		}
 	},
 
-	["Mafia SONS OF ANARCHY"] = {
-		fSlots = 12,
+	["Casa De Papel"] = {
+		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
-		  	[2] = {rank = "SONS OF ANARCHY", salary = 1},
-			[3] = {rank = "Co-Lider SONS OF ANARCHY", salary = 1},
-			[4] = {rank = "Lider SONS OF ANARCHY", salary = 1}
+		    [2] = {rank = "Sageata Casa de Papel", salary = 1},
+			[3] = {rank = "Membru Casa de Papel", salary = 1},
+			[4] = {rank = "Camatar Casa de Papel", salary = 1},
+			[5] = {rank = "Interlop Casa de Papel", salary = 1},
+			[6] = {rank = "Co-Lider Casa de Papel", salary = 1},
+			[7] = {rank = "Lider Casa de Papel", salary = 1}
 		}
 	},
+
+	["Cosa Nostra"] = {
+		fSlots = 30,
+		fType = "Mafie",
+		fRanks = {
+			[1] = {rank = "Somer", salary = 1}, 
+		    [2] = {rank = "Sageata Cosa Nostra", salary = 1},
+			[3] = {rank = "Membru Cosa Nostra", salary = 1},
+			[4] = {rank = "Camatar Cosa Nostra", salary = 1},
+			[5] = {rank = "Interlop Cosa Nostra", salary = 1},
+			[6] = {rank = "Co-Lider Cosa Nostra", salary = 1},
+			[7] = {rank = "Lider Cosa Nostra", salary = 1}
+		}
+	},
+
 	
 	----gang
 

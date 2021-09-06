@@ -144,7 +144,6 @@ end
 
 local iamasinainplm = {    
     {"asea","user.salariu","VW Jetta 1998"},
-    {"packer","user.salariu","Tir Personal"},
     {"bmwe38","user.salariu","BMW Seria 7 e38"},
     {"civic","user.salariu","Honda Civic 2000"},
     {"corsa05","user.salariu","Opel Corsa 2005"},
@@ -290,18 +289,16 @@ local iamasinainplm = {
     
 --Mafia Mecanici--
 
-    {"16charger","mecanic.acces","Charger"},
-    {"boss429","mecanic.acces","Mustang Old"},
-    {"amggtsmansory","mecanic.acces","AMG GT S"},
-    {"charge4","mecanic.acces","Charger OffRoad"},
-    {"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
-    {"hpe750boss","mecanic.acces","Ford Mustang 2015"},
-    {"impalass","mecanic.acces","Impala"},
-    {"rmodskyline34","mecanic.acces","SkyLine"},
-    {"supra2","mecanic.acces","Supra?"},
-    {"tr22","mecanic.acces","Tesla Roadster"},
+{"16charger","mecanic.acces","Charger"},
+{"boss429","mecanic.acces","Mustang Old"},
+{"amggtsmansory","mecanic.acces","AMG GT S"},
+{"charge4","mecanic.acces","Charger OffRoad"},
+{"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
+{"hpe750boss","mecanic.acces","Ford Mustang 2015"},
+{"19Raptor","mecanic.acces","Ford Raptor"}, 
 
     {"f812","user.salariu","Ferrari F812"},
+    {"packer","user.salariu","Tir Personal "},
     {"fct","user.salariu","Ferrari Califronia"},
     {"filthynsx","user.salariu","Acura NSX"},
     {"gto","user.salariu","Ferrari GTO"},

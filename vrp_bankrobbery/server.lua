@@ -48,57 +48,52 @@ local banks = {
 		position = { ['x'] = 147.04908752441, ['y'] = -1044.9448242188, ['z'] = 29.36802482605 },
 		nameofbank = "Banca Raiffeisen (Fleeca Bank)",
 		lastrobbed = 0,
-		from = 1,
-		to = 12
+		from = 200000,
+		to = 400000
 	},
 	["fleecahighway"] = {
 		position = { ['x'] = -2957.6674804688, ['y'] = 481.45776367188, ['z'] = 15.697026252747 },
 		nameofbank = "Banca UniCredit (Fleeca Bank Highway)",
 		lastrobbed = 0,
-		from = 1,
-		to = 12
+		from = 200000,
+		to = 400000
 	},
 	["fleecaalta"] = {
 		position = { ['x'] = 311.12713623046, ['y'] = -283.18838500976, ['z'] = 54.174530029296 },
 		nameofbank = "Banca UniCredit Țiriac (Fleeca Bank Alta)",
 		lastrobbed = 0,
-		from = 1,
-		to = 12
+		from = 200000,
+		to = 400000
 	},
 	["fleecaburton"] = {
 		position = { ['x'] = -354.06427001954, ['y'] = -54.15805053711, ['z'] = 49.046321868896 },
 		nameofbank = "Banca ING (Fleeca Bank Burton)",
 		lastrobbed = 0,
-		from = 1,
-		to = 12
+		from = 200000,
+		to = 400000
 	},
 	["fleecavinewood"] = {
 		position = { ['x'] = -1211.8055419922, ['y'] = -335.8913269043, ['z'] = 37.790771484375 },
 		nameofbank = "Banca BRD (Fleeca Bank Vinewood Hills)",
 		lastrobbed = 0,
-		from = 1,
-		to = 12
+		from = 200000,
+		to = 400000
 	},
 	["fleecadesert"] = {
 		position = { ['x'] = 1176.86865234375, ['y'] = 2711.91357421875, ['z'] = 38.097785949707 },
 		nameofbank = "Banca Transilvania (Fleeca Bank Desert)",
 		lastrobbed = 0,
-		from = 13,
-		to = 15
+		from = 200000,
+		to = 400000
 	},
 	["blainecounty"] = {
 		position = { ['x'] = -107.06505584717, ['y'] = 6474.8012695313, ['z'] = 31.62670135498 },
 		nameofbank = "Banca BCR (Blaine County Savings)",
 		lastrobbed = 0,
-		from = 13,
-		to = 15
-	},
-	["pacific"] = {
-		position = { ['x'] = 255.001098632813, ['y'] = 225.855895996094, ['z'] = 101.005694274902 },
-		nameofbank = "Banca Națională (Depozitul Roman)",
-		lastrobbed = 0,
-		from = 1,
-		to = 12
+		from = 200000,
+		to = 400000
+	},	
+	
 	}
 }
 

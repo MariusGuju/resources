@@ -83,7 +83,6 @@ AddEventHandler('salar', function(minute,secunde)
 					bonuslevel = ((level/2)*salar)/20
 					vRP.giveMoney({user_id,salar})--
 					vRP.giveMoney({user_id,bonuslevel})
-					vRP.givePuncte({user_id, 1})
 					if experience < xpnec then
 						exports.ghmattimysql:execute("UPDATE vrp_users SET experience=experience+1 WHERE id=@id", {
 							['@id'] = user_id

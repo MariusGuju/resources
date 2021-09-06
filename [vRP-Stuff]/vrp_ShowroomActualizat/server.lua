@@ -176,15 +176,16 @@ local vehicles = {
             {numeVehicul = "rmodspeed", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "McLaren Speed RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
             {numeVehicul = "rmodbolide", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Bugatti Bolide RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
             {numeVehicul = "rmodm4", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "BMW M4 RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
+            {numeVehicul = "rmodm4", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "BMW M4 RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
             {numeVehicul = "rmodquadra", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Quadra Turbo-R RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
+
         },
-        [20] = {
+        [21] = {
             tablename = 'Joburi',
+            
+            {numeVehicul = "packer", price = 100000, speed = 25, acceleration = 15, brakes = 20, hp = 35, numemasina = "Tir Personal", maxspeed= 100, maxspeedbar = 91, tip = 'Joburi'},
 
-            {numeVehicul = "Packer", price = 100000, speed = 25, acceleration = 15, brakes = 20, hp = 35, numemasina = "Tir Personal", maxspeed= 100, maxspeedbar = 91, tip = 'Tir'},
-
-
-             },    
+            },    
 }
 
 local function generateStringNumber(format) -- (ex: DDDLLL, D => digit, L => letter)

@@ -211,7 +211,7 @@ CreateThread(function()
 				incircle = true
 				if (incircle == true) then
 					if(hasTruck == nil)then
-						local ok, vtype, name = vRP.getNearestOwnedVehicle({7})
+						local ok, vtype, name = vRP.getNearestOwnedVehicle({8})
 						if (ok) then
 							for i, v in pairs(trucks) do
 								if (v == name) then
