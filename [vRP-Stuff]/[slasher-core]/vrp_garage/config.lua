@@ -276,7 +276,7 @@ Config = {
     tipGaraj = "~g~Masini Job",
     marker = {102, 255, 51},
     masini = {
-      {"packer","tirist.vehicle","Tir Personal"}
+      {"packer","user.salariu","Tir Personal"}
     }
 } 
 
