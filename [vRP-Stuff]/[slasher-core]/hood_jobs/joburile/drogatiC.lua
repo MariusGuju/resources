@@ -457,8 +457,8 @@ function vRPeskJobsC.duDroguri(locatii,item)
 	infoSelling = true
     for k,v in pairs (locatii) do
         local blip = AddBlipForCoord(v[2],v[3],v[4])
-        SetBlipSprite(blip, 66)
-        SetBlipColour(blip, 3)
+        SetBlipSprite(blip, 496)
+        SetBlipColour(blip, 25)
         SetBlipAsShortRange(blip, true)
         BeginTextCommandSetBlipName("STRING")
 		AddTextComponentString('Vinde Droguri') 
@@ -473,7 +473,7 @@ function vRPeskJobsC.duDroguriStash(locatiiStash,item)
 	infoSelling = true
 	for k,v in pairs (locatiiStash) do
         local blip = AddBlipForCoord(v[2],v[3],v[4])
-        SetBlipSprite(blip, 66)
+        SetBlipSprite(blip, 514)
         SetBlipColour(blip, 3)
         SetBlipAsShortRange(blip, true)
         BeginTextCommandSetBlipName("STRING")
