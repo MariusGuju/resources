@@ -1,65 +1,57 @@
-
 local cfg = {}
-
---[[
+ 
+-- mission display css
 cfg.display_css = [[
-  /* Mission   Amorim#0567 
-
-
-
-  @font-face {
-    src: url("../poppins.ttf");
-    font-family: poppins;
-  }    
-      @-webkit-keyframes animate {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+.div_mission{
+  position: absolute;
+    top: 110px;
+    right: 10px;
+    width: 225px;
+    text-align: right;
+    background: linear-gradient(to left, rgba(126, 43, 255, 0.5), rgba(0,0,0,0));
+    padding: 4px;
+    max-width: 200px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: 'Arial Black';
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px black;
+    border-top: 4px solid white;
+}
+ 
+.div_mission .name{
+  color: rgb(255,255,255);
+  font-weight: bold;
+}
+ 
+.div_mission .step{
+  color: rgb(255,255,255);
+  font-weight: bold;
+}
+ 
+@-moz-keyframes jump {
+  0% {
+    top: 125px;
   }
-  @keyframes animate {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  50% {
+    top: 145px;
   }
-    
-  .div_mission{
-    position: absolute;
-    -webkit-animation: animate 1s;
-    animation: animate 1s;
-    top: 22%;
-    right: 1%;
-    font-size: 0.7em;
-    text-align: justify;
-    background-color: rgba(30, 30,30,.5);
-    color: white;
-    padding: 6px;
-    border-bottom: 2px solid rgb(0,215,255);;
-    border-radius: 4px;
-    max-width:450px;
+  100% {
+    top: 125px;
   }
-  
-  .div_mission .name{
-    font-weight: 500;
-    margin-bottom: 2px;
-    text-align: justify;
-    color: white;
-    font-size: 1.2em;
-    font-family: poppins;
+}
+ 
+@-webkit-keyframes jump {
+  0% {
+    top: 125px;
   }
-  
-  .div_mission .step{
-    text-transform: uppercase;
-    font-size: 1.3em;
-    color: rgb(250, 3, 3);
+  50% {
+    top: 145px;
   }
+  100% {
+    top: 125px;
+  }
+}
 ]]
-
---]]
 
 return cfg

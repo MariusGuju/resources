@@ -42,9 +42,9 @@ local smoke_choices = {}
 smoke_choices["Take"] = {function(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id ~= nil then
-    if vRP.tryGetInventoryItem(user_id,"weed",1) then
+    if vRP.tryGetInventoryItem(user_id,"iarba",1) then
 	  vRP.varyHunger(user_id,(20))
-      vRPclient.notify(player,{"~g~ smoking weed."})
+      vRPclient.notify(player,{"~g~ Ai bagat o Cioata."})
       play_smoke(player)
       vRP.closeMenu(player)
     end
@@ -160,7 +160,7 @@ items["paracetamol"] = {"Paracetamol","Un paracetamol pentru raceala si gripa.",
 items["adrenaline"] = {"Injectie Adrenalina","O injectie cu adrenalina.",function(args) return takeAdrenaline end,2,"pocket"}
 
 items["pills"] = {"Pills","A simple medication.",function(args) return pills_choices end,0.1}
-items["iarba"] = {"Iarba","A some weed.",function(args) return smoke_choices end,0.10}
+items["iarba"] = {"Iarba","Cateva G-uri de iarba.",function(args) return smoke_choices end,1.0}
 items["weed"] = {"Weed","A some weed.",function(args) return smoke_choices end,0.10}
 items["cocaine"] = {"Cocaine","Some cocaine.",function(args) return smell_choices end,0.5}
 items["heroine"] = {"Heroina","O seriga de 0.5mm de heroina",function(args) return smell_choices end,0.7}

@@ -6,7 +6,7 @@ vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP","esk_marfa")
 local hangar1ID = nil
 local hangar2ID = nil
-local gotowka = {a = 5, b = 12} -- zakres od ile do ile wynosi gotowka za wykonanie misji
+local gotowka = {a = 100000, b = 150000} -- zakres od ile do ile wynosi gotowka za wykonanie misji
 -----------------------------------
 local MisjaAktywna = 0
 AddEventHandler('playerDropped', function(DropReason)
@@ -68,7 +68,7 @@ if premia == 'nie' then
 Wait(2500)
 else
 	vRP.giveMoney({xPlayer,premia})
-	Wait(2500)
+	Wait(150000)
 end
 
 end)

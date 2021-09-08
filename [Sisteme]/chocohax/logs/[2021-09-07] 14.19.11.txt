@@ -1,0 +1,35 @@
+
+[14:19:11] ^0[^4Config^0] Configuration loaded successfully...
+[14:19:11] Loaded language ^0[^3eng^0]
+[14:19:33] ChocoHax [^31.4.2^0] is starting, Please wait...
+[14:19:34] Successfully connected to the authentication server
+[14:19:34] Connected to: ^0[^3Shiina Mashiro (hentai.systems) BZ^0]
+[14:19:34] Current username: ^0[^3Maru^0]
+[14:19:34] Current server IP: ^0[^395.76.64.150^0]
+[14:19:34] ^5MOTD: ^0hello :)
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3discord.json^0] file
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3indexes.json^0] file
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3token.json^0] file
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3fivem.json^0] file
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3live.json^0] file
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3xbl.json^0] file
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3license.json^0] file
+[14:19:34] ^0[^4Ban Loader^0] Successfully loaded ^0[^3steam.json^0] file
+[14:19:34] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:19:35] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[14:19:35] ChocoHax Global Ban List updated successfully...
+[14:20:10] ^0[^31^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
+[14:34:34] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:34:35] ChocoHax Global Ban List updated successfully...
+[14:49:34] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:49:35] ChocoHax Global Ban List updated successfully...
+[15:04:34] Sending Heartbeat to `^3ChocoHax^0` servers
+[15:04:35] ChocoHax Global Ban List updated successfully...
+[15:17:46] ^0[^4Player Disconnect^0] Kasy disconnected... (^3Ai stat prea mult afk.^0)
+[15:19:34] Sending Heartbeat to `^3ChocoHax^0` servers
+[15:19:35] ChocoHax Global Ban List updated successfully...
+[15:26:14] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[15:26:46] ^0[^32^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
+[15:34:34] Sending Heartbeat to `^3ChocoHax^0` servers
+[15:34:36] ChocoHax Global Ban List updated successfully...
+[15:35:43] ^0[^4Player Disconnect^0] Kasy disconnected... (^3Server shutting down: SIGHUP received^0)

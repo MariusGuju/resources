@@ -485,9 +485,9 @@ cfg.hidden_transformers = {
 cfg.hidden_transformer_duration = 5*24*60 -- 5 days
 
 -- configure the information reseller (can sell hidden transformers positions)
-cfg.informer = {
+--[[cfg.informer = {
   infos = {
-    ["weed field"] = 50000,
+  ["weed field"] = 50000,
 	["cocaine dealer"] = 50000,
 	["lsd bar"] = 50000
   },
@@ -500,6 +500,6 @@ cfg.informer = {
   duration = 10, -- duration in minutes of the sawned reseller
   blipid = 133,
   blipcolor = 2
-}
+}--]]
 
 return cfg

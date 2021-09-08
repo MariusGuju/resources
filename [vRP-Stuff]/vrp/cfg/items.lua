@@ -70,12 +70,12 @@ cfg.items = {
   -------------------------
   ["rccar"] = {"Masinuta cu Telecomanda", "Masinutza lui Zedu ",nil,5.0,"pocket"},
   --- ESK DRUG SYSTEM
-  ["iarba"] = {"Iarba", "Cateva grame de iarba culese dintr-o planta!", nil, 0.1},
-  ["stack_iarba"] = {"Stash De Iarba", "Stash de iarba", nil, 0.3},
-  ["cocaina"] = {"Cocaina", "Cateva grame de cocaina", nil, 0.1},
-  ["stack_cocaina"] = {"Stash de Cocaina", "Stash de Cocaina", nil, 0.3},
-  ["metanfetamina"] = {"Metanfetamina", "Cateva grame de metanfetamina", nil, 0.1},
-  ["stack_metanfetamina"] = {"Stash De Metanfetamina", "Stash de Metanfetamina", nil, 0.3},
+  ["iarba"] = {"Iarba", "Cateva grame de iarba culese dintr-o planta!", nil, 1.0},
+  ["stack_iarba"] = {"Stash De Iarba", "Stash de iarba", nil, 7.5},
+  ["cocaina"] = {"Cocaina", "Cateva grame de cocaina", nil, 3.0},
+  ["stack_cocaina"] = {"Stash de Cocaina", "Stash de Cocaina", nil, 15.75},
+  ["metanfetamina"] = {"Metanfetamina", "Cateva grame de metanfetamina", nil, 2.5},
+  ["stack_metanfetamina"] = {"Stash De Metanfetamina", "Stash de Metanfetamina", nil, 12.75},
 }
 --“body_armor”,“Vesta Anti-Glont”,“Vest Anti-Glont.”,
 

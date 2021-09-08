@@ -106,7 +106,7 @@ function vRPCyoutuber.teleportOutOfCar(theVehicle)
 end
 
 function vRPCyoutuber.spawnYoutuberCar()
-	model = GetHashKey("e63amg")--Youtuber Car
+	model = GetHashKey("675lt")--Youtuber Car
 	ped = GetPlayerPed(-1)
 	
 	if not lastVehicle and GetVehiclePedIsIn(ped, false) then

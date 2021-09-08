@@ -1,107 +1,73 @@
 
 local cfg = {}
---
--- start wallet/bank values
-cfg.open_wallet = 5000
-cfg.open_bank = 5000
-cfg.open_aur = 0
-cfg.open_punctegift = 1
+
+-- start wallet/bank values background-color: rgba(255, 204, 0,0.60);
+cfg.open_wallet = 35000
+cfg.open_bank = 15000
 
 cfg.display_css = [[
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+	@font-face {
+		font-family: 'pDown';
+		src: url(fonts/Pricedown.woff);
+	}
 
   .div_money{
     position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    top: 133333%;
-    left: 28.75%;
-    text-align:center;
-    color: white;
-    padding: 5px;
-    width: 8.75%;
-    border-radius: 20px;
-    font-family: 'Lucida Consola';
-    font-size: 17.5px;
-    font-weight: bold;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    text-align: right;
+    
+    
+    background: linear-gradient(to left, rgba(126, 43, 255, 0.5), rgba(0,0,0,0));
+    padding: 4px;
+    max-width: 200px;
+    border-radius: 2px;
+    font-size: 17px;
+    font-family: 'Arial Black';
     color: #FFFFFF;
-    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px;
+    text-shadow: 1px 1px 1px black;
   }
+
   .div_bmoney{
     position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    top: 13333%;
-    text-align:center;
-    left: 40%;
-    font-family: 'Lucida Consola';
-    padding: 5px;
-    width: 8.75%;
-    border-radius: 20px;
-    font-size: 17.5px;
-    font-weight: bold;
+    top: 43px;
+    right: 10px;
+    
+    width: 150px;
+    text-align: right;
+    border-top: 4px solid white;
+    
+    background: linear-gradient(to left, rgba(126, 43, 255, 0.5), rgba(0,0,0,0));
+    padding: 4px;
+    max-width: 200px;
+    border-radius: 2px;
+    font-size: 17px;
+    font-family: 'Arial Black';
     color: #FFFFFF;
-    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px;
-  }
-  .div_aur{
-    position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    top: 1%;
-    text-align:center;
-    left: 62.5%;
-    font-family: 'Lucida Consola';
-    padding: 5px;
-    width: 8.75%;
-    border-radius: 20px;
-    font-size: 17.5px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px;
+    text-shadow: 1px 1px 1px black;
   }
   
-  .div_punctegift{
-    position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    top: 1%;
-    text-align:center;
-    left: 51.25%;
-    font-family: 'Lucida Consola';
-    padding: 5px;
-    width: 8.75%;
-    border-radius: 20px;
-    font-size: 17.5px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.533333px 0.833333px 0px, rgb(0, 0, 0) -0.416667px 0.916667px 0px, rgb(0, 0, 0) -0.983333px 0.133333px 0px, rgb(0, 0, 0) -0.65px -0.75px 0px, rgb(0, 0, 0) 0.283333px -0.966667px 0px, rgb(0, 0, 0) 0.966667px -0.283333px 0px;
-  }
   .div_money .symbol{
-    content: url('https://i.imgur.com/QeUvNg0.png');
-    animation: logomove 2.1s infinite;
-     float: left;
-     margin-left: 5px;
+    position: absolute;
+    left: 20px;
+    content: url('https://i.imgur.com/UwKy7v0.png'); 
+  
+    width: 20px;
+    height: 20px;
   }
   
   .div_bmoney .symbol{
-    content: url('https://i.imgur.com/2ONXpm8.png');
-    animation: logomove 2.1s infinite;
-     float: left;
-     margin-left: 5px;
-  }
-  .div_aur .symbol{
-    content: url('https://i.imgur.com/PE09f1p.png');
-    animation: logomove 2.1s infinite;
-     float: left;
-     margin-left: 5px;
-  }
-  .div_punctegift .symbol{
-    content: url('https://i.imgur.com/OVDR5j6.png');
-    animation: logomove 2.1s infinite;
-     float: left;
-     margin-left: 5px;
-  }
+    position: absolute;
+    left: 20px;
+    content: url('https://i.imgur.com/sYrPFGi.png');
   
-  @keyframes logomove {
-    0%{opacity: 0.5;}
-    50%{opacity: 1;}
-    100%{opacity: 0.5;}
-}
+    width: 20px;
+    height: 20px;
+  }
+
 
   
 ]]
