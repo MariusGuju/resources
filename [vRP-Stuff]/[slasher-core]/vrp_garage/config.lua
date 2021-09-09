@@ -78,13 +78,13 @@ Config = {
 
         --Mafia Mecanici--
 
-        {"16charger","mecanic.acces","Charger"},
+       --[[ {"16charger","mecanic.acces","Charger"},
         {"boss429","mecanic.acces","Mustang Old"},
         {"amggtsmansory","mecanic.acces","AMG GT S"},
         {"charge4","mecanic.acces","Charger OffRoad"},
         {"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
         {"hpe750boss","mecanic.acces","Ford Mustang 2015"},
-        {"19Raptor","mecanic.acces","Ford Raptor"}, 
+        {"19Raptor","mecanic.acces","Ford Raptor"}, --]]
 
 
         --{"gauntlet3","scu.masini","Gauntlet 3"}, LIBER      

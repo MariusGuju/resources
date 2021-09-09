@@ -16,20 +16,20 @@ sewIron = {
 }
 
 sewMaterials = {
-	["Ata"] = {price = 9, item = "sewjob_ata"},
-	["Nasturi"] = {price = 19, item = "sewjob_nasturi"},
-	["Material"] = {price = 35, item = "sewjob_material"},
-	["Imprimeu"] = {price = 24, item = "sewjob_imprimeu"},
-	["Fermoar"] = {price = 15, item = "sewjob_fermoar"}
+	["Ata"] = {price = 15000, item = "sewjob_ata"},
+	["Nasturi"] = {price = 5000, item = "sewjob_nasturi"},
+	["Material"] = {price =  20000, item = "sewjob_material"},
+	["Imprimeu"] = {price = 5000, item = "sewjob_imprimeu"},
+	["Fermoar"] = {price =  5000, item = "sewjob_fermoar"}
 }
 
 sewClothes = {
-	["Camasa"] = {price = 30, th = 10, bt = 5, mat = 1, imp = 2, ferm = 0, dur = 200},
-	["Boxeri"] = {price = 25, th = 5, bt = 0, mat = 1, imp = 0, ferm = 0, dur = 120},
-	["Blugi"] = {price = 85, th = 10, bt = 3, mat = 2, imp = 2, ferm = 1, dur = 240},
-	["Tricou"] = {price = 64, th = 8, bt = 0, mat = 1, imp = 2, ferm = 0, dur = 180},
-	["Caciula"] = {price = 40, th = 6, bt = 0, mat = 1, imp = 0, ferm = 0, dur = 120},
-	["Geaca"] = {price = 90, th = 10, bt = 5, mat = 3, imp = 1, ferm = 2, dur = 240}
+	["Camasa"] = {price = 580000, th = 10, bt = 5, mat = 1, imp = 2, ferm = 0, dur = 200},
+	["Boxeri"] = {price = 130000, th = 5, bt = 0, mat = 1, imp = 0, ferm = 0, dur = 120},
+	["Blugi"] = {price = 450000, th = 10, bt = 3, mat = 2, imp = 2, ferm = 1, dur = 240},
+	["Tricou"] = {price = 300000, th = 8, bt = 0, mat = 1, imp = 2, ferm = 0, dur = 180},
+	["Caciula"] = {price = 195000, th = 6, bt = 0, mat = 1, imp = 0, ferm = 0, dur = 120},
+	["Geaca"] = {price = , th = 10, bt = 5, mat = 3, imp = 1, ferm = 2, dur = 240}
 }
 
 sewMachine_menu = {name="Masina Cusut",css={top="75px", header_color="rgba(0,125,255,0.75)"}}

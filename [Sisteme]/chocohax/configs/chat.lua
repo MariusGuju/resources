@@ -4,7 +4,7 @@ RS.chatProtection = true -- Masterswitch
 RS.chat_antifakemessage = true -- Detects on using a fake name (in-game text chat)
 
 RS.chat_antispam = true -- Detects on spamming messages 
-RS.chat_antispamMaxMessages = 10 -- Trigger antispam after 10 messages
+RS.chat_antispamMaxMessages = 7 -- Trigger antispam after 10 messages
 RS.chat_antispamResetTime = 7000 -- Reset antispam trigger every 7 seconds
 
 RS.chat_antiblacklistedwords = false -- Detects on writing a blacklisted word (commands like /ooc are included)
