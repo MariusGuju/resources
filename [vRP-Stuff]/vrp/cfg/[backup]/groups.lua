@@ -405,7 +405,6 @@
 		["vip2"] = {
 			"vip2.salariu",
 			"vip1.masini",
-			"packetvip2.acces",
 			"vip2.masini"
 
 		},

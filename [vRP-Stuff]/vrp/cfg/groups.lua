@@ -824,7 +824,6 @@
 		["vip2"] = {
 			"vip2.salariu",
 			"vip1.vehicle",
-			"packetvip2.acces",
 			"vip2.vehicle"
 
 		},
@@ -837,7 +836,7 @@
 		},
 		["vip4"] = {
 			"vip4.salariu",
-			"sponsor.menu",
+		--	"sponsor.menu",
 			"vip1.vehicle",
 			"vip2.vehicle",
 			"vip3.vehicle",
@@ -1972,13 +1971,12 @@
   		"job.salariu",
   		"hacker.job"
   	  },
-  	  --[[["Livrator Bancar"] = {
+  	  ["Sofer Bancar"] = {
 		_config = { gtype = "job",
 		onspawn = function(player) vRPclient.notify(player,{"Faci parte din Banca. Livreaza bani!"}) end
   	  },
-  		"job.salariu",
-  		"suntlivratorbancar.plm"
-  	  },]]
+  		"job.salariu"
+  	  },
   	  ["Sofer Stivuitor"] = {
 		_config = { gtype = "job",
 		onspawn = function(player) vRPclient.notify(player,{"Lucrezi ca Sofer de Motostivuitor"}) end
@@ -2025,16 +2023,16 @@
   	  },
   		"job.salariu"
 	  },
-	  ["Fan Courier"] = {
+	  ["Fan Curier"] = {
 		_config = { gtype = "job",
 		onspawn = function(player) vRPclient.notify(player,{"Lucrezi la Fan Courier"}) end
   	  },
 		  "job.salariu",
 		  "fancurier.garaj"
 	  },
-	  ["Santierist"] = {
+	  ["Padurar"] = {
 		_config = { gtype = "job",
-		onspawn = function(player) vRPclient.notify(player,{"Lucrezi pe Santier"}) end
+		onspawn = function(player) vRPclient.notify(player,{"Lucrezi ca Padurar"}) end
   	  },
 		  "job.salariu"
 	  },

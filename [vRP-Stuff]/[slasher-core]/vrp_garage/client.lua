@@ -286,17 +286,24 @@ local iamasinainplm = {
     {"comet2","user.salariu","Porsche 718 Cayman S"},
     {"db9v","user.salariu","Aston Martin DB9V Cabrio"},
     {"f430s","user.salariu","Ferrari F430 S"},
-    
---Mafia Mecanici--
-
---[[ {"16charger","mecanic.acces","Charger"},
-{"boss429","mecanic.acces","Mustang Old"},
-{"amggtsmansory","mecanic.acces","AMG GT S"},
-{"charge4","mecanic.acces","Charger OffRoad"},
-{"clkgtr","mecanic.acces","Mercedes-Benz CLK GTR"},
-{"hpe750boss","mecanic.acces","Ford Mustang 2015"},
-{"19Raptor","mecanic.acces","Ford Raptor"}, --]]
-
+    {"rmodrs7spoiler","user.salariu"," RMOD VIP4"},
+    {"dawnonyx","user.salariu","Rolls Royce Dawn Onyx VIP4"},
+    {"rmodmartin","user.salariu","Martin RMOD VIP4"},
+    {"rmodcamaro","user.salariu","Chevrolet Camaro RMOD VIP4"},
+    {"rmodspeed","user.salariu"," VIP4"},
+    {"rmodjeep","user.salariu","Jeep VIP4"},
+-- VIP 3 
+    {"dawnonyx","user.salariu","Rolls Royce Dawn Onyx VIP3"},
+    {"rmodm4","user.salariu","BMW M4 RaijinBodykit VIP3"},
+    {"rmodfordgt","user.salariu","Ford GT VIP3"},
+    {"rmodpagani","user.salariu","Pagani VIP3"},
+-- VIP 2
+    {"rmodbolide","user.salariu","Bugatti Bolide RMOD VIP2"},
+    {"rmodmustang","user.salariu","Mustang VIP2"},
+    {"benzsl63","user.salariu","Mercedes-AMG SL63 VIP2"},
+-- VIP 1
+    {"rmodquadra","user.salariu","Quadra Turbo-R RMOD VIP1"},
+    {"rmodcharger69","user.salariu","Dodge Charger R/T 69 VIP1 "},
     {"f812","user.salariu","Ferrari F812"},
     {"packer","user.salariu","Tir Personal "},
     {"fct","user.salariu","Ferrari Califronia"},

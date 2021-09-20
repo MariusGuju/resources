@@ -63,7 +63,7 @@ cfg.items = {
 	["lingoudiamant"] = {"Lingou Diamant", "" ,nil,5.0,"pocket"},
 	["lingouaur"] = {"Lingou Aur", "" ,nil,5.0,"pocket"},
 	["lingouargint"] = {"Lingou Argint", "" ,nil,5.0,"pocket"},
-  ["piatrafull"] = {"Piatra", "" ,nil,5.0,"pocket"},
+  ["piatrafull"] = {"Piatra", "" ,nil,5.0,"pocket"}, 
   -------------------------
   ["voucher"] = {"Voucher", "Cu acest Voucher aveti 5% reducere la orice de pe shop-ul nostru \nCu acest item va duceti la Zedu / EskaPe" ,nil,5.0,"pocket"},
   ["customtag"] = {"Custom Tag", "Cu acest item te duci la Zedu / EskaPe pentru a personaliza gradul. ",nil,5.0,"pocket"},
@@ -76,6 +76,10 @@ cfg.items = {
   ["stack_cocaina"] = {"Stash de Cocaina", "Stash de Cocaina", nil, 15.75},
   ["metanfetamina"] = {"Metanfetamina", "Cateva grame de metanfetamina", nil, 2.5},
   ["stack_metanfetamina"] = {"Stash De Metanfetamina", "Stash de Metanfetamina", nil, 12.75},
+  ["lemnne"] = {"Lemne", "O bugata de lemn", nil, 1.0},
+  ["lemnpre"] = {"Lemne Prelucrate", "O bugata de lemn", nil, 1.5},
+  ["scaunlemn"] = {"Scaun Din Lemn", "Un Scaun Din Lemn", nil, 2.0},
+  ["masalemn"] = {"Masa de Lemn", "O Masa din Lemn", nil, 2.0},
 }
 --“body_armor”,“Vesta Anti-Glont”,“Vest Anti-Glont.”,
 

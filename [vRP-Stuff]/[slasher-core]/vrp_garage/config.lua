@@ -118,35 +118,24 @@ Config = {
       }
     },
     [4] = {
-      tipGaraj = "~y~VIP",
-      marker = {230, 230, 0},
+      tipGaraj = "~g~VIP",
+      marker = {102, 255, 51},
       masini = {
-        -- VIP 4
-
-        {"rmodpagani","vip4.masini","Pagani RMOD VIP4"},
+        {"rmodrs7spoiler","vip4.masini"," RMOD VIP4"},
         {"dawnonyx","vip4.masini","Rolls Royce Dawn Onyx VIP4"},
-        {"rmodmustang","vip4.masini","Ford Mustang RMOD VIP4"},
+        {"rmodmartin","vip4.masini","Martin RMOD VIP4"},
         {"rmodcamaro","vip4.masini","Chevrolet Camaro RMOD VIP4"},
-        {"rmodmartin","vip4.masini","Aston Martin RMOD VIP4"},
-        {"rmodfordgt","vip4.masini","Ford GT RMOD VIP4"},
-
-        -- VIP 3 
-        
-        {"benzsl63","vip3.masini","Mercedes Benz SL63 RMOD VIP3"},
-        {"rmodjeep","vip3.masini","Jeep Grand Cherokee RMOD VIP3"},
-        {"rmodcharger69","vip3.masini","Dodge Charger 1969 VIP3"},
-        {"rmodspeed","vip3.masini","McLaren Speed RMOD VIP3"},
-
-        -- VIP 2
-
+        {"rmodspeed","vip4.masini"," VIP4"},
+        {"rmodjeep","vip4.masini","Jeep VIP4"},
+        {"dawnonyx","vip3.masini","Rolls Royce Dawn Onyx VIP3"},
+        {"rmodm4","vip3.masini","BMW M4 RaijinBodykit VIP3"},
+        {"rmodfordgt","vip3.masini","Ford GT VIP3"},
+        {"rmodpagani","vip3.masini","Pagani VIP3"},
         {"rmodbolide","vip2.masini","Bugatti Bolide RMOD VIP2"},
-        {"rmodm4","vip2.masini","BMW M4 RMOD VIP2"},
-        {"moslersupergt","vip2.masini","Mosler Super GT VIP2"},
-
-
-        -- VIP 1
+        {"rmodmustang","vip2.masini","Mustang VIP2"},
+        {"benzsl63","vip2.masini","Mercedes-AMG SL63 VIP2"},
         {"rmodquadra","vip1.masini","Quadra Turbo-R RMOD VIP1"},
-        {"RS72020","vip1.masini","AUDI RS7 2020 VIP1 "}
+        {"rmodcharger69","vip1.masini","Dodge Charger R/T 69 VIP1 "}
       }
     },
     [5] = {

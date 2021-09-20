@@ -20,7 +20,7 @@ cfg.gunshop_types = {
    },
 
    ["Mafioti"] = {
-    _config = {blipid=0,blipcolor=0, permissions = {"mafiot.chat"}},
+    _config = {permissions = {"mafiot.chat"}},
     ["WEAPON_PISTOL"] = {"Pistol",750,0,""},
    	["WEAPON_ASSAULTRIFLE"] = {"AK-47",3000,0,""},
     ["WEAPON_MICROSMG"] = {"Micro SMG",1500,0,""},
@@ -29,7 +29,7 @@ cfg.gunshop_types = {
     ["WEAPON_PUMPSHOTGUN"] = {"Shotgun",1250,0,""}
    },
    ["Mafioti Avansati"] = {
-    _config = {blipid=0,blipcolor=0, permissions = {"mafiot.chat"}},
+    _config = {permissions = {"mafiot.chat"}},
     ["WEAPON_PISTOL"] = {"Pistol",750,0,""},
    	["WEAPON_ASSAULTRIFLE"] = {"AK-47",3000,0,""},
     ["WEAPON_MICROSMG"] = {"Micro SMG",1500,0,""},

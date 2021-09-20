@@ -1,11 +1,11 @@
 
 onlinePlayers = 0
-local maxPlayers = GetConvar("sv_maxclients", 128)
+local maxPlayers = GetConvar("sv_maxclients", 512)
 
 Citizen.CreateThread(function()
 	Citizen.Wait(1000)
     local txd = CreateRuntimeTxd("logo")
-	--CreateRuntimeTextureFromImage(txd, "logo", "stream/nuipornita.png")
+	CreateRuntimeTextureFromImage(txd, "logo", "stream/logo.png")
 
 	while true do
 		onlinePlayers = #GetActivePlayers()
@@ -33,16 +33,17 @@ function drawHudText(x,y ,width,height,scale, text, r,g,b,a, outline, font, cent
     end
     SetTextEntry("STRING")
     AddTextComponentString(text)
-    DrawText(x - width/15, y - height/2 + 0.005)
+    DrawText(x - width/2, y - height/2 + 0.005)
 end
 
 Citizen.CreateThread(function()
     while true do 
         x = 0.92
-        y = 0.82
-		--DrawSprite("logo","logo",x,y,0.06*0.7, 0.1*0.7,0.0,255,255,255,255)
+        y = 0.87 
+		DrawSprite("logo","logo",x,y,0.06*0.7, 0.1*0.7,0.0,255,255,255,255)
+		drawHudText(x, y + 0.035,0.0,0.0,0.3,"Liquid Romania",255, 255, 255,255,1,fontId,1)
 		drawHudText(x, y + 0.05,0.0,0.0,0.3,"Online: "..#GetActivePlayers().."/"..maxPlayers,255,255,255,255,1,fontId,1)
-		drawHudText(x, y + 0.0657,0.0,0.0,0.3,"discord.io/LiquidRR",255, 119, 0,255,1,fontId,1)
+		drawHudText(x, y + 0.0657,0.0,0.0,0.2,"discord.io/LiquidRR",255, 119, 0,255,1,fontId,1)
 		Wait(1)
 	end
 end)
@@ -58,5 +59,5 @@ function drawTxt(x,y ,width,height,scale, text, r,g,b,a)
     SetTextOutline()
     SetTextEntry("STRING")
     AddTextComponentString(text)
-    DrawText(x - width/15, y - height/2 + 0.005)
+    DrawText(x - width/2, y - height/2 + 0.005)
 end

@@ -176,7 +176,7 @@ local vehicles = {
                     {numeVehicul = "yz450", price = 10000, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "ATV Monster", maxspeed= 360, maxspeedbar = 91, tip = 'Motor'},
                 },
         
-        [20] = {
+       --[[ [20] = {
         tablename = 'Masini VIP',
         
             {numeVehicul = "rmodpagani", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Pagani RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SILVER'},
@@ -195,7 +195,7 @@ local vehicles = {
             {numeVehicul = "rmodbolide", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Bugatti Bolide RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
             {numeVehicul = "rmodm4", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "BMW M4 RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
             {numeVehicul = "rmodquadra", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Quadra Turbo-R RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
-        },
+        }, --]]
         [21] = {
             tablename = 'Joburi',
             
