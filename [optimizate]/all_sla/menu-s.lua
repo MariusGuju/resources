@@ -232,6 +232,7 @@ vRP.registerMenuBuilder({"main", function(add, data)
 					end
 					if vRP.hasPermission({user_id, "vip2.masini"}) then
 						menu["🍔Refa Mancare&Apa🌊"] = {yt_revive,"🌊🍔 > Refati Mancarea + Apa VIP"}
+						menu["Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
 					end
 					if vRP.hasPermission({user_id, "vip1.masini"}) then
 						menu["☁️Sky Fall☁️"] = {sp_skyfall,"☁️ > Arunca-te cu parasuta"}
