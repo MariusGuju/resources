@@ -208,40 +208,6 @@ RegisterCommand('id', function(source, args)
         TriggerClientEvent('chatMessage', player, "[STATS]", {255, 0, 0}, "========================================================")
 end)
 
-RegisterCommand('id', function(source, args)
-	local user_id = vRP.getUserId({source})
-	local target_id = parseInt(args[1])
-	local tplayer = vRP.getUserSource({target_id})
-	local tid = vRP.getUserId({tplayer})
-    local banicash = vRP.getMoney({tid})
-    local nume = GetPlayerName(tplayer)
-    local banibanca = vRP.getBankMoney({tid})
-    local orejucate = vRP.getUserHoursPlayed({tid})
-    local aur = vRP.getAur({tid})
-    local giftbox = vRP.getPuncte({tid})
-    local locdemunca = vRP.getUserGroupByType({tid,"job"})
-    local warnuri = vRP.getUserWarns({tid})
-    local VIP = "Nu"
-    if vRP.hasPermission({tid,"vip1.masini"}) then
-    	VIP = "Da"
-    else
-    	VIP = "Nu"
-    end
-	    if vRP.hasPermission({user_id,"player.ban"}) then
-	    	if tplayer ~= nil then
-		    	CancelEvent()
-		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "=============== ^0NUME: ^2"..nume.."^0 ====== ^0ID: ^5"..tid.."^0 ===============")
-		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Are bani cash: ^2" ..banicash.." $^0 , Bani Banca: ^2"..banibanca.."^0, Gifbotxuri: ^8"..giftbox.."^0, Warn : ^5"..warnuri)
-		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "^0Lucreaza ca si^6: "..locdemunca.."^0, VIP: ^3"..VIP.."^0, Ore jucate: ^5"..orejucate.."^0, Aur: ^3"..aur)
-		            TriggerClientEvent('chatMessage', source, "[STATS]", {255, 0, 0}, "========================================================")
-		    else
-		        vRPclient.notify(source,{"~r~Jucatorul nu este pe server!"})
-		    end
-	    else
-	    	vRPclient.notify(source,{"~r~Nu ai acces la aceasta comanda!"})
-	    end
-end)
-
 RegisterCommand('addgroup', function(source, args, rawCommand)
     local target_id = parseInt(args[1])
     local group = args[2]
@@ -324,8 +290,8 @@ RegisterCommand('rev', function(source, args, msg)
 		  vRPclient.varyHealth(target,{300})
 		  vRP.varyHunger({msg,-100})
 		  vRP.varyThirst({msg,-100})
-		  --TriggerClientEvent('chatMessage', source, "^8Server^7 : I-ai dat Revive lui : "..GetPlayerName(target).."!")
-		 -- TriggerClientEvent('chatMessage', target, "^8Server^7 : Adminul "..GetPlayerName(source).." ti-a dat revive !")
+		  TriggerClientEvent('chatMessage', source, "^8Server^7 : I-ai dat Revive lui : "..GetPlayerName(target).."!")
+		  TriggerClientEvent('chatMessage', target, "^8Server^7 : Adminul "..GetPlayerName(source).." ti-a dat revive !")
 		 vRPclient.notify(source,{"[~g~Server~w~] : I-ai dat Revive lui : "..GetPlayerName(target).."!"})
 		 vRPclient.notify(target,{"[~g~Server~w~] : Adminul "..GetPlayerName(source).." ti-a dat revive !"})
 		else
