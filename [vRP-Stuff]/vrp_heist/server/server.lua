@@ -49,10 +49,10 @@ AddEventHandler("Double:AreLevel",function()
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
 	local level = vRPlevel.getLevel({user_id}) 
-	if level > 15 then
+	if level > 1 then
 		TriggerClientEvent("Double:Npc",source)
 	else
-		vRPclient.notify(player,{"~r~Nu ai destul level\n~w~Necesar: ~g~15 "})
+		vRPclient.notify(player,{"~r~Nu ai destul level\n~w~Necesar: ~g~ 1 "})
 	end
 end)
 
@@ -118,7 +118,7 @@ vrpGold.RegisterServerCallback("esx_goldCurrency:getPayment",function(source,cb)
 		TriggerEvent("esx_goldCurrency:GoldJobCooldown",player)
 		cb(true)
 	else
-		vRPclient.notify(player,{"You do ~b~not have enough~s~ ~g~money~s~ to pay ~r~fees~s~ for a ~y~job~s~"})
+		vRPclient.notify(player,{"NU ai  ~b~destui~s~ ~g~Bani~s~ pentru a platii ~r~taxele~s~ pentru acest ~y~Job~s~"})
 		cb(false)
 	end
 end)
@@ -140,7 +140,7 @@ vrpGold.RegisterServerCallback("esx_goldCurrency:getMissionavailability",functio
 		cb(true)
 	else
 		cb(false)
-		vRPclient.notify(player,{"There is ~r~not~s~ enough ~b~police~s~ in the ~y~city~s~"})
+		vRPclient.notify(player,{"NU sunt  ~r~not~s~ destui  ~b~Politisti~s~ in  ~y~Oras~s~"})
 	end
 end)
 
@@ -164,7 +164,7 @@ AddEventHandler('esx_goldCurrency:reward', function()
 		SecondItem = true	
 	end
 	money = math.random(50000,100000)
-	money1 = math.random(300000,1000000)
+	money1 = math.random(100000,400000)
 	if Config.EnableSecondItemReward == true and SecondItem == true then
 		--vRP.giveInventoryItem({user_id,Config.ItemName1,itemAmount1,true})
 		--vRP.giveInventoryItem({user_id,Config.ItemName2,itemAmount2,true})
@@ -172,14 +172,14 @@ AddEventHandler('esx_goldCurrency:reward', function()
 		if Config.EnableCustomNotification == true then
 			TriggerClientEvent("esx_goldCurrency:missionComplete", player,money,money1)
 		else
-			vRPclient.notify(player,{"Mission Complete: You received ~g~"..vRP.formatMoney({money}).."x~s~ ~y~"..vRP.formatMoney({money1})})
+			vRPclient.notify(player,{"Mission Complete: Ai primit ~g~"..vRP.formatMoney({money}).."x~s~ ~y~"..vRP.formatMoney({money1})})
 		end
 	else
 		--vRP.giveInventoryItem({user_id,Config.ItemName1,itemAmount1,true})
 		if Config.EnableCustomNotification == true then
 			TriggerClientEvent("esx_goldCurrency:missionComplete", player,money,money1)
 		else
-			vRPclient.notify(player,{"~g~Mission Complete:~s~ You received ~g~"..vRP.formatMoney({money}).."x~s~ ~y~"..vRP.formatMoney({money1})})
+			vRPclient.notify(player,{"~g~Mission Complete:~s~ Ai primit ~g~"..vRP.formatMoney({money}).."x~s~ ~y~"..vRP.formatMoney({money1})})
 		end
 	end
 	
@@ -187,7 +187,7 @@ end)
 
 RegisterServerEvent('esx_goldCurrency:GoldJobInProgress')
 AddEventHandler('esx_goldCurrency:GoldJobInProgress', function(targetCoords, streetName)
-	TriggerClientEvent('esx_goldCurrency:outlawNotify', -1,string.format("^3 Shots fired ^0 at ^5%s^0 and ongoing grand theft auto",streetName))
+	TriggerClientEvent('esx_goldCurrency:outlawNotify', -1,string.format("^3 Gloante Trase ^0  ^5%s^0 ,este un jaf auto",streetName))
 	TriggerClientEvent('esx_goldCurrency:GoldJobInProgress', -1, targetCoords)
 end)
 

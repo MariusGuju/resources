@@ -171,7 +171,7 @@ Config.EnableCustomNotification = true
 
 
 -- Set amount of money that mission should cost.
-Config.MissionCost = 500
+Config.MissionCost = 50000
 
 -- Set cooldown for doing gold jobs in minutes:
 Config.JobCooldownTime = 3

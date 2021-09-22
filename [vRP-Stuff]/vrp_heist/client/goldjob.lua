@@ -239,7 +239,7 @@ AddEventHandler('esx_goldCurrency:startTheEvent', function(num)
 			local coords = GetEntityCoords(GetPlayerPed(-1))
 			
             if (GetDistanceBetweenCoords(coords, loc.Location.x, loc.Location.y, loc.Location.z, true) > 60) and DeliveryInProgress == false then
-				DrawMissionText("Follow the ~y~location~s~ on your map")
+				DrawMissionText("Dute la  ~y~locatia~s~ de pe Harta cu o arma!")
 			end
 			
 			if (GetDistanceBetweenCoords(coords, loc.Location.x, loc.Location.y, loc.Location.z, true) < 150) and not JobVanSpawned then
@@ -300,7 +300,7 @@ AddEventHandler('esx_goldCurrency:startTheEvent', function(num)
             end
 			
 			if DeliveryInProgress == false and (GetDistanceBetweenCoords(coords, loc.Location.x, loc.Location.y, loc.Location.z, true) < 60) and (GetDistanceBetweenCoords(coords, loc.Location.x, loc.Location.y, loc.Location.z, true) > 10) then
-				DrawMissionText("~r~Kill~s~ the goons that guard the ~y~Van~s~")
+				DrawMissionText("~r~Omoara~s~ Mafiotii care pazesc locatia si fura ~y~Duba~s~")
 			end
 			
 			if (GetDistanceBetweenCoords(coords, loc.Location.x, loc.Location.y, loc.Location.z, true) < 40) and (not JobPlayer and JobVanSpawned) then
@@ -318,13 +318,13 @@ AddEventHandler('esx_goldCurrency:startTheEvent', function(num)
             end
 			
 			if isVehicleLockPicked == false and (GetDistanceBetweenCoords(coords, loc.Location.x, loc.Location.y, loc.Location.z, true) < 10) then
-				DrawMissionText("Steal and lockpick the ~y~Van~s~")
+				DrawMissionText("Fura ~y~Duba~s~")
 			end
 			
 			local VanPosition = GetEntityCoords(JobVan) 
 			
 			if (GetDistanceBetweenCoords(coords, VanPosition.x, VanPosition.y, VanPosition.z, true) <= 2) and isVehicleLockPicked == false then
-				DrawText3Ds(VanPosition.x, VanPosition.y, VanPosition.z, "Press ~g~[G]~s~ to ~y~Lockpick~s~")
+				DrawText3Ds(VanPosition.x, VanPosition.y, VanPosition.z, "Apasa ~g~[G]~s~ pentru a sparge ~y~Masina~s~")
 				if IsControlJustPressed(1, 47) then 
 					LockpickVanDoor()
 					Citizen.Wait(500)
@@ -357,7 +357,7 @@ AddEventHandler('esx_goldCurrency:startTheEvent', function(num)
 			end
 						
 			if DeliveryInProgress == true and isVehicleLockPicked == true then
-				DrawMissionText("Deliver the ~y~van~s~ to the new ~s~destination~s~ on your map!")
+				DrawMissionText("Lasa  ~y~Duba~s~ la noua  ~s~Destinatie~s~ de pe radar!")
 			end
 			
 			if DeliveryInProgress == true then
@@ -373,7 +373,7 @@ AddEventHandler('esx_goldCurrency:startTheEvent', function(num)
 						DrawMarker(Config.DeliveryMarkerType, v.x, v.y, v.z-0.97, 0.0, 0.0, 0.0, 180.0, 0.0, 0.0, Config.DeliveryMarkerScale.x, Config.DeliveryMarkerScale.y, Config.DeliveryMarkerScale.z, Config.DeliveryMarkerColor.r, Config.DeliveryMarkerColor.g, Config.DeliveryMarkerColor.b, Config.DeliveryMarkerColor.a, false, true, 2, false, false, false, false)
 					end
 					if(GetDistanceBetweenCoords(coords, v.x, v.y, v.z, true) < 2.0) and vanIsDelivered == false then
-						DrawText3Ds(v.x, v.y, v.z, "Press ~g~[E]~s~ to ~y~Delivery~s~")
+						DrawText3Ds(v.x, v.y, v.z, "Apasa ~g~[E]~s~ pentru a lasa  ~y~Duba~s~")
 						if IsControlJustPressed(0, 38) then 
 							RemoveBlip(DeliveryBlip)
 							vanIsDelivered = true
