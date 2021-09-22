@@ -142,7 +142,7 @@ AddEventHandler('__cfx_internal:commandFallback', function(command)
 							},
 						}
           }
-          PerformHttpRequest("https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+          PerformHttpRequest("https://discord.com/api/webhooks/889596509522366514/SEUKkTVFxV8kpqaGCgnZElzkfBYDTXqZp7OcInCUG2kVU3Pg-e5aO_ng7wTDHZmmItjB", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 		end
     end
 

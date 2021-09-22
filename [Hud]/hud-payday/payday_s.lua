@@ -43,7 +43,7 @@ AddEventHandler('salar', function(salar)
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
 	pictura = "CHAR_ANDREAS"
-	titlu = "Black Bank"
+	titlu = "Liquid Bank"
 	mesaj = "Ai primit salariul ~g~$"
 	local n = math.random(1,10000)
 	for i, v in pairs(salarii) do
