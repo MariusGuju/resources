@@ -13,12 +13,12 @@ salarii = {
 {"vip3.salariu", 150000,"VIP PLATINUM"},  
 {"vip4.salariu", 250000,"VIP DIAMOND"},
 
-{"sageata.salar", 350000,"Sageata Mafie"},
-{"membru.salar", 450000,"Membru Mafie"},
-{"camatar.salar", 650000,"Camatar Mafie"},
-{"interlop.salar", 700000,"Interlop Mafie"},
-{"colider.salar", 850000,"Co-Lider Mafie"},
-{"lider.salar", 1000000,"Lider Mafie"},	
+{"sageata.salar", 100000,"Sageata Mafie"},
+{"membru.salar", 250000,"Membru Mafie"},
+{"camatar.salar", 350000,"Camatar Mafie"},
+{"interlop.salar", 450000,"Interlop Mafie"},
+{"colider.salar", 550000,"Co-Lider Mafie"},
+{"lider.salar", 650000,"Lider Mafie"},	
 
 --Sponsor Menu --
 {"sponsor.salariu", 100000,"Sponsor LiquidRoRR"},

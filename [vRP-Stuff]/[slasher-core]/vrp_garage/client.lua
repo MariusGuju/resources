@@ -27,7 +27,9 @@ function vRPgarageC.spawngaraje(garaje)
         elseif v.tipGaraj == 6 then 
         blipc = 8
         elseif v.tipGaraj == 7 then 
-		blipc = 10 
+		blipc = 10
+        elseif v.tipGaraj == 8 then 
+		blipc = 81 
         end
         local blip = AddBlipForCoord(x,y,z)
         SetBlipSprite(blip, blipid)
@@ -258,6 +260,7 @@ local iamasinainplm = {
     {"m2","user.salariu","BMW M2"},
     {"m3","user.salariu","BMW M3"},
     {"m6f13","user.salariu","BMW M6 F13"},
+    {"taxi","user.salariu","Masina Uber"},
     {"mb18","user.salariu","Mercedes Benz S63 AMG Cabrio"},
     {"mgrantur2010","user.salariu","Maserati  GranTurismo  2010"},
     {"miniroads","user.salariu","Mini Couper Roadester"},

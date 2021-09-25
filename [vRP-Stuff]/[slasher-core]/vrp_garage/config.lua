@@ -220,12 +220,12 @@ Config = {
       marker = {102, 255, 51},
       masini = {
         {"frogger","vagos.masini","Elicopter LosVagos"},
-        {"polmav","radio.police","Elicopter {Politie}"},
+        {"polmav","emergency.market","Elicopter {Smurd}"},
         {"haitun","sinaloa.masini","Sinaloa"},
-        {"supervolito","emergency.market","supervolito Urgente SMURD"},
+        {"supervolito","radio.police","Elicopter {Politie}"},
         --{"lguardmav","emergency.market","lguardmav Urgente SMURD"},
         --{"smurdelicopter","emergency.market","Elicopter Urgente SMURD"},
-        {"valkyrie","rusa.masini","Elicopter rusa"}  
+        --{"valkyrie","rusa.masini","Elicopter rusa"}  
         --[[{"taxi","taxi.vehicle","Taxi"},
         {"minivan","fan.vehicle","Masina Fan Courier"},
         {"hauler","tirist.vehicle","Scania TRUCK"}]]
@@ -255,10 +255,11 @@ Config = {
   },
 
   [8] = {
-    tipGaraj = "~g~Masini Job",
+    tipGaraj = "~g~Garaj Job",
     marker = {102, 255, 51},
     masini = {
-      {"packer","user.salariu","Tir Personal"}
+      --{"packer","user.salariu","Tir Personal"},
+      {"taxi","uber.masina","Masina Uber"}
     }
 } 
 

@@ -2003,6 +2003,15 @@
   	  },
   		"job.salariu"
 	  },
+
+	  ["Uber"] = {
+		_config = { gtype = "job",
+		onspawn = function(player) vRPclient.notify(player,{"Lucrezi la Uber "}) end
+  	  },
+  		"job.salariu",
+		"uber.masina"
+	  },
+
 	  ["Croitor"] = {
 		_config = { gtype = "job",
 		onspawn = function(player) vRPclient.notify(player,{"Lucrezi la Croitorie"}) end
