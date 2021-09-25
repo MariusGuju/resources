@@ -59,8 +59,8 @@ cfg.factions = {
 	
 	--Mafii
 	
-	["Mafia Rusa"] = {
-		fSlots = 12,
+	["Groove Street"] = {
+		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
@@ -108,17 +108,17 @@ cfg.factions = {
 		}
 	},
 	
-	["Mafia Camorra"] = {
+	["Peaky Blinders"] = {
 		fSlots = 30,
 		fType = "Mafie",
 		fRanks = {
 			[1] = {rank = "Somer", salary = 1}, 
-		    [2] = {rank = "Sageata Camorra", salary = 1},
-			[3] = {rank = "Membru Camorra", salary = 1},
-			[4] = {rank = "Camatar Camorra", salary = 1},
-			[5] = {rank = "Interlop Camorra", salary = 1},
-			[6] = {rank = "Co-Lider Camorra", salary = 1},
-			[7] = {rank = "Lider Camorra", salary = 1}
+		    [2] = {rank = "Sageata Peaky Blinders", salary = 1},
+			[3] = {rank = "Membru Peaky Blinders", salary = 1},
+			[4] = {rank = "Camatar Peaky Blinders", salary = 1},
+			[5] = {rank = "Interlop Peaky Blinders", salary = 1},
+			[6] = {rank = "Co-Lider Peaky Blinders", salary = 1},
+			[7] = {rank = "Lider Peaky Blinders", salary = 1}
 		}
 	},
 

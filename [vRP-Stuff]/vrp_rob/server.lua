@@ -10,7 +10,7 @@ vRPrbC = Tunnel.getInterface("vrp_rob","vrp_rob")
 
 
 vrpRob.RegisterServerCallback('verificaPD', function(source, cb)
-    --[[
+    
 	local user_id = vRP.getUserId({source})
     local player = vRP.getUserSource({user_id})
     pd = vRP.getUsersByGroup({"Chestor General"})
@@ -25,7 +25,7 @@ vrpRob.RegisterServerCallback('verificaPD', function(source, cb)
     --local fraieri = ( tonumber(#pd) + tonumber(#pd2) + tonumber(#pd3) + tonumber(#pd4) + tonumber(#pd5) + tonumber(#pd6))
     local fraieri = vRP.getUsersByPermission({"police.menu_interaction"})
     cb(fraieri)
-    --]]
+    
     cb(5)
     local users = vRP.getUsers({})
     for k,v in pairs (users) do
@@ -70,17 +70,17 @@ RegisterServerEvent('iaBani')
 AddEventHandler('iaBani', function ()
 	local user_id = vRP.getUserId({source})
     local player = vRP.getUserSource({user_id})
-    local bani = math.random(60,120)
-    --vRP.giveMoney({user_id,bani})
-    --vRPclient.notify(player,{"Ai primit ~g~$"..bani})
-    vRP.giveInventoryItem({user_id,"dirty_money",bani,true})
+    local bani = math.random(2000,4500)
+    vRP.giveMoney({user_id,bani})
+    vRPclient.notify(player,{"Ai primit ~g~$"..bani})
+    --vRP.giveInventoryItem({user_id,"dirty_money",bani,true})
 end)
 
 
 
 
 function vRPrb.copsonline()
-	local cops = vRP.getUsersByPermission({"user.paycheck"})
+	local cops = vRP.getUsersByPermission({"radio.police"})
 	return #cops 
 end
 

@@ -4,23 +4,19 @@ Config = {
       tipGaraj = "~b~Politie",
       marker = {0, 102, 255},
       masini = {
-        {"passatpolitie","radio.police","VW Passat Rutiera"},
         {"polgs350","radio.police","Lexus Rutiera"},
-        {"police3","radio.police","Logan Rutiera"},
-        {"polopolitie","radio.police","Polo Rutiera"},
         {"policeb","radio.police","Motor Rutiera"},
-        {"vitofreecosmacreppdro","radio.police","Duba Mercedes Vito Politie"},
-        --{"m5pol","radio.police","BMW M5 Rutiera"},
         {"polduster","radio.police","Duster Rutiera"},
-        {"mp2","radio.police","Ford Duba"},
-        {"17raptorpd","radio.police","17raptorpd"},
-        {"insurgentsias","radio.police","insurgentsias"},
         {"pol718","radio.police","pol718"},
-        {"sheriff2","radio.police","sheriff2"},
-        {"skodapolitie","radio.police","skodap"},
-        {"x5unmarked","radio.police","x5unmarked"},
-        {"wmfenyrcop","radio.police","Fenyr"},
         {"riot","radio.police","Riot"},
+        {"polmcv","radio.police","Dacie"},
+        {"polmp4","radio.police","Politie McLaren"},
+        {"polm5","radio.police","Politie M5"},
+        {"polcla45","radio.police","Politie Mercedes"},
+        {"polaventa","radio.police","Politie Aventador"},
+        {"polf430","radio.police","Politie Ferrari"},
+        {"policelogan","radio.police","Politie Logan"},
+        {"pol718","radio.police","BMW POLITIE"},
         {"emperor2","radio.police","Scoala"}
       }
     },
@@ -29,19 +25,11 @@ Config = {
       marker ={ 255, 51, 0},
       masini = {
         {"ambulance","emergency.market","Ambulanta SMURD"},
-        {"ambulancei","emergency.market","Ambulanta1 SMURD"},
         {"corvettepd","emergency.market","corvet SMURD"},
-        {"nissanpp3","emergency.market","nissan SMURD"},
-        {"qrv","emergency.market","grv SMURD"},
-        {"raems","emergency.market","rea SMURD"},
-        {"smeker","emergency.market","smeker SMURD"},
-        {"smurdcrep5","emergency.market","creap SMURD"},
-        {"sprintersmurd","emergency.market","Sprinter SMURD"},
-        {"renaultsmurd","emergency.market","Renault SMURD"},
-        {"ml63smurd","emergency.market","Mercedes-Benz ML63 SMURD"},
-        --{"firetruk","emergency.market","Masina Pompieri"},
-        {"audiq8","emergency.market","Audi Q8 SMURD"}
-        --{"x5smurd","emergency.market","BMW x5"}
+        {"smurdsprinter","emergency.market","Sprinter SMURD"},
+        {"smurdm5","emergency.market","BMW SMURD"},
+        {"izoleta","emergency.market","Izoleta"},
+        {"firetruk","emergency.market","Masina CoVid"}
 
       }
     },
@@ -62,15 +50,19 @@ Config = {
         -- GEO ]]
         --{"e63s","yakuza.masini","Mercedes E63 S"}, FOLOSIT
         --{"panamera18","yakuza.masini","Porsche Panamera"}, FOLOSIT
-        --Curcubeu
-        --{"rs5r","curcubeu.masini","AUDI RS5 "}, FOLOSIT
-        --{"x6m","curcubeu.masini","BMW X6m"}, FOLOSIT sinaloa
-        --{"amggtrr20","curcubeu.masini","Mercedes-Benz AMG GT-R"}, FOLOSIT
-        --Buccaneer
-        --{"buccaneer","scu.masini","Buccaneer Custom"}, LIBER
-        --{"tornado2","scu.masini","Tornado2"}, LIBER
-        {"tulenis","sinaloa.masini","Dukes"},   --sinaloa
-        {"f350offroadspec","sinaloa.masini","Dukes 2"},  --sinaloa
+
+        --Crips
+        {"GMCYD","crip.masini","GMC "}, 
+        {"italia458","crip.masini","Ferari 458"},
+
+        --Casa De Papel
+        {"17m760i","casa.masini","BMW SERIA 7"}, 
+        {"G63AMG6x6","casa.masini","G63 6x6"}, 
+
+        --Grove Street
+        {"gle53","grove.masini","Mercedes GroveStreet"},   
+        {"lincolnlimo","grove.masini","Limuzina"},  
+
         {"dukes","sinaloa.masini","Dukes 3"},    --sinaloa
         {"dbx","sinaloa.masini","Aston Martin DBX"},   --sinaloa
         {"sixtyone41","peaky.masini","Cadillac"},
@@ -115,27 +107,6 @@ Config = {
         {"XPERIA38","vagos.masini","Mercedes-Benz AMG G63"},
         {"rculi","scu.masini","Rollce Royce Culinan"},
         {"panamera18","scu.masini","Porsche Panamera"}
-      }
-    },
-    [4] = {
-      tipGaraj = "~g~VIP",
-      marker = {102, 255, 51},
-      masini = {
-        {"rmodrs7spoiler","vip4.masini"," RMOD VIP4"},
-        {"dawnonyx","vip4.masini","Rolls Royce Dawn Onyx VIP4"},
-        {"rmodmartin","vip4.masini","Martin RMOD VIP4"},
-        {"rmodcamaro","vip4.masini","Chevrolet Camaro RMOD VIP4"},
-        {"rmodspeed","vip4.masini"," VIP4"},
-        {"rmodjeep","vip4.masini","Jeep VIP4"},
-        {"dawnonyx","vip3.masini","Rolls Royce Dawn Onyx VIP3"},
-        {"rmodm4","vip3.masini","BMW M4 RaijinBodykit VIP3"},
-        {"rmodfordgt","vip3.masini","Ford GT VIP3"},
-        {"rmodpagani","vip3.masini","Pagani VIP3"},
-        {"rmodbolide","vip2.masini","Bugatti Bolide RMOD VIP2"},
-        {"rmodmustang","vip2.masini","Mustang VIP2"},
-        {"benzsl63","vip2.masini","Mercedes-AMG SL63 VIP2"},
-        {"rmodquadra","vip1.masini","Quadra Turbo-R RMOD VIP1"},
-        {"rmodcharger69","vip1.masini","Dodge Charger R/T 69 VIP1 "}
       }
     },
     [5] = {
@@ -259,6 +230,28 @@ Config = {
         {"minivan","fan.vehicle","Masina Fan Courier"},
         {"hauler","tirist.vehicle","Scania TRUCK"}]]
       }
+  },
+
+  [9] = {
+    tipGaraj = "~g~VIP",
+    marker = {102, 255, 51},
+    masini = {
+      {"rmodrs7spoiler","vip4.masini"," RMOD VIP4"},
+      {"dawnonyx","vip4.masini","Rolls Royce Dawn Onyx VIP4"},
+      {"rmodmartin","vip4.masini","Martin RMOD VIP4"},
+      {"rmodcamaro","vip4.masini","Chevrolet Camaro RMOD VIP4"},
+      {"rmodspeed","vip4.masini"," VIP4"},
+      {"rmodjeep","vip4.masini","Jeep VIP4"},
+      {"dawnonyx","vip3.masini","Rolls Royce Dawn Onyx VIP3"},
+      {"rmodm4","vip3.masini","BMW M4 RaijinBodykit VIP3"},
+      {"rmodfordgt","vip3.masini","Ford GT VIP3"},
+      {"rmodpagani","vip3.masini","Pagani VIP3"},
+      {"rmodbolide","vip2.masini","Bugatti Bolide RMOD VIP2"},
+      {"rmodmustang","vip2.masini","Mustang VIP2"},
+      {"benzsl63","vip2.masini","Mercedes-AMG SL63 VIP2"},
+      {"rmodquadra","vip1.masini","Quadra Turbo-R RMOD VIP1"},
+      {"rmodcharger69","vip1.masini","Dodge Charger R/T 69 VIP1 "}
+    }
   },
 
   [8] = {

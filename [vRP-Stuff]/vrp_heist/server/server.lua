@@ -49,7 +49,7 @@ AddEventHandler("Double:AreLevel",function()
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
 	local level = vRPlevel.getLevel({user_id}) 
-	if level > 1 then
+	if level > 0 then
 		TriggerClientEvent("Double:Npc",source)
 	else
 		vRPclient.notify(player,{"~r~Nu ai destul level\n~w~Necesar: ~g~ 1 "})

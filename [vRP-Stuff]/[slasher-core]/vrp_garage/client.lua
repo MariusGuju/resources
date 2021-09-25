@@ -303,6 +303,16 @@ local iamasinainplm = {
     {"benzsl63","user.salariu","Mercedes-AMG SL63 VIP2"},
 -- VIP 1
     {"rmodquadra","user.salariu","Quadra Turbo-R RMOD VIP1"},
+    {"GMCYD","user.salariu","GMC "}, 
+    {"italia458","user.salariu","Ferari 458"},
+    --Casa De Papel
+    {"17m760i","user.salariu","BMW SERIA 7"}, 
+    {"G63AMG6x6","user.salariu","G63 6x6"}, 
+    --Grove Street
+    {"gle53","user.salariu","Mercedes GroveStreet"},   
+    {"lincolnlimo","user.salariu","Limuzina"},
+    {"smurdm5","user.salariu","BMW SMURD"},
+    {"izoleta","user.salariu","Izoleta"},  
     {"rmodcharger69","user.salariu","Dodge Charger R/T 69 VIP1 "},
     {"f812","user.salariu","Ferrari F812"},
     {"packer","user.salariu","Tir Personal "},
@@ -310,6 +320,18 @@ local iamasinainplm = {
     {"filthynsx","user.salariu","Acura NSX"},
     {"gto","user.salariu","Ferrari GTO"},
     {"gtr","user.salariu","Nissan GTR"},
+
+    {"pol718","user.salariu","Porsche POLITIE"},
+    {"polmp4","user.salariu","Politie McLaren"},
+    {"polmcv","user.salariu","Dacie"},
+    {"polm5","user.salariu","Politie M5"},
+    {"policelogan","user.salariu","Politie Logan"},
+    {"polf430","user.salariu","Politie Ferrari"},
+    {"polcla45","user.salariu","Politie Mercedes"},
+    {"polaventa","user.salariu","Politie Aventador"},
+
+
+
     {"i8","user.salariu","BMW I8"},
     {"lhuracan","user.salariu","Lamborghini Huracan"},
     {"mp412c","user.salariu","McLaren MP4 12C"},

@@ -55,7 +55,7 @@ AddEventHandler('bonusbanutiFINAL', function()
     end
 end)
 
-local bonus = 5000
+local bonus = 350000
 
 RegisterServerEvent('BONUS')
 AddEventHandler('BONUS', function()
