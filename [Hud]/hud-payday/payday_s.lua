@@ -22,6 +22,8 @@ salarii = {
 
 --Sponsor Menu --
 {"sponsor.salariu", 100000,"Sponsor LiquidRoRR"},
+--Salar Cetatian
+{"user.salariu", 10000,"Cetatian Orasului Liquid"},
 
 }
 

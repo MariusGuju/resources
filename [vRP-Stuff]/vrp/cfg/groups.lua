@@ -873,7 +873,7 @@
 				"taxi.service"
 			},
 				["Director SMURD"] = {
-					_config = { gtype = "job",
+					_config = {
 					onspawn = function(player)  end
 					},
 					"emergency.revive",
@@ -897,7 +897,7 @@
 					"ems.mission"
 				},
 				["Sef Spital"] = {
-					_config = { gtype = "job",
+					_config = { 
 					onspawn = function(player)  end
 					},
 					"emergency.revive",
@@ -921,7 +921,7 @@
 					"ems.mission"
 				},
 				["Sef de Tura SMURD"] = {
-					_config = { gtype = "job",
+					_config = {
 					onspawn = function(player) end
 					},
 					"emergency.revive",
@@ -945,7 +945,7 @@
 					"ems.mission"
 				},
 				["Chirurg"] = {
-					_config = { gtype = "job",
+					_config = {
 					onspawn = function(player)  end
 					},
 					"emergency.revive",
@@ -969,7 +969,7 @@
 					"ems.mission"
 				},
 				["Paramedic Smurd"] = {
-					_config = { gtype = "job",
+					_config = {
 					onspawn = function(player)  end
 					},
 					"emergency.revive",
@@ -993,7 +993,7 @@
 					"ems.mission"
 				},
 				["Asistent-Sef"] = {
-					_config = { gtype = "job",
+					_config = { 
 					onspawn = function(player)  end
 					},
 					"emergency.revive",
@@ -1018,7 +1018,7 @@
 					"ems.mission"
 				},
 				["Asistent"] = {
-					_config = { gtype = "job",
+					_config = { 
 					onspawn = function(player)  end
 					},
 					"emergency.revive",
@@ -1057,7 +1057,7 @@
 				},
 
 				["Ucenic Mecanic"] = {
-					_config = { gtype = "job",
+					_config = { 
 					onspawn = function(player) end
 					},
 					"vehicle.repair",
@@ -1078,7 +1078,7 @@
 					"repair.salariu"
 				},
 				["Mecanic Sef"] = {
-					_config = { gtype = "job",
+					_config = { 
 					onspawn = function(player) end
 					},
 					"vehicle.repair",
@@ -1099,7 +1099,7 @@
 					"repair.salariu"
 				},
 				["Responsabil Mecanic"] = {
-					_config = { gtype = "job",
+					_config = { 
 					onspawn = function(player) end
 					},
 					"vehicle.repair",
@@ -1120,7 +1120,7 @@
 					"repair.salariu"
 				},
 				["Proprietar Service"] = {
-					_config = { gtype = "job",
+					_config = {
 					onspawn = function(player) end
 					},
 					"vehicle.repair",
@@ -1192,7 +1192,6 @@
 		},		
 		["Agent"] = {
 			_config = { 
-			gtype = "job",
 			onjoin = function(player) vRPclient.setCop(player,{true}) end,
 			onspawn = function(player) vRPclient.setCop(player,{true}) end,
 			onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1242,7 +1241,6 @@
 		
 		["Agent S.I.A.S"] = {
 			_config = { 
-			gtype = "job",
 			onjoin = function(player) vRPclient.setCop(player,{true}) end,
 			onspawn = function(player) vRPclient.setCop(player,{true}) end,
 			onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1290,7 +1288,6 @@
 		},	
 		["Agent Sef"] = {  
 			_config = { 
-				gtype = "job",
 				onjoin = function(player) vRPclient.setCop(player,{true}) end,
 				onspawn = function(player) vRPclient.setCop(player,{true}) end,
 				onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1339,7 +1336,6 @@
 			},
 			["Agent Sef S.I.A.S"] = {  
 				_config = { 
-					gtype = "job",
 					onjoin = function(player) vRPclient.setCop(player,{true}) end,
 					onspawn = function(player) vRPclient.setCop(player,{true}) end,
 					onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1384,8 +1380,7 @@
 				"police.mission"
 				},
 			["Sub-Inspector"] = {  
-				_config = { 
-				gtype = "job",
+				_config = {
 				onjoin = function(player) vRPclient.setCop(player,{true}) end,
 				onspawn = function(player) vRPclient.setCop(player,{true}) end,
 				onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1437,7 +1432,6 @@
 			},
 			["Inspector S.I.A.S"] = {  
 			_config = { 
-				gtype = "job",
 				onjoin = function(player) vRPclient.setCop(player,{true}) end,
 				onspawn = function(player) vRPclient.setCop(player,{true}) end,
 				onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1489,7 +1483,6 @@
 			},
 			["Inspector-Sef"] = {  
 				_config = { 
-					gtype = "job",
 					onjoin = function(player) vRPclient.setCop(player,{true}) end,
 					onspawn = function(player) vRPclient.setCop(player,{true}) end,
 					onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1539,8 +1532,7 @@
 				"police.mission"
 				},
 			["Comisar S.I.A.S"] = {  
-			_config = { 
-				gtype = "job",
+			_config = {
 				onjoin = function(player) vRPclient.setCop(player,{true}) end,
 				onspawn = function(player) vRPclient.setCop(player,{true}) end,
 				onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1593,7 +1585,6 @@
 			},
 			["Comisar"] = {  
 				_config = { 
-					gtype = "job",
 					onjoin = function(player) vRPclient.setCop(player,{true}) end,
 					onspawn = function(player) vRPclient.setCop(player,{true}) end,
 					onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1645,7 +1636,6 @@
 				},
 			["Comisar Sef S.I.A.S"] = {  
 				_config = { 
-				gtype = "job",
 				onjoin = function(player) vRPclient.setCop(player,{true}) end,
 				onspawn = function(player) vRPclient.setCop(player,{true}) end,
 				onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1696,7 +1686,6 @@
 			},
 			["Chestor"] = {  
 				_config = { 
-				gtype = "job",
 				onjoin = function(player) vRPclient.setCop(player,{true}) end,
 				onspawn = function(player) vRPclient.setCop(player,{true}) end,
 				onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1749,7 +1738,6 @@
 	},
 			["Chestor Secundar S.I.A.S"] = {  
 				_config = { 
-				gtype = "job",
 				onjoin = function(player) vRPclient.setCop(player,{true}) end,
 				onspawn = function(player) vRPclient.setCop(player,{true}) end,
 				onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1802,7 +1790,6 @@
 	},
 	["Chestor General S.I.A.S"] = {  
 		_config = { 
-		gtype = "job",
 		onjoin = function(player) vRPclient.setCop(player,{true}) end,
 		onspawn = function(player) vRPclient.setCop(player,{true}) end,
 		onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1856,7 +1843,6 @@
 },
 	["Chestor General"] = {  
 		_config = { 
-		gtype = "job",
 		onjoin = function(player) vRPclient.setCop(player,{true}) end,
 		onspawn = function(player) vRPclient.setCop(player,{true}) end,
 		onleave = function(player) vRPclient.setCop(player,{true}) end
@@ -1922,7 +1908,7 @@
 	  "traficant.arme"
 	  },
 	  ["Hitman"] = {
-		_config = { gtype = "job",
+		_config = {
 		onspawn = function(player) vRPclient.notify(player,{"Esti Hitman"}) end
 	  },
 	  "cautaprostu.hitman",
@@ -1937,7 +1923,7 @@
 	  "garajhitman.acces"
 	  },
 	  ["Lider Hitman"] = {
-		_config = { gtype = "job",
+		_config = {
 		onspawn = function(player) vRPclient.notify(player,{"Esti Lider Hitman"}) end
 	  },
 	  "cautaprostu.hitman",
@@ -2057,30 +2043,196 @@
 
 	  
 --===============[ JOBURI NOI ~ FINISH]===============--
-	["Lider Mafia Siciliana"] = {
+--Groove--------------------------------
+	["Lider Groove Street"] = {
 		"police.putinveh",
 		"police.easy_cuff",
         "police.getoutveh",
         "police.drag",
-        "vanzator.droguri",
         "police.menu",
-		"siciliana.masini",
-		"permisie.tinta",
+		"grove.masini",
 		"mafiafull.arme",
 		"mafiot.chat",
+		"lider.salar"
 	},
-	["Membru Mafia Siciliana"] = {
+	["Co-Lider Groove Street"] = {
 		"police.putinveh",
 		"police.easy_cuff",
         "police.getoutveh",
         "police.drag",
-        "vanzator.droguri",
         "police.menu",
-		"siciliana.masini",
-		"permisie.tinta",
+		"grove.masini",
 		"mafiafull.arme",
 		"mafiot.chat",
-	},	
+		"colider.salar"
+	},
+	["Interlop Groove Street"] = {
+		"police.putinveh",
+		"police.easy_cuff",
+        "police.getoutveh",
+        "police.drag",
+        "police.menu",
+		"grove.masini",
+		"mafiot.chat",
+		"interlop.salar"
+	},
+	["Camatar Groove Street"] = {
+		"police.putinveh",
+		"police.easy_cuff",
+        "police.getoutveh",
+        "police.drag",
+        "police.menu",
+		"grove.masini",
+		"mafiot.chat",
+		"camatar.salar"
+	},
+	["Membru Groove Street"] = {
+		"police.putinveh",
+		"police.easy_cuff",
+        "police.getoutveh",
+        "police.drag",
+        "police.menu",
+		"grove.masini",
+		"mafiot.chat",
+		"membru.salar"
+	},
+	["Sageata Groove Street"] = {
+		"police.putinveh",
+		"police.easy_cuff",
+        "police.getoutveh",
+        "police.drag",
+        "police.menu",
+		"grove.masini",
+		"mafiot.chat",
+		"sageata.salar"
+	},
+---Crips-------------------------------------
+["Lider Crips"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"crip.masini",
+	"mafiafull.arme",
+	"mafiot.chat",
+	"lider.salar"
+},
+["Co-Lider Crips"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"crip.masini",
+	"mafiafull.arme",
+	"mafiot.chat",
+	"colider.salar"
+},
+["Interlop Crips"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"crip.masini",
+	"mafiot.chat",
+	"interlop.salar"
+},
+["Camatar Crips"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"crip.masini",
+	"mafiot.chat",
+	"camatar.salar"
+},
+["Membru Crips"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"crip.masini",
+	"mafiot.chat",
+	"membru.salar"
+},
+["Sageata Crips"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"crip.masini",
+	"mafiot.chat",
+	"sageata.salar"
+},
+---Casa de Papel----------------------------------
+["Lider Casa De Papel"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"casa.masini",
+	"mafiafull.arme",
+	"mafiot.chat",
+	"lider.salar"
+},
+["Co-Lider Casa De Papel"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"casa.masini",
+	"mafiafull.arme",
+	"mafiot.chat",
+	"colider.salar"
+},
+["Interlop Casa De Papel"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"casa.masini",
+	"mafiot.chat",
+	"interlop.salar"
+},
+["Camatar Casa De Papel"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"casa.masini",
+	"mafiot.chat",
+	"camatar.salar"
+},
+["Membru Casa De Papel"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"casa.masini",
+	"mafiot.chat",
+	"membru.salar"
+},
+["Sageata Casa De Papel"] = {
+	"police.putinveh",
+	"police.easy_cuff",
+	"police.getoutveh",
+	"police.drag",
+	"police.menu",
+	"casa.masini",
+	"mafiot.chat",
+	"sageata.salar"
+},
+------------------------------------------	
 	["Co-Lider Mecanici"] = {
 		"police.putinveh",
 		"police.easy_cuff",
@@ -2089,7 +2241,7 @@
         "police.menu",
 		"mecanic.acces",
 		"sniper.acces",
-		"mafiot.chat",
+		"mafiot.chat"
 	},	
 	["Mecanic"] = {
 		"police.putinveh",
@@ -2099,7 +2251,7 @@
         "police.menu",
         "mecanic.acces",
 		"sniper.acces",
-		"mafiot.chat",
+		"mafiot.chat"
 	},
 	["Lider Sinaloa Cartel"] = {
 		"police.putinveh",
@@ -2111,7 +2263,7 @@
 		"sinaloa.masini",
 		"sinaloal.masini",
 		"mafia.arme",
-		"mafiot.chat",
+		"mafiot.chat"
 	},
 	["Co-Lider Sinaloa Cartel"] = {
 		"police.putinveh",
@@ -2123,7 +2275,7 @@
 		"sinaloa.masini",
 		"sinaloal.masini",
 		"mafia.arme",
-		"mafiot.chat",
+		"mafiot.chat"
 	},		
 	["Sinaloa Cartel"] = {
 		"police.putinveh",
@@ -2134,7 +2286,7 @@
 		"mafiot.chat",
         "police.menu",
         "sinaloa.masini",
-        "mafia.arme",
+        "mafia.arme"
 	},
 	["Lider Peaky Blinders"] = {
 		"police.putinveh",
@@ -2146,7 +2298,7 @@
 		"mafiot.chat",
 		"peaky.masini",
 		"peakyl.masini",
-        "mafia.arme",
+        "mafia.arme"
 	},	
 	["Co-Lider Peaky Blinders"] = {
 		"police.putinveh",
@@ -2158,7 +2310,7 @@
 		"peaky.masini",
 		"mafiot.chat",
 		"peakyl.masini",
-        "mafia.arme",
+        "mafia.arme"
 	},	
 	["Peaky Blinders"] = {
 		"police.putinveh",
@@ -2169,7 +2321,7 @@
 		"mafiot.chat",
         "police.menu",
         "peaky.masini",
-        "mafia.arme",
+        "mafia.arme"
 	},		
 	["Lider Curcubeu"] = {
 		"police.putinveh",
@@ -2180,7 +2332,7 @@
 		"police.menu",
 		"mafiot.chat",
         "curcubeu.masini",
-        "mafia.arme",
+        "mafia.arme"
 	},		
 	["Co-Lider Curcubeu"] = {
 		"police.putinveh",
@@ -2191,7 +2343,7 @@
 		"mafiot.chat",
         "police.menu",
         "curcubeu.masini",
-        "mafia.arme",
+        "mafia.arme"
 	},
 	["Curcubeu"] = {
 		"police.putinveh",
@@ -2202,7 +2354,7 @@
 		"mafiot.chat",
         "police.menu",
         "curcubeu.masini",
-        "mafia.arme",
+        "mafia.arme"
 	},	
 	["Lider LosVagos"] = {
 		"police.putinveh",
@@ -2214,7 +2366,7 @@
 		"vagos.masini",
 		"mafiot.chat",
 		"sniper.acces",
-		"vagos.salariu",
+		"vagos.salariu"
 	},		
 	["Co-Lider LosVagos"] = {
 		"police.putinveh",
@@ -2226,7 +2378,7 @@
 		"mafiot.chat",
         "vagos.masini",
 		"vagos.salariu",
-		"sniper.acces",
+		"sniper.acces"
 	},
 	["LosVagos"] = {
 		"police.putinveh",
@@ -2238,7 +2390,7 @@
 		"vagos.masini",
 		"mafiot.chat",
 		"sniper.acces",
-		"vagos.salariu",
+		"vagos.salariu"
 	},
 	["Lider Bloodz"] = {
 		"police.putinveh",
@@ -2246,7 +2398,7 @@
         "police.getoutveh",
         "police.drag",
         "gang.acces",
-		"gang.chat",
+		"gang.chat"
 	},		
 	["Co-Lider Bloodz"] = {
 		"police.putinveh",
@@ -2254,7 +2406,7 @@
         "police.getoutveh",
         "police.drag",
         "gang.acces",
-		"gang.chat",
+		"gang.chat"
 	},
 	["Bloodz"] = {
 		"police.putinveh",
@@ -2263,7 +2415,7 @@
         "police.drag",
         "police.menu",
 		"gang.acces",
-		"gang.chat",
+		"gang.chat"
 	},
 	  ["SONS OF ANARCHY"] = {
 		"scu.cloakroom",
@@ -2276,7 +2428,7 @@
         "police.menu",
         "scu.masini",
 		"sniper.acces",
-        "scu.skin",		
+        "scu.skin"		
 	},	
 	["Co-Lider SONS OF ANARCHY"] = {
 		"scu.cloakroom",
@@ -2289,7 +2441,7 @@
 		"police.menu",
 		"police.easy_cuff",
         "scu.masini",
-        "scu.skin",		
+        "scu.skin"	
 	},	
 	["Lider SONS OF ANARCHY"] = {
 		"scu.cloakroom",
@@ -2302,7 +2454,7 @@
         "vanzator.droguri",
         "police.menu",
         "scu.masini",
-        "scu.skin",	
+        "scu.skin"	
 	}	  
 }
 -- GRUPE ID 1
