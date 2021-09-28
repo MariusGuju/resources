@@ -23,3 +23,130 @@
 [17:53:38] ^0[^4Player Connect^0] ^0[^3alex.07____^0] connecting...
 [17:53:53] ^0[^4Player Connect^0] ^0[^3KaSy^0] connecting...
 [17:54:31] ^0[^32^0] ^0[^3KaSy^0] authentificated as ChocoHax Admin/Moderator
+[18:08:02] Sending Heartbeat to `^3ChocoHax^0` servers
+[18:08:05] ChocoHax Global Ban List updated successfully...
+[18:18:57] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:23:02] Sending Heartbeat to `^3ChocoHax^0` servers
+[18:23:05] ChocoHax Global Ban List updated successfully...
+[18:27:00] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:27:35] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:27:47] ^0[^4Player Connect^0] ^0[^3Synder14^0] connecting...
+[18:28:00] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:29:20] ^0[^4Player Connect^0] ^0[^3alex^0] connecting...
+[18:30:09] [^1Ban^0] - ^0[^43^0] ^0[^2Synder14^0] ^0[^1Client `Anti Blips`^0]
+[18:30:09] ^0[^4Ban System^0] Ban ID ^0[^3309696^0] created
+[18:30:09] ^0[^4Player Disconnect^0] Synder14 disconnected... (^3💗ChocoHax: Ai Primit ban de la AntiCheat,Daca crezi ca ai fost banat pe nedrept Contactatine pe Serverul de Discord !!! BanID: [309696]^0)
+[18:30:09] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3null^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:30:10] [DEBUG] [Ban Logger] ok
+[18:31:04] ^0[^4Ban System^0] Ban ID ^0[^3309696^0] removed
+[18:31:04] ^0[^32^0] ^0[^3KaSy^0] executed unban command
+[18:31:11] ^0[^4Player Connect^0] ^0[^3Synder14^0] connecting...
+[18:31:40] ^0[^4Player Disconnect^0] alex disconnected... (^3[LOGIN-SYSTEM] Ai primit kick de la [SYSTEM], Cauza: Valori invalide la inregistrare(*Varsta) Nume >12-150<!^0)
+[18:32:03] ^0[^4Player Connect^0] ^0[^3alex^0] connecting...
+[18:32:05] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:32:44] [^1Ban^0] - ^0[^45^0] ^0[^2Synder14^0] ^0[^1Client `Anti Blips`^0]
+[18:32:44] ^0[^4Ban System^0] Ban ID ^0[^3158453^0] created
+[18:32:44] ^0[^4Player Disconnect^0] Synder14 disconnected... (^3💗ChocoHax: Ai Primit ban de la AntiCheat,Daca crezi ca ai fost banat pe nedrept Contactatine pe Serverul de Discord !!! BanID: [158453]^0)
+[18:32:45] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3null^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:32:46] [DEBUG] [Ban Logger] ok
+[18:34:02] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:34:23] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:34:59] ^0[^4Ban System^0] Ban ID ^0[^3309696^0] not found
+[18:34:59] ^0[^32^0] ^0[^3KaSy^0] executed unban command
+[18:38:02] Sending Heartbeat to `^3ChocoHax^0` servers
+[18:38:04] ChocoHax Global Ban List updated successfully...
+[18:39:12] ^0[^4Player Disconnect^0] KaSy disconnected... (^3mars^0)
+[18:39:30] ^0[^4Player Connect^0] ^0[^3KaSy^0] connecting...
+[18:40:10] ^0[^37^0] ^0[^3KaSy^0] authentificated as ChocoHax Admin/Moderator
+[18:40:35] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:41:12] ^0[^4Player Disconnect^0] alex.07____ disconnected... (^3Disconnected.^0)
+[18:41:23] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:41:29] ^0[^4Ban System^0] Ban ID ^0[^3158453^0] removed
+[18:41:29] ^0[^37^0] ^0[^3KaSy^0] executed unban command
+[18:41:38] ^0[^4Player Connect^0] ^0[^3alex.07____^0] connecting...
+[18:41:59] ^0[^4Player Connect^0] ^0[^3Oaky39^0] connecting...
+[18:44:21] ^0[^4Ban System^0] Ban ID ^0[^3158453^0] not found
+[18:44:21] ^0[^37^0] ^0[^3KaSy^0] executed unban command
+[18:45:10] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3discord.json^0] file
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3live.json^0] file
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3xbl.json^0] file
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3token.json^0] file
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3steam.json^0] file
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3fivem.json^0] file
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3indexes.json^0] file
+[18:45:51] ^0[^4Ban Loader^0] Successfully loaded ^0[^3license.json^0] file
+[18:45:51] ^0[^37^0] ^0[^3KaSy^0] executed reloadbans command
+[18:45:51] Deleted 0 entities
+[18:45:51] ^0[^37^0] ^0[^3KaSy^0] executed clear command
+[18:45:52] Deleted 0 entities
+[18:45:52] ^0[^37^0] ^0[^3KaSy^0] executed clear command
+[18:45:53] Deleted 0 entities
+[18:45:53] ^0[^37^0] ^0[^3KaSy^0] executed clear command
+[18:45:53] Deleted 0 entities
+[18:45:53] ^0[^37^0] ^0[^3KaSy^0] executed clear command
+[18:45:55] ^0[^4Player Connect^0] ^0[^3Synder14^0] connecting...
+[18:49:04] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:49:33] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:49:59] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:52:12] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:52:26] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:53:02] Sending Heartbeat to `^3ChocoHax^0` servers
+[18:53:04] ChocoHax Global Ban List updated successfully...
+[18:53:51] [^1Ban^0] - ^0[^49^0] ^0[^2Oaky39^0] ^0[^1Client `Anti Blips`^0]
+[18:53:51] ^0[^4Ban System^0] Ban ID ^0[^3732246^0] created
+[18:53:51] ^0[^4Player Disconnect^0] Oaky39 disconnected... (^3💗ChocoHax: Ai Primit ban de la AntiCheat,Daca crezi ca ai fost banat pe nedrept Contactatine pe Serverul de Discord !!! BanID: [732246]^0)
+[18:53:51] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3null^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:53:51] [DEBUG] [Ban Logger] ok
+[18:53:55] [^1Ban^0] - ^0[^46^0] ^0[^2alex^0] ^0[^1Client `Anti Blips`^0]
+[18:53:55] ^0[^4Ban System^0] Ban ID ^0[^3141580^0] created
+[18:53:55] ^0[^4Player Disconnect^0] alex disconnected... (^3💗ChocoHax: Ai Primit ban de la AntiCheat,Daca crezi ca ai fost banat pe nedrept Contactatine pe Serverul de Discord !!! BanID: [141580]^0)
+[18:53:55] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3null^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:53:55] [DEBUG] [Ban Logger] ok
+[18:54:04] ^0[^4Ban System^0] Ban ID ^0[^3141580^0] removed
+[18:54:04] ^0[^37^0] ^0[^3KaSy^0] executed unban command
+[18:54:06] ^0[^4Ban System^0] Ban ID ^0[^3732246^0] removed
+[18:54:06] ^0[^37^0] ^0[^3KaSy^0] executed unban command
+[18:54:17] ^0[^4Player Connect^0] ^0[^3alex^0] connecting...
+[18:56:02] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:57:00] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:57:10] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[18:57:38] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:00:30] [^1Ban^0] - ^0[^48^0] ^0[^2alex.07____^0] ^0[^1Client `Anti Blips`^0]
+[19:00:30] ^0[^4Ban System^0] Ban ID ^0[^3682825^0] created
+[19:00:31] ^0[^4Player Disconnect^0] alex.07____ disconnected... (^3💗ChocoHax: Ai Primit ban de la AntiCheat,Daca crezi ca ai fost banat pe nedrept Contactatine pe Serverul de Discord !!! BanID: [682825]^0)
+[19:00:31] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3null^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:00:31] [DEBUG] [Ban Logger] ok
+[19:01:06] ^0[^4Ban System^0] Ban ID ^0[^3682825^0] removed
+[19:01:06] ^0[^37^0] ^0[^3KaSy^0] executed unban command
+[19:01:25] ^0[^4Player Connect^0] ^0[^3alex.07____^0] connecting...
+[19:05:26] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:08:02] Sending Heartbeat to `^3ChocoHax^0` servers
+[19:08:05] ChocoHax Global Ban List updated successfully...
+[19:10:41] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:11:30] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:11:44] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:14:58] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:15:05] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:15:05] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:17:01] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:19:26] ^0[^4Player Disconnect^0] Synder14 disconnected... (^3Exiting^0)
+[19:20:45] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:20:56] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:23:03] Sending Heartbeat to `^3ChocoHax^0` servers
+[19:23:05] ChocoHax Global Ban List updated successfully...
+[19:23:17] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:25:43] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex.07____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[19:29:02] ^0[^4Player Disconnect^0] KaSy disconnected... (^3Exiting^0)
+[19:29:30] ^0[^4Player Connect^0] ^0[^3KaSy^0] connecting...
+[19:30:07] ^0[^313^0] ^0[^3KaSy^0] authentificated as ChocoHax Admin/Moderator
+[19:32:03] ^0[^4Player Disconnect^0] KaSy disconnected... (^3Exiting^0)
+[19:32:14] ^0[^4Player Connect^0] ^0[^3Maru^0] connecting...
+[19:32:15] ^0[^4Player Connect^0] ^0[^3KaSy^0] connecting...
+[19:32:52] ^0[^314^0] ^0[^3KaSy^0] authentificated as ChocoHax Admin/Moderator
+[19:33:42] ^0[^315^0] ^0[^3Maru^0] authentificated as ChocoHax Admin/Moderator
+[19:34:59] ^0[^4Player Connect^0] ^0[^3dddavvvidd senciucu^0] connecting...
+[19:36:17] ^0[^4Player Disconnect^0] alex disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[19:36:17] ^0[^4Player Disconnect^0] alex.07____ disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[19:36:17] ^0[^4Player Disconnect^0] Maru disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[19:36:17] ^0[^4Player Disconnect^0] KaSy disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)

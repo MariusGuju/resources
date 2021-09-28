@@ -194,11 +194,11 @@ local globalWeaponTable = {
 		{
 
 			name = "Hitman",
-			{"armamenthitman.acces",0,0,'WEAPON_PISTOL', 'Pistol' },
+			{"armamenthitman.acces",100,0,'WEAPON_PISTOL', 'Pistol' },
 			{"armamenthitman.acces",0,0,'WEAPON_REVOLVER_MK2', 'Revolver Mk2' },
-			{"armamenthitman.acces",0,0,'WEAPON_PETROLCAN', 'Petrol' },
+			{"armamenthitman.acces",100,1,'WEAPON_PETROLCAN', 'Petrol' },
 			{"armamenthitman.acces",0,0,'WEAPON_KNIFE', 'Cutit' },
-			{"armamenthitman.acces",0,0,'WEAPON_HAMMER', 'Hammer'},
+			{"armamenthitman.acces",100,1,'WEAPON_HAMMER', 'Hammer'},
 			{"armamenthitman.acces",0,0,'WEAPON_FLASHLIGHT', 'Flashlight' },
 			{"armamenthitman.acces",0,0,'WEAPON_CROWBAR', 'CrowBar' },
 			{"armamenthitman.acces",0,0,'WEAPON_SWITCHBLADE', 'Lama' },

@@ -611,6 +611,8 @@
 		["Head Of Staff"] = {
 			_config = {onspawn = function(player) end},
 			"admin.ajail",
+			"chocohax.noclip",
+			"chocohax.blips",
 			"staff.duty",
 			"acces.restart",
 			"player.VanishBan",
@@ -653,6 +655,8 @@
 		},
 		["admin"] = {
 			"admin.tickets",
+			"chocohax.noclip",
+			"chocohax.blips",
 			"staff.duty",
 			"stop.chat",
 			"admin.announce",

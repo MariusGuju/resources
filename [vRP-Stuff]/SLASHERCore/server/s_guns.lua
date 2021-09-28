@@ -162,7 +162,7 @@ local arme = {
     --{ name = "Accessories", 100,1,'WEAPON_FLARE', 'Flare', "user.arme"},
     { name = "Accessories", 1000,6,'GADGET_PARACHUTE', 'Parachute', "user.arme"},
 
---[[
+
  --"Mafia" v.name, v[1] - PRET, v[2] - LEVEL, v[3] - HASH, v[4] = Numele Armei, v[5] = permisiunea
   { name = "Mafia", 0,0,'WEAPON_PISTOL', 'Pistol',"mafia.arme"},
   { name = "Mafia", 0,0,'WEAPON_REVOLVER_MK2', 'Revolver', "mafia.arme"},
@@ -197,7 +197,7 @@ local arme = {
   { name = "Mafia Ciorapel", 0,0,'WEAPON_MACHETE', 'Macheta', "mafiepepsy.arme"},
   { name = "Mafia Ciorapel", 0,0,'WEAPON_PUMPSHOTGUN_MK2', 'Shotgun Mk2', "mafiepepsy.arme"},
   { name = "Mafia Ciorapel", 0,0,'WEAPON_ASSAULTRIFLE_MK2', 'Assault Rifle Mk2', "mafiepepsy.arme"},
-  { name = "Mafia Ciorapel", 0,0,'GADGET_PARACHUTE', 'Parasuta', "mafiepepsy.arme"},
+  { name = "Mafia Ciorapel", 0,0,'GADGET_PARACHUTE', 'Parasuta', "mafiepepsy.arme"},--]]
 
   { name = "Hitman", 0,0,'WEAPON_PISTOL', 'Pistol',"armamenthitman.acces"},
   { name = "Hitman", 0,0,'WEAPON_REVOLVER_MK2', 'Revolver', "armamenthitman.acces"},  
@@ -211,7 +211,7 @@ local arme = {
   { name = "Hitman", 100,1,'WEAPON_HEAVYSNIPER', 'Heavy Sniper Rifle', "armamenthitman.acces"},
 
   
-    -- "BCCO-SIAS" v.name, v[1] - PRET, v[2] - LEVEL, v[3] - HASH, v[4] = Numele Armei, v[5] = permisiunea
+    --[[ "BCCO-SIAS" v.name, v[1] - PRET, v[2] - LEVEL, v[3] - HASH, v[4] = Numele Armei, v[5] = permisiunea
     { name = "BCCO-SIAS", 0,0,'WEAPON_PISTOL_MK2', 'Pistol MKII',"bcco.arme"},
     { name = "BCCO-SIAS", 0,0,'WEAPON_APPISTOL', 'Ap Pistol', "bcco.arme"},
     { name = "BCCO-SIAS", 0,0,'WEAPON_SMG', 'SMG',"bcco.arme"},

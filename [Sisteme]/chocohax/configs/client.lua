@@ -13,7 +13,7 @@ RC.antispectate = true -- Detects and Block spectacting functions on different m
 RC.blockFreeCam = true -- Block any kind of free cam (may be not compatible with all servers.)
 
 -- Anti Player Blips (requires chocohax.blips)
-RC.antiblips = true -- Detects users that are using Player Blips (may cause false positives for jobs like esx_police or esx_ambulance)
+RC.antiblips = false -- Detects users that are using Player Blips (may cause false positives for jobs like esx_police or esx_ambulance)
 
 RC.autoAdminAuth = true -- Automatically checks for permissions (can impact on the server performance)
 -- If FALSE you must execute `chocoauth` command in your F8 in-game console to permissions.
