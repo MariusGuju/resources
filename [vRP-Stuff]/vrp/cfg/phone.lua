@@ -35,23 +35,14 @@ cfg.services = {
     notify = "~b~Ai chemat o ambulanta.",
     answer_notify = "~b~Ambulanta va sosi curand!."
   },
-  ["Taxi Pelican"] = {
+  ["Uber"] = {
     blipid = 198,
     blipcolor = 5,
     alert_time = 300,
     alert_permission = "taxi.service",
-    alert_notify = "~y~Dispecerat Taxi:~n~~s~",
-    notify = "~b~Ai sunat la Taxi Pelican.",
-    answer_notify = "~y~Un pelican zboara spre tine."
-  },
-  ["Taxi Pelican"] = {
-    blipid = 198,
-    blipcolor = 5,
-    alert_time = 300,
-    alert_permission = "taxi.service",
-    alert_notify = "~y~Dispecerat Taxi:~n~~s~",
-    notify = "~b~Ai sunat la Taxi Pelican.",
-    answer_notify = "~y~Un pelican zboara spre tine."
+    alert_notify = "~y~Uber:~n~~s~",
+    notify = "~b~Ai chemat un Uber.",
+    answer_notify = "~y~Un sofer Uber vine inspre tine."
   },
   ["Hitman"] = {
     blipid = 198,
@@ -106,13 +97,13 @@ cfg.announces = {
     --image = "nui://vrp_mod/announce_commercial.png",
     image = "https://th.bing.com/th/id/R2fbfd072307e825942f67629efb621ff?rik=ofUtLq7DB4kzSg&pid=ImgRaw",
     description = "Lucruri comerciale (cumpar,vand,munca,etc).",
-    price = 150
+    price = 50000
   },
   ["party"] = {
     --image = "nui://vrp_mod/announce_party.png",
     image = "https://th.bing.com/th/id/OIP.ZweVeTJiCtov6PWUspYquwHaLH?pid=ImgDet&rs=1",
     description = "Organizezi o petrecere? Anunta jucatorii unde e locatia.",
-    price = 150
+    price = 100000
   }
 }
 

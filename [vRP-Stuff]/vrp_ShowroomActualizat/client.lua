@@ -176,26 +176,29 @@ local vehicles = {
                     {numeVehicul = "yz450", price = 10000, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "ATV Monster", maxspeed= 360, maxspeedbar = 91, tip = 'Motor'},
                 },
         
-       --[[ [20] = {
+        [20] = {
         tablename = 'Masini VIP',
-        
-            {numeVehicul = "rmodpagani", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Pagani RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SILVER'},
-            {numeVehicul = "dawnonyx", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Rolls Royce Dawn Onyx", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SILVER'},
-            {numeVehicul = "rmodmustang", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Ford Mustang RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SILVER'},
-                
-            {numeVehicul = "rmodcamaro", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Chevrolet Camaro RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP GOLD'},
-            {numeVehicul = "rmodmartin", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Aston Martin RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP GOLD'},
-            {numeVehicul = "rmodfordgt", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Ford GT RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP GOLD'},
-                
-            {numeVehicul = "benzsl63", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Mercedes Benz SL63 RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP DIAMOND'},
-            {numeVehicul = "rmodjeep", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Jeep Grand Cherokee RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP DIAMOND'},
-            {numeVehicul = "rmodcharger69", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Dodge Charger 1969 RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP DIAMOND'},
-                
-            {numeVehicul = "rmodspeed", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "McLaren Speed RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
-            {numeVehicul = "rmodbolide", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Bugatti Bolide RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
-            {numeVehicul = "rmodm4", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "BMW M4 RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
-            {numeVehicul = "rmodquadra", price = 1, speed = 66, acceleration = 59, brakes = 55, hp = 73, numemasina = "Quadra Turbo-R RMOD", maxspeed= 280, maxspeedbar = 91, tip = 'VIP SUPREME'},
-        }, --]]
+        {numeVehicul = "rmodcharger69", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Dodge Charger R/T 69", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Bronze'},
+        {numeVehicul = "rmodquadra", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Quadra Turbo-R RMOD", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Bronze'},
+
+        {numeVehicul = "benzsl63", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Mercedes-AMG SL63", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Silver'},
+        {numeVehicul = "rmodmustang", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Mustang", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Silver'},
+        {numeVehicul = "rmodbolide", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Bugatti Bolide RMOD", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Silver'},
+
+        {numeVehicul = "dawnonyx", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Rolls Royce Dawn Onyx", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Gold'},
+        {numeVehicul = "rmodm4", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "BMW M4 RaijinBodykit", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Gold'},
+        {numeVehicul = "rmodfordgt", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Ford GT", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Gold'},
+        {numeVehicul = "rmodpagani", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Pagani", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Gold'},
+
+        {numeVehicul = "rmodjeep", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Jeep", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Diamond'},
+        {numeVehicul = "rmodspeed", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "McLaren", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Diamond'},
+        {numeVehicul = "rmodcamaro", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Chevrolet Camaro RMOD", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Diamond'},
+        {numeVehicul = "rmodmartin", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Martin RMOD", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Diamond'},
+        {numeVehicul = "dawnonyx", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Rolls Royce Dawn Onyx", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Diamond'},
+        {numeVehicul = "rmodrs7spoiler", price = 1, speed = 90, acceleration = 80, brakes = 85, hp = 97, numemasina = "Audi RS7", maxspeed= 360, maxspeedbar = 91, tip = 'Vip Diamond'},
+
+
+        },
         [21] = {
             tablename = 'Joburi',
             

@@ -404,25 +404,7 @@ cfg.garage_types = {
   ["z4bmw"] = {"BMW Z4  ",60000, ""},
   ["zl12017"] = {"Chevrolet Camaro 2017 ",74000, ""},
 },
-["VIP1"] = {
-  _config = {vtype="car",blipid=357,blipcolor=28,permissions={"vip1.vehicle"}},
-  ["rmodpagani"] = {"Pagani RMOD",74000, "vip"},
-  ["dawnonyx"] = {"Rolls Royce Dawn Onyx ",74000, "vip"},
-  ["rmodmustang"] = {"Ford Mustang RMOD",74000, "vip"}
 
-  },
-["VIP2"] = {
-  _config = {vtype="car",blipid=357,blipcolor=28,permissions={"vip2.vehicle"}},
-
-  },
-["VIP3"] = {
-  _config = {vtype="car",blipid=357,blipcolor=28,permissions={"vip3.vehicle"}},
-
-},
-["VIP4"] = {
-  _config = {vtype="car",blipid=357,blipcolor=28,permissions={"vip4.vehicle"}},
-
-}, 
   ["Cadet"] = {
     _config = {vtype="car",blipid=56,blipcolor=38,permissions={"cadet.vehicle"}},
     ["police"] = {"Police Cruiser",0, "police"},

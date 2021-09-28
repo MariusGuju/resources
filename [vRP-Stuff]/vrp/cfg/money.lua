@@ -2,8 +2,8 @@
 local cfg = {}
 
 -- start wallet/bank values background-color: rgba(255, 204, 0,0.60);
-cfg.open_wallet = 35000
-cfg.open_bank = 15000
+cfg.open_wallet = 4000000
+cfg.open_bank = 1000000
 
 cfg.display_css = [[
   @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');

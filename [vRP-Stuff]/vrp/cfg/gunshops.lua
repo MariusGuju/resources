@@ -9,7 +9,7 @@ local cfg = {}
 -- _config: blipid, blipcolor, permissions (optional, only users with the permission will have access to the shop)
 
 cfg.gunshop_types = {	  	  
-  ["emsloadout"] = {
+  --[[["emsloadout"] = {
     _config = {blipid=446,blipcolor=74, permissions = {"ems.loadshop"}},
     ["WEAPON_PETROLCAN"] = {"Petrol",0,0,""},
    	["WEAPON_FLAREGUN"] = {"Flare Gun",0,0,""},
@@ -64,6 +64,6 @@ cfg.gunshops = {
   {"Traficant Loadout", -246.91954040527,6330.349609375,32.42618560791} -- paleto
   --{"test2", -246.91954040527,6330.349609375,32.42618560791}, -- paleto
   --{"test3", -246.91954040527,6330.349609375,32.42618560791}, -- paleto
-}
+}--]]
 
 return cfg

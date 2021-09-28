@@ -77,7 +77,7 @@ local globalWeaponTable = {
         name = "Pistols",
         {"user.arme",1500,9,'WEAPON_PISTOL', 'Pistol' },
         --{"user.arme",2000,14,'WEAPON_PISTOL_MK2', 'Pistol MKII' },
-        {"user.arme",1500,9,'WEAPON_COMBATPISTOL', 'Combat Pistol' },
+        --{"user.arme",1500,9,'WEAPON_COMBATPISTOL', 'Combat Pistol' },
         --{"user.arme",100,2,'WEAPON_MACHINEPISTOL', 'Machine Pistol' },
         --{"user.arme",100,2,'WEAPON_APPISTOL', 'Automatic Pistol' },
         {"user.arme",1700,9,'WEAPON_PISTOL50', 'Pistol .50' },
@@ -92,7 +92,7 @@ local globalWeaponTable = {
         --{"user.arme",100,1,'WEAPON_STUNGUN', 'Taser' },
         --{"user.arme",100,2,'WEAPON_DOUBLEACTION', 'Double-Action Revolver' },
     },
-    {
+    --[[{
         name = "SMGs",
         {"user.arme",3000,22,'WEAPON_MICROSMG', 'Micro SMG' },
         {"user.arme",4000,27,'WEAPON_SMG', 'SMG' },
@@ -100,7 +100,7 @@ local globalWeaponTable = {
         --{"user.arme",100,1,'WEAPON_ASSAULTSMG', 'Assault SMG' },
         {"user.arme",3500,15,'WEAPON_MINISMG', 'Mini SMG' },
         --{"user.arme",300000,10,'WEAPON_COMBATPDW', 'Combat PDW' },
-    },
+    },--]]
     --[[{
         name = "MGs",
         --{"user.arme",500000,10,'WEAPON_MG', 'MG' },
@@ -108,7 +108,7 @@ local globalWeaponTable = {
         --{"user.arme",100,1,'WEAPON_COMBATMG_MK2', 'Combat MG MKII' },
         --{"user.arme",100,1,'WEAPON_GUSENBERG', 'Gusenberg' },
     },]]
-    {
+    --[[{
         name = "Shotguns",
         {"user.arme",2500,26,'WEAPON_PUMPSHOTGUN', 'Pump Shotgun' },
         --{"user.arme",2500,26,'WEAPON_PUMPSHOTGUN_MK2', 'Pump Shotgun MKII' },
@@ -160,7 +160,7 @@ local globalWeaponTable = {
 		{"user.arme",1000,6,'GADGET_PARACHUTE', 'Parachute', {noPreview = true, noTint = true, noAmmo = true} },
 	},
 	
-		--[[{
+		{
 
 			name = "Mafia",
 			{"mafia.arme",0,0,'WEAPON_PISTOL', 'Pistol' },
@@ -181,6 +181,15 @@ local globalWeaponTable = {
 			{"mafia.arme",0,0,'GADGET_PARACHUTE', 'Parachute', {noPreview = true, noTint = true, noAmmo = true} },
 	
 		},
+
+		{
+
+			name = "Arme Medici",
+      		{"ems.loadshop",10000,1,'WEAPON_STUNGUN', 'Taser' },
+        	{"ems.loadshop",5000,1,'WEAPON_NIGHTSTICK', 'Bulan' },	
+			{"ems.loadshop",0,0,'GADGET_PARACHUTE', 'Parachute', {noPreview = true, noTint = true, noAmmo = true} },
+	
+		},
 		
 		{
 
@@ -199,7 +208,7 @@ local globalWeaponTable = {
 			{"armamenthitman.acces",0,0,'WEAPON_HEAVYSNIPER', 'Heavy Sniper Rifle' },				
 			{"armamenthitman.acces",0,0,'GADGET_PARACHUTE', 'Parachute', {noPreview = true, noTint = true, noAmmo = true} },
 	
-		}]]
+		}
 	}
 
 
@@ -1051,7 +1060,7 @@ Citizen.CreateThread(function()
 
 				for i,weapon in ipairs(class.weapons) do
 					if JayMenu.IsMenuOpened("xnw_"..class.name.."_"..weapon.model) then
-						pretArmaVanzare = weapon.pret/2
+						pretArmaVanzare = weapon.pret/3
 						pretGloanteX = weapon.clipSize*1.5
 						gloantenevoiase = weapon.clipSize
 						pretGloanteFull = 20

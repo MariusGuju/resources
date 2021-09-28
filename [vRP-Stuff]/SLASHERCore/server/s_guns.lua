@@ -80,7 +80,7 @@ local arme = {
 
     { name = "Pistols", 1500,9,'WEAPON_PISTOL', 'Pistol', "user.arme"},
     --{ name = "Pistols", 2000,14,'WEAPON_PISTOL_MK2', 'Pistol MKII', "user.arme"},
-    { name = "Pistols", 1500,9,'WEAPON_COMBATPISTOL', 'Combat Pistol', "user.arme"},
+    --{ name = "Pistols", 1500,9,'WEAPON_COMBATPISTOL', 'Combat Pistol', "user.arme"},
     --{ name = "Pistols", 100,2,'WEAPON_MACHINEPISTOL', 'Machine Pistol', "user.arme"},
     --{ name = "Pistols", 100,2,'WEAPON_APPISTOL', 'Automatic Pistol', "user.arme"},
     { name = "Pistols", 1700,9,'WEAPON_PISTOL50', 'Pistol .50', "user.arme"},
@@ -97,11 +97,11 @@ local arme = {
 
     --"SMGs" v.name, v[1] - PRET, v[2] - LEVEL, v[3] - HASH, v[4] = Numele Armei
 
-    { name = "SMGs", 3000,22,'WEAPON_MICROSMG', 'Micro SMG', "user.arme"},
-    { name = "SMGs", 4000,27,'WEAPON_SMG', 'SMG', "user.arme"},
+    --{ name = "SMGs", 3000,22,'WEAPON_MICROSMG', 'Micro SMG', "user.arme"},
+    --{ name = "SMGs", 4000,27,'WEAPON_SMG', 'SMG', "user.arme"},
    -- { name = "SMGs", 1000000,10,'WEAPON_SMG_MK2', 'SMG MKII', "user.arme"},
     --{ name = "SMGs", 100,1,'WEAPON_ASSAULTSMG', 'Assault SMG', "user.arme"},
-    { name = "SMGs", 3500,15,'WEAPON_MINISMG', 'Mini SMG', "user.arme"},
+    --{ name = "SMGs", 3500,15,'WEAPON_MINISMG', 'Mini SMG', "user.arme"},
     --{ name = "SMGs", 100,1,'WEAPON_COMBATPDW', 'Combat PDW', "user.arme"},
 
     --"MGs" v.name, v[1] - PRET, v[2] - LEVEL, v[3] - HASH, v[4] = Numele Armei
@@ -113,7 +113,7 @@ local arme = {
 
      --"Shotguns" v.name, v[1] - PRET, v[2] - LEVEL, v[3] - HASH, v[4] = Numele Armei
 
-    { name = "Shotguns", 2500,26,'WEAPON_PUMPSHOTGUN', 'Pump Shotgun', "user.arme"},
+    --{ name = "Shotguns", 2500,26,'WEAPON_PUMPSHOTGUN', 'Pump Shotgun', "user.arme"},
     --{ name = "Shotguns", 2500,26,'WEAPON_PUMPSHOTGUN_MK2', 'Pump Shotgun MKII', "user.arme"},
     --{ name = "Shotguns", 100,1,'WEAPON_HEAVYSHOTGUN', 'Heavy Shotgun', "user.arme"},
     --{ name = "Shotguns", 100,1,'WEAPON_SAWNOFFSHOTGUN', 'Sawn-off Shotgun', "user.arme"},
@@ -125,9 +125,9 @@ local arme = {
 
     --"Assault Rifles" v.name, v[1] - PRET, v[2] - LEVEL, v[3] - HASH, v[4] = Numele Armei
 
-    { name = "Assault Rifles", 6000,24,'WEAPON_ASSAULTRIFLE', 'Assault Rifle', "user.arme"},
+    --{ name = "Assault Rifles", 6000,24,'WEAPON_ASSAULTRIFLE', 'Assault Rifle', "user.arme"},
     --{ name = "Assault Rifles", 7500,30,'WEAPON_ASSAULTRIFLE_MK2', 'Assault Rifle MKII', "user.arme"},
-    { name = "Assault Rifles", 6000,24,'WEAPON_CARBINERIFLE', 'Carbine Rifle', "user.arme"},
+    --{ name = "Assault Rifles", 6000,24,'WEAPON_CARBINERIFLE', 'Carbine Rifle', "user.arme"},
     --{ name = "Assault Rifles", 7500,30,'WEAPON_CARBINERIFLE_MK2', 'Carbine Rifle MKII', "user.arme"},
     --{ name = "Assault Rifles", 100,1,'WEAPON_ADVANCEDRIFLE', 'Advanced Rifle', "user.arme"},
     --{ name = "Assault Rifles", 100,1,'WEAPON_COMPACTRIFLE', 'Compact Rifle', "user.arme"},
@@ -450,7 +450,7 @@ AddEventHandler('updateGloanteArmaFull',function(armaModel,pretGloanteFull)
         end)
         TriggerClientEvent('daiGloanteFull',player,armaModel,gloantefull)
     else
-        vRPclient.notify(player,{"Saracia dracu, n-ai ~g~$"..pretGloanteFull.."~w~ sa cumperi gloante la arme"})
+        vRPclient.notify(player,{"N-ai ~g~$"..pretGloanteFull.."~w~ sa cumperi gloante la arme"})
     end
 end)
 
@@ -469,6 +469,6 @@ AddEventHandler('updateGloanteX',function(armaModel,gloantenevoiase,pretGloanteX
 
         TriggerClientEvent('daiGloanteLaArma',player,armaModel,gloantenevoiase)
     else
-        vRPclient.notify(player,{"Saracia dracu, n-ai ~g~$"..pretGloanteX.."~w~ sa cumperi gloante la arme"})
+        vRPclient.notify(player,{"N-ai ~g~$"..pretGloanteX.."~w~ sa cumperi gloante la arme"})
     end
 end)

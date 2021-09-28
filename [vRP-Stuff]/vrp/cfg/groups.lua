@@ -863,15 +863,6 @@
 			"judge.salariu",
 			"Judge.whitelisted"
 		},
-
-			["Taxi Pelican"] = {
-				_config = { gtype = "job",
-				onspawn = function(player)  end
-				},
-				"taxi.vehicle",
-				"soferp.salariu",
-				"taxi.service"
-			},
 				["Director SMURD"] = {
 					_config = {
 					onspawn = function(player)  end
@@ -2009,7 +2000,8 @@
 		onspawn = function(player) vRPclient.notify(player,{"Lucrezi la Uber "}) end
   	  },
   		"job.salariu",
-		"uber.masina"
+		"uber.masina",
+		"taxi.service"
 	  },
 
 	  ["Croitor"] = {

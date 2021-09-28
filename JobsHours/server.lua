@@ -69,7 +69,7 @@ AddEventHandler('vrp:uber', function()
 		vRP.addUserGroup({user_id,"Uber"})
 		vRP.giveInventoryItem({user_id,"permis",1,false})
                 vRP.giveInventoryItem({user_id,"autorizatie",1,false})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum Uber !"})
+		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti Uber !"})
 	else
 		vRPclient.notify(player, {"Verifica ~r~INFO JOB~s~!"})
 	   end
@@ -99,11 +99,11 @@ AddEventHandler('vrp:pizza', function()
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
 	local ore = vRP.getUserHoursPlayed({source})
-	if vRP.hasGroup({user_id,"Pizza"}) then
-	vRPclient.notify(player, {"~r~Deja ai job-ul de sofer Pizza"})
+	if vRP.hasGroup({user_id,"Uber Eatz"}) then
+	vRPclient.notify(player, {"~r~Deja ai job-ul Uber Eatz"})
 	else if ore >= 0 then
-		vRP.addUserGroup({user_id,"Pizza"})
-		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum livrezi la Pizza!"})
+		vRP.addUserGroup({user_id,"Uber Eatz"})
+		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti angajat la Uber Eatz!"})
 	else
 		vRPclient.notify(player, {"Verifica ~r~INFO JOB ~s~!"})
 	   end

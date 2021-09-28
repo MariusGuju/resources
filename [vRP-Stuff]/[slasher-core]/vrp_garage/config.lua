@@ -212,7 +212,7 @@ Config = {
         {"boxville3","hotdecase.acces","Duba #3"},
         {"boxville4","hotdecase.acces","Duba #4"},
         {"dinghy","pescar.acces","Barca Pescar"},
-        {"hauler","tirist.vehicle","Scania TRUCK"}        
+        {"taxi","uber.masina","Masina Uber"}        
       }
     },
     [7] = {
@@ -232,7 +232,7 @@ Config = {
       }
   },
 
-  [9] = {
+  [4] = {
     tipGaraj = "~g~VIP",
     marker = {102, 255, 51},
     masini = {
