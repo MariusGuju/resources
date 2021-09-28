@@ -827,7 +827,7 @@ function vRPbm.chargePhoneNumber(user_id,phone)
 					    vRP.setBankMoney({target_id,target_bank})
 					    vRPclient.notify(player,{"You charged ~y~$"..charge.." ~w~from ~b~"..directory_name .."~w~ for your services."})
 						vRPclient.notify(target,{"~b~"..my_directory_name.."~w~ charged you ~r~$"..charge.."~w~ for his services."})
-					    --vRPbm.logInfoToFile("mchargeLog.txt",user_id .. " mobile charged "..target_id.." the amount of " .. charge .. ", user bank post-payment for "..user_id.." equals $"..my_bank.." and for "..user_id.." equals $"..target_bank)
+					    vRPbm.logInfoToFile("mchargeLog.txt",user_id .. " mobile charged "..target_id.." the amount of " .. charge .. ", user bank post-payment for "..user_id.." equals $"..my_bank.." and for "..user_id.." equals $"..target_bank)
 					    vRP.closeMenu({player})
                       else
                         vRPclient.notify(target,{lang.money.not_enough()})

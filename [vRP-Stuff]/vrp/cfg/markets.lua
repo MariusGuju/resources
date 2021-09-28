@@ -29,35 +29,6 @@ cfg.market_types = {
     ["kebab"] = 12,
     ["pdonut"] = 3,
   },
-  ["MCDONALDS"] = {
-    _config = {blipid=124, blipcolor=60},
-    ["McChicken"] = 15,
-    ["McPuisor"] = 17,
-    ["McNuggets"] = 22,
-    ["BigMac"] = 23,
-    ["Cheeseburger"] = 22,
-    ["cartofimici"] = 6,
-    ["cartofimedi"] = 8,
-    ["cartofimari"] = 10,
-    ["salata"] = 20,
-    ["coffee"] = 5,
-    ["cocacola"] = 3,
-
-  },
-  ["PIZZERIE"] = {
-    _config = {blipid=136, blipcolor=1},
-    ["Margherita"] = 18,
-    ["Capricciosa"] = 20,
-    ["Diavola"] = 22,
-    ["Formaggi"] = 25,
-    ["Stagioni"] = 28,
-    ["Vegetariana"] = 27,
-    ["Spaghete"] = 25,
-    ["coffee"] = 5,
-    ["cocacola"] = 3,
-    ["lemonade"] = 5,
-
-  },
   ["emergencyloadout"] = {
     _config = {blipid=487, blipcolor=1, permissions={"emergency.market"}},
     ["medkit"] = 0
