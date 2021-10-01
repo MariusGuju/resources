@@ -15,7 +15,7 @@ local smechercuvaloaremare = {
     {-472.41253662109,5309.1123046875,85.716926574707,78,6,"[Padurar] Fa Mese Sau Scaune",true,true},
     {-513.43969726563,5274.4809570313,79.397262573242,120,6,"[Padurar] Vinde Scaune/Mese",true,true},--]]
     {247.25161743164,223.34524536133,106.28668212891,616,46,"Job Transport Bancar",true,true},
-    {-1082.3308105469,-259.71783447266,37.788005828857,409,1,"~r~Departament de Job-uri",true,true}
+    {-1082.3308105469,-259.71783447266,37.788005828857,409,1,"Deparatament De Joburi",true,true}
 }
 --718.31701660156,-979.25634765625,24.118183135986
 Citizen.CreateThread(function()
