@@ -52,7 +52,7 @@ Citizen.CreateThread(function()
 		local locatiamea = GetEntityCoords(GetPlayerPed(-1))
 		local dist = round(GetDistanceBetweenCoords(-1626.8177490234,185.85870361328,60.552436828613, locatiamea.x,locatiamea.y,locatiamea.z))
 		if dist <= 10 then
-			DrawText3D(-1626.8177490234,185.85870361328,60.552436828613+1, "Liquid|Romania~b~ROMANIA~w~\nSalut, bine ai venit in oras!\ninchireaza o masina sau suna la ~y~Uber!", 2, 6)
+			DrawText3D(-1626.8177490234,185.85870361328,60.552436828613+1, "Liquid ~b~ROMANIA~w~\nSalut, bine ai venit in oras!\ninchireaza o masina sau suna la ~y~Uber!", 2, 6)
 		end
 	end
 end)

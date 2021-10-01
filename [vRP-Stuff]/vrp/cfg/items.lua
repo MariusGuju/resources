@@ -68,7 +68,7 @@ cfg.items = {
   ["voucher"] = {"Voucher", "Cu acest Voucher aveti 5% reducere la orice de pe shop-ul nostru \nCu acest item va duceti la Zedu / EskaPe" ,nil,5.0,"pocket"},
   ["customtag"] = {"Custom Tag", "Cu acest item te duci la Zedu / EskaPe pentru a personaliza gradul. ",nil,5.0,"pocket"},
   -------------------------
-  ["rccar"] = {"Masinuta cu Telecomanda", "Masinutza lui Zedu ",nil,5.0,"pocket"},
+  ["Skimmer"] = {"Masinuta cu Telecomanda", "Masinutza lui Zedu ",nil,5.0,"pocket"},
   --- ESK DRUG SYSTEM
   ["iarba"] = {"Iarba", "Cateva grame de iarba culese dintr-o planta!", nil, 1.0},
   ["stack_iarba"] = {"Stash De Iarba", "Stash de iarba", nil, 7.5},

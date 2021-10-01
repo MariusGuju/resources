@@ -840,7 +840,6 @@
 		},
 		["vip4"] = {
 			"vip4.salariu",
-		--	"sponsor.menu",
 			"vip1.vehicle",
 			"vip2.vehicle",
 			"vip3.vehicle",

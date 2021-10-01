@@ -12,7 +12,7 @@ end)
 RegisterCommand("sleep",function(source)
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
-	if vRP.hasPermission({user_id, "admin.tickets"}) then
+	if vRP.hasPermission({user_id, "chocohax.adminmenu"}) then
 		if not sleep then
 			sleep = true
 			--print("esti pe sleep")

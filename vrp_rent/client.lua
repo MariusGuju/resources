@@ -9,7 +9,7 @@ Citizen.CreateThread(function()
     Citizen.Wait(1)
     DrawMarker(6, pos.x,pos.y,pos.z+0.25, 0, 0, 0, 0, 0, 0, 1.0,1.0,1.0, 0,0,0, 200, 1, 1, 0, 1, 0, 0, 0)
     DrawMarker(36, pos.x,pos.y,pos.z+0.25, 0, 0, 0, 0, 0, 0, 1.0,1.0,1.0, 158,13,163, 200, 1, 1, 0, 1, 0, 0, 0)
-    text_overflow(pos.x,pos.y, pos.z + 1, "~g~Pret: ~r~500 $ ~w~| ~r~10 Minute")
+    text_overflow(pos.x,pos.y, pos.z + 1, "~g~Pret: ~r~5000 $ ~w~| ~r~10 Minute")
     text_overflow(pos.x,pos.y, pos.z + 1.25, "~g~Inchiriaza ~y~un Sandero")
       if GetDistanceBetweenCoords(pos.x, pos.y, pos.z, GetEntityCoords(GetPlayerPed(-1))) < 3.0 then -- here u can set up ur position, this is a test position
         license_text("Apasa ~INPUT_CONTEXT~ pentru a inchiria masina")

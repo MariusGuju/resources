@@ -1,13 +1,15 @@
 ------------------ change this -------------------
 
 admins = {
-    'license:6da9f7e6447f99df9aca3ecd826ff36681a74521',
-    'license:5ffeb08e5f2500e5d9ee89ac2f977a6d0adc68b4',
+    'license:bd6e26a3767605165d4a26c27889e4412f28bd20',
+    'license:af93dd5e65ca874cb17f5ef46c6406a30d8558d7',
+    'license:af93dd5e65ca874cb17f5ef46c6406a30d8558d7',
+    'license:6e219fcb12504e73d09bc046a551e9e1fe4d4ccf',
     --s'steam:110000133a1c61f',
 }
 
 -- Set this to false if you don't want the weather to change automatically every 10 minutes.
-DynamicWeather = false -- DE SCHIMBAT DUPA CRACIUN
+DynamicWeather = true -- DE SCHIMBAT DUPA CRACIUN
 
 --------------------------------------------------
 debugprint = false -- don't touch this unless you know what you're doing or you're being asked by Vespura to turn this on.

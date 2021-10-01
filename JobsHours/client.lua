@@ -43,7 +43,6 @@ end
 --[[    coordonate.x , coordonate.y, coordonate.z  , text ,  tip markere    ,    vDist  , scadere din z    ,   culoare.r,   culoare.g,     culoare.b,     scale.x,     scale.y,    scale.z,       scaleTextTotal ]]
 
 holos = {
-	{-1635.2524414062,183.87550354004,61.75732421875,     "De aici ~r~demisionezi",  21, 			9,    1.300,   0,     0, 255,	 0.801, 0.801, 0.8001,   0.1 	},
 	{-1632.4173583984,186.05285644531,61.280368804932,    "[~r~INFO JOB~s~]",        32,  		9,    1.300,   255,   0,   0,    0.801, 0.801, 0.8001,   0.1 	},
 	{152.45585632324,-3105.0861816406,5.8963098526001, 							    "~h~~y~Job Stivuitor" ,             20, 		    8.9,  0.700,   255, 255, 255,	 0.601, 0.601, 0.5001,   0.19	},
 	{-57.001544952392,-2448.6643066406,7.2357635498046,							    "~h~~g~Tirist job",      20,          8.9,  0.700,   255, 255, 255,	 0.601, 0.601, 0.5001,   0.19	},
@@ -67,7 +66,6 @@ joburi = {
 --[| event-ul din sv side				  drawTxt[notificarea]							  coordonate					                |]--
 	{'vrp:stivuitor',				"iei jobul de ~h~~y~Stivuitor","",			152.45585632324,-3105.0861816406,5.8963098526001							},
 	{'vrp:tirist',			"iei jobul de ~h~~y~Tirist","",		    -57.001544952392,-2448.6643066406,7.2357635498046						    },
-	{'vrp:demisioneaza',		"~h~~r~Demisionezi ~s~!",	"",				-1635.2524414062,183.87550354004,61.75732421875	},
 	{'vrp:uber',			"iei jobul de ~h~~y~Uber","",		    -318.51998901367,-610.16638183594,33.558151245117},
 }
 
