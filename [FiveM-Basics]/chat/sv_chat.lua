@@ -253,31 +253,34 @@ RegisterCommand("tpto", function(player, args)
     end
 end, false)
 
-RegisterCommand("ore", function(source, args, rawCommand)
-    local idnou = args[1]
-	local user_id = vRP.getUserId({source})
-	local player = vRP.getUserSource({user_id})
-    if idnou ~= nil then
-        if user_id ~= nil then
-            if vRP.hasGroup({user_id,"user"}) then
-                local ore = vRP.getUserHoursPlayed({tonumber(idnou)})
-                vRPclient.notify(player,{"~r~[~s~ID ~b~"..tonumber(idnou).."~r~] ~s~ are ~r~"..ore.." ~s~ore ~b~jucate"})
-            
-            else
-                vRPclient.notify(player,{"Comanda ~r~restrictionata ~s~! Nu ai acces la ~o~comanda ~g~administrativa ~s~: ~r~/ore"})
-            end
-        end
-    else
-        if user_id ~= nil then
-			local ore = vRP.getUserHoursPlayed({user_id})
-			local name = GetPlayerName(player)
-			vRPclient.notify(player,{"Ai ~r~"..tonumber(ore).." ~b~ore ~s~jucate !"})
-			TriggerClientEvent("chatMessage",-1, "[^8SERVER^0] Jucatorul ^5"..name.."^0 are ^9"..tonumber(ore).."^0 ore jucate!")
-        end
-    end
-end)
+RegisterCommand("ore", function(player, args)
+	local user_id = vRP.getUserId({player})
+	if args[1] and args[1] ~= "" then
+		local target_id = parseInt(args[1])
+		local target_src = vRP.getUserSource({target_id})
+		if target_src then
+			local name = vRP.getPlayerName({target_src})
+			local ore = vRP.getUserHoursPlayed({target_id})
+			TriggerClientEvent("chatMessage", player, "^0[^9Liquid^0] ID: ^1"..target_id.."^0 Nume: ^1"..name.."^0 Are: ^1"..ore.."^0 ore jucate!")
+		else
+			TriggerClientEvent("chatMessage", player, "^0[^9Liquid^0] ^1Jucatorul nu este conectat !")
+		end
+	else
+		TriggerClientEvent("chatMessage", player, "^0[^9Liquid^0] ^1/ore <id>")
+	end
+end, false)
 
-
+RegisterCommand("full", function(source)
+    local user_id = vRP.getUserId({source})
+    if vRP.hasPermission({user_id, "mancar.apa"}) then
+        vRP.varyHunger({user_id, -100})
+        vRP.varyThirst({user_id, -100})
+        vRPclient.varyHealth(source, {100})
+        vRPclient.notify(source,{"~y~[~w~Liquid~y~]\n~g~Te-ai facut full boss!"})
+   else
+    vRPclient.notify(source,{"~y~[~w~Liquid~y~]\n~r~Nu ai acces la aceasta comanda !"})
+        end
+	end)
 
 RegisterCommand('rev', function(source, args, msg)
 	local user_id = vRP.getUserId({source})
@@ -736,18 +739,16 @@ RegisterCommand('m', function(source, args, rawCommand)
 	end
 end)
 
-RegisterCommand('anunt', function(source, args, rawCommand)
-	if (source == 0) then
-	  TriggerClientEvent('chatMessage', -1,'^7[^1ANUNT^7]', { 255, 255, 255 }, rawCommand:sub(5))
+RegisterCommand('anunt', function(source, args, msg)
+	local anunt = table.concat(args, " ")
+	local nume = GetPlayerName(source)
+	local user_id = vRP.getUserId({source})
+	if vRP.hasPermission({user_id, "admin.tickets"}) then
+		TriggerClientEvent('chatMessage', -1, "^5[Liquid] ^0Adminul ^5"..nume.." ^0 Anunta : ^5"..anunt.." ^0!")
 	else
-	  local user_id = vRP.getUserId({source})
-	  if vRP.hasPermission({user_id, "admin.tickets"}) then
-		TriggerClientEvent('chatMessage', -1,'^7[^1ANUNT^7]', { 255, 255, 255 }, rawCommand:sub(5))
-	  else
-		TriggerClientEvent('chatMessage', source, "^7[^1ANUNT^7]: Nu ai acces la aceasta comanda!")
-	  end
+		TriggerClientEvent('chatMessage', source, "^8Nu ai acces la aceasta comanda")
 	end
-  end)
+end)
 
 local function giveAllBankMoney(amount, sphynx)  
     local users = vRP.getUsers({})
