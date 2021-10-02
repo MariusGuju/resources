@@ -26,17 +26,17 @@ items["benzoilmetilecgonina"] = {"none", 0, "benzoilmetilecgonina.png"}
 items["pills"] = {"heal", 0, "pills.png"}
 items["medkit"] = {"heal", 0, "medkit.png"}
 -- Drinks
-items["water"] = {"drink", -25, "water.png"}
+items["apa"] = {"drink", -25, "water.png"}
 items["arocola"] = {"drink", -25, "arocola.png"}
 items["tequila"] = {"drink", -25, "teq.png"}
 items["vodka"] = {"drink", -25, "vodka.png"}
-items["lemonaid"] = {"drink", -25, "lemon.png"}
+items["limonada"] = {"drink", -25, "lemon.png"}
 items["redgbll"] = {"drink", -25, "redbull.png"}
-items["milk"] = {"drink", -25, "milk.png"}
+items["lapte"] = {"drink", -25, "milk.png"}
 items["coffee"] = {"drink", -25, "cafea.png"}
-items["tea"] = {"drink", -25, "tea.png"}
+items["ceai"] = {"drink", -25, "tea.png"}
 items["icetea"] = {"drink", -25, "nestea.png"}
-items["orangejuice"] = {"drink", -25, "orange.png"}
+items["sucportocale"] = {"drink", -25, "orange.png"}
 items["cocacola"] = {"drink", -25, "coke.png"}
 -- Cufere
 items["cufarpremiu"] = {"none", 0, "cufarevent.png"}
@@ -52,9 +52,9 @@ items["ketchup"] = {"food", -25, "ketchup.png"}
 items["sostobasco"] = {"none", 0, "tabasco.png"}
 items["sandwich"] = {"food", -25, "sand.png"}
 items["kebab"] = {"food", -25, "kebab.png"}
-items["pdonut"] = {"food", -25, "pdonut.png"}
-items["bread"] = {"food", -25, "bread.png"}
-items["donut"] = {"food", -25, "donut.png"}
+items["gogoasasmek"] = {"food", -25, "pdonut.png"}
+items["paine"] = {"food", -25, "bread.png"}
+items["gogoasa"] = {"food", -25, "donut.png"}
 -- Weapons
 items["wbody|WEAPON_COMBATPISTOL"] = {"weapon", 0, "combatpistol.png"}
 items["wbody|WEAPON_APPISTOL"] = {"weapon", 0, "apistol.png"}

@@ -64,17 +64,16 @@ end
 
 -- DRINKS --
 
-items["water"] = {"Water","", gen("drink",0,-25),0.5}
-items["milk"] = {"Milk","", gen("drink",0,-5),0.5}
+items["apa"] = {"Apa","", gen("drink",0,-25),0.5}
 items["coffee"] = {"Coffee","", gen("drink",0,-10),0.2}
-items["tea"] = {"Tea","", gen("drink",0,-15),0.2}
+items["ceai"] = {"Ceai","", gen("drink",0,-15),0.2}
 items["icetea"] = {"Ice-Tea","", gen("drink",0,-20), 0.5}
-items["orangejuice"] = {"Orange Juice","", gen("drink",0,-25),0.5}
+items["sucportocale"] = {"Suc De Portocale","", gen("drink",0,-25),0.5}
 items["cocacola"] = {"Coca Cola","", gen("drink",0,-35),0.3}
 items["redbull"] = {"Red Bull","", gen("drink",0,-40),0.3}
-items["lemonade"] = {"Lemonade","", gen("drink",0,-45),0.3}
+items["limonada"] = {"Limonada","", gen("drink",0,-45),0.3}
 items["vodka"] = {"Vodka","", gen("drink",15,-65),0.5}
-items["lapte"] = {"lapte","", gen("drink",0,-45),0.3}
+items["lapte"] = {"Lapte","", gen("drink",0,-45),0.3}
 items["Borsec"] = {"Borsec","", gen("drink",0,-45),0.3}
 items["Vin"] = {"Vin","", gen("drink",0,-45),0.3}
 items["Teddy"] = {"Teddy","", gen("drink",0,-45),0.3}
@@ -83,14 +82,13 @@ items["Limonada"] = {"Limonada","", gen("drink",0,-45),0.3}
 --FOOD
 
 -- create Breed item
-items["bread"] = {"Bread","", gen("eat",-10,0),0.5}
-items["donut"] = {"Donut","", gen("eat",-15,0),0.2}
+items["gogoasa"] = {"Gogoasa","", gen("eat",-15,0),0.2}
 items["tacos"] = {"Tacos","", gen("eat",-20,0),0.2}
 items["sandwich"] = {"Sandwich","A tasty snack.", gen("eat",-25,0),0.5}
 items["kebab"] = {"Kebab","", gen("eat",-45,0),0.85}
-items["pdonut"] = {"Premium Donut","", gen("eat",-25,0),0.5}
+items["gogoasasmek"] = {"Gogoasa Cu Glazura","", gen("eat",-25,0),0.5}
 items["catfish"] = {"Catfish","", gen("eat",-20,0),0.2}
-items["Paine"] = {"Paine","", gen("eat",-20,0),0.2}
+items["paine"] = {"Paine","", gen("eat",-20,0),0.2}
 items["Popcorn"] = {"Popcorn","", gen("eat",-20,0),0.2}
 items["Spaghete"] = {"Spaghete","", gen("eat",-20,0),0.2}
 items["Margherita"] = {"Pizza Margherita","", gen("eat",-20,0),0.2}

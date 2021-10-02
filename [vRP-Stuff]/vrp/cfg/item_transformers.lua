@@ -180,14 +180,14 @@ cfg.item_transformers = {
     name="Hacker", -- menu name
 	permissions = {"hacker.credit_cards"}, -- you can add permissions
     r=255,g=125,b=0, -- color
-    max_units=100000,
-    units_per_minute=100000,
-    x=1272.7088623047,y=-1711.828125,z=54.771446228027, --- 569.61779785156,-3126.7106933594,18.768608093262
-    radius=2, height=1.0, -- area
+    max_units=20,
+    units_per_minute=4,
+    x=1275.5522460938,y=-1710.7652587891,z=54.771457672119, --- 569.61779785156,-3126.7106933594,18.768608093262
+    radius=2, height=1.0, -- area   
     recipes = {
       ["hacking"] = { -- action name
-        description="Hacking credit cards.", -- action description
-        in_money=10, -- money taken per unit
+        description="Fura Carduri De Credit.", -- action description
+        in_money= 40000, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={}, -- items taken per unit
         products={
@@ -202,47 +202,46 @@ cfg.item_transformers = {
   },
 
   {
-    name="Plastograf", -- menu name
-	permissions = {"fraud.credit_cards"}, -- you can add permissions
+    name="Transforma In Bani", -- menu name
+	permissions = {"hacker.credit_cards"}, -- you can add permissions
     r=255,g=125,b=0, -- color
-    max_units=100000,
-    units_per_minute=100000,
+    max_units=10,
+    units_per_minute=4,
     
-    x=-11.529201507568,y=-599.06646728516,z=79.430198669434,   --- -11.529201507568,-599.06646728516,79.430198669434
+    x=1271.6812744141,y=-1711.8430175781,z=54.771434783936,   --- -11.529201507568,-599.06646728516,79.430198669434
     radius=2, height=1.0, -- area
     recipes = {
-      ["Forging"] = { -- action name
-        description="Forging fake ID's", -- action description
-        in_money=100, -- money taken per unit
-        out_money=50, -- money earned per unit
+      ["Fura Bani"] = { -- action name
+        description="Fura Bani de pe Carduri", -- action description
+        in_money= 0, -- money taken per unit
+        out_money= 0, -- money earned per unit
         reagents={
 		["credit"] = 1
 		}, -- items taken per unit
         products={
-		["fake_id"] = 3
+          ["dirty_money"] = 40000
 		}, -- items given per unit
         aptitudes={}
       }
     }
   },
   {
-    name="Bank Driver Mission", -- menu name
-	permissions = {"bankdriver.money"}, -- you can add permissions
-    r=255,g=125,b=0, -- color
-    max_units=1,
-    units_per_minute=1,
-    x=236.87298583984,y=217.09535217285,z=106.28678894043,
-    radius=2, height=1.0, -- area
+    name="Spalare Bani 90%%", -- Name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=200,b=0, -- colours 1743.8870849609,-1622.9973144531,112.57803344727
+    max_units=10000,
+    units_per_minute=10000,
+    x=1743.8870849609,y=-1622.9973144531,z=112.57803344727,
+    radius=2, height=1.5, -- area do radius
     recipes = {
-      ["Bank Money"] = { -- action name
-       description="Get a money bank for mission.", -- action description
-        in_money=0, -- money taken per unit
-        out_money=0, -- money earned per unit
-        reagents={}, -- items taken per unit
-        products={
-		["bank_money"] = 500000
-		}, -- items given per unit
-        aptitudes={} -- optional
+      ["Title"] = {
+        description="Money Laudering", --
+        in_money=0, -- 
+        out_money=900, -- 
+        reagents={
+          ["dirty_money"] = 1000 --Necessary
+        },
+        products={}, 
       }
     }
   },
@@ -455,7 +454,7 @@ cfg.hidden_transformers = {
   ["ems"] = {
     def = {
       name="Medical Report", -- menu name
-      permissions = {"ems.mission"}, -- you can add permissions
+      permissions = {"admin.tickets"}, -- you can add permissions
       r=0,g=200,b=0, -- color
       max_units=100000,
       units_per_minute=100000,
@@ -465,8 +464,10 @@ cfg.hidden_transformers = {
         ["Write Report"] = { -- action name
           description="Writing Report...", -- action description
           in_money=0, -- money taken per unit
-          out_money=0, -- money earned per unit
-          reagents={}, -- items taken per unit
+          out_money=100, -- money earned per unit
+          reagents={
+            ["credit"] = 1
+          }, -- items taken per unit
           products={ -- items given per unit
             ["ems_report"] = 1
           }

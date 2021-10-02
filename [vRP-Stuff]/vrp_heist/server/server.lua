@@ -48,11 +48,11 @@ AddEventHandler("Double:AreLevel",function()
 	--player = source
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
-	local level = vRPlevel.getLevel({user_id}) 
-	if level > 0 then
+	local ore = vRP.getUserHoursPlayed({user_id})
+	if ore > 15 then
 		TriggerClientEvent("Double:Npc",source)
 	else
-		vRPclient.notify(player,{"~r~Nu ai destul level\n~w~Necesar: ~g~ 1 "})
+		vRPclient.notify(player,{"~r~Nu ai destule ore \n~w~Necesar: ~g~ 15 "})
 	end
 end)
 

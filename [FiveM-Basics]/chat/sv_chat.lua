@@ -537,6 +537,7 @@ RegisterCommand("dvall", function(player, args)
 	end
 end, false)
 
+
 RegisterCommand('d', function(source, args, msg)
 	local user_id = vRP.getUserId({source})
 	if vRP.hasPermission({user_id, "radio.police"}) then

@@ -189,7 +189,6 @@ vRP.registerMenuBuilder({"main", function(add, data)
 					menu.css={top="75px",header_color="rgba(200,0,0,0.75)"}
 					menu.onclose = function(player) vRP.openMainMenu({player}) end -- nest menu
 					menu["Fix ~ Masina"] = {yt_fixCar,"🔧 > Repara-ti masina"}
-					menu["Sky Fall"] = {sp_skyfall,"☁️ > Arunca-te cu parasuta"}
 					menu["Primeste Mancare&Viata"] = {yt_revive,"🏥 > Da-ti apa&mancare full"}
 					menu["Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
 					menu["Pachet cu arme"] = {sponsor_weapons,"🔫 > Primeste un pachet cu Arme"}
@@ -235,7 +234,6 @@ vRP.registerMenuBuilder({"main", function(add, data)
 						menu["Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
 					end
 					if vRP.hasPermission({user_id, "vip1.masini"}) then
-						menu["☁️Sky Fall☁️"] = {sp_skyfall,"☁️ > Arunca-te cu parasuta"}
 						menu["🔧Vaslui Edition🔧"] = {sp_VIPweaponsVaslui,"🔧 >  Pregateste sabia si calul, mergem in Vaslui"}
 					end
 					vRP.openMenu({player,menu})

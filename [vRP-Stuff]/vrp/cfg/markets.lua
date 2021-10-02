@@ -10,24 +10,24 @@ cfg.market_types = {
 
     -- list itemid => price
     -- Drinks
-    ["milk"] = 4,
-    ["water"] = 1,
+    ["lapte"] = 20,
+    ["apa"] = 1,
     ["coffee"] = 5,
-    ["tea"] = 5,
-    ["icetea"] = 4,
-    ["orangejuice"] = 8,
+    ["ceai"] = 20,
+    ["icetea"] = 25,
+    ["sucportocale"] = 35,
     ["cocacola"] = 3,
     ["redbull"] = 7,
-    ["lemonade"] = 5,
-    ["vodka"] = 15,
+    ["limonada"] = 45,
+    ["vodka"] = 60,
   --
     --24/7
-    ["bread"] = 3,
-    ["donut"] = 2,
-    ["tacos"] = 12,
+    ["paine"] = 20,
+    ["gogoasa"] = 15,
+    ["tacos"] = 25,
     ["sandwich"] = 10,
-    ["kebab"] = 12,
-    ["pdonut"] = 3,
+    ["kebab"] = 20,
+    ["gogoasasmek"] = 35,
   },
   ["emergencyloadout"] = {
     _config = {blipid=487, blipcolor=1, permissions={"emergency.market"}},
