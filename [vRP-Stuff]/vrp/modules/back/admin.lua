@@ -325,7 +325,7 @@ local function ch_tpto(player,choice)
           {
             ["color"] = 0xFF0000,
             ["title"] = "**".. "TELEPORT TO TO PLAYER".."**",
-            ["description"] = "Administratorul "..GetPlayerName(player).."("..user_id..") si-a dat teleport la jucatorul"..GetPlayerName(tplayer)
+            ["description"] = "Administratorul "..GetPlayerName(player).."("..user_id..") si-a dat teleport la "..GetPlayerName(tplayer)
           }
         }
         PerformHttpRequest(webhookAdmin, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })

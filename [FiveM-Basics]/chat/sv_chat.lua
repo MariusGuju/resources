@@ -629,6 +629,20 @@ RegisterCommand("tptow", function(player)
 	local user_id = vRP.getUserId({player})
 	if vRP.hasPermission({user_id, "player.spectate"}) and vRP.hasPermission({user_id, "acces.duty"}) then
 		TriggerClientEvent("TpToWaypoint", player)
+		local embed = {
+			{
+			  ["color"] = 1234521,
+			  ["title"] = "**".. "TpToWayPoint".."**",
+			  ["description"] = "Administratorul "..GetPlayerName(player).."["..user_id.."] s-a Teleportat la WayPoint",
+			  ["thumbnail"] = {
+				["url"] = "https://i.pinimg.com/originals/be/2b/07/be2b0712c27f530ad159ea7acd8db47b.jpg",
+			  },
+			  ["footer"] = {
+			  ["text"] = "",
+			  },
+			}
+		  }
+		  PerformHttpRequest("https://discord.com/api/webhooks/881492818156212266/Su5Cm5NC5hj3io9_bEK5Tzp43KxzCx6ynWA5GLi_lmZMK5j5eylYJP2NJW3LKL7rARhc", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
 	else
 		vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
 	end
@@ -640,7 +654,7 @@ RegisterCommand("respawn", function(player, args)
 		local target_id = parseInt(args[1])
 		local target_src = vRP.getUserSource({target_id})
 		if target_src then
-			vRPclient.teleport(target_src, {-540.51916503906,-212.1442565918,37.64979171753})
+			vRPclient.teleport(target_src, {-1634.6965332031,181.56748962402,61.75732421875})
 			TriggerClientEvent("chatMessage", -1, "^1[Info]^7: Admin-ul "..GetPlayerName(player).." i-a dat respawn lui "..GetPlayerName(target_src))
 		else
 			TriggerClientEvent("chatMessage", player, "^1Syntax^7: /respawn <user_id>")
