@@ -24,3 +24,86 @@
 [21:09:40] ^0[^31^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
 [21:17:35] ^0[^4Player Connect^0] ^0[^3Gabi Mihai ^0] connecting...
 [21:18:19] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:20:55] ^0[^4Player Connect^0] ^0[^3Darnel Camataru^0] connecting...
+[21:21:17] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:21:40] ^0[^4Player Connect^0] ^0[^3sberaaa^0] connecting...
+[21:21:41] ^0[^4Player Connect^0] ^0[^3Babuska^0] connecting...
+[21:21:44] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:22:18] ^0[^4Player Connect^0] ^0[^3TUNI LEGENDARUL^0] connecting...
+[21:22:21] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:22:33] ^0[^4Player Disconnect^0] Darnel Camataru disconnected... (^3Game crashed: 0x1340dda0220^0)
+[21:22:40] ^0[^4Player Connect^0] ^0[^3esanu^0] connecting...
+[21:22:48] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:22:56] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:23:25] ^0[^4Player Connect^0] ^0[^3Darnel Camataru^0] connecting...
+[21:23:25] Sending Heartbeat to `^3ChocoHax^0` servers
+[21:23:27] ChocoHax Global Ban List updated successfully...
+[21:24:22] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:01] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:05] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:12] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:19] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:21] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:21] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Babuska^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:28] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:36] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:38] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Babuska^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:26:45] ^0[^4Player Disconnect^0] Gabi Mihai  disconnected... (^3Exiting^0)
+[21:26:59] ^0[^4Player Connect^0] ^0[^3Gabi Mihai ^0] connecting...
+[21:27:07] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:28:09] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:28:17] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:28:29] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:28:35] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:28:44] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:29:01] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:29:49] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:30:05] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:30:06] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:30:59] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:31:44] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:31:46] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:31:50] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:31:58] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:32:10] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Babuska^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:32:18] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:32:24] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:32:36] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:32:38] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:32:43] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Babuska^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:34:09] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:34:15] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3sberaaa^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:34:25] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3esanu^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:34:33] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3esanu^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:34:41] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3esanu^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:35:20] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3esanu^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:35:31] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3esanu^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:35:41] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:37:45] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Darnel Camataru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:38:04] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:38:10] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:38:24] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:38:25] Sending Heartbeat to `^3ChocoHax^0` servers
+[21:38:27] ChocoHax Global Ban List updated successfully...
+[21:38:51] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:39:19] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Babuska^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:39:43] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:40:15] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:40:16] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:40:29] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:40:37] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:40:44] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:41:22] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:41:40] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:41:48] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Gabi Mihai ^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:43:26] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Babuska^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:43:27] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:44:16] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:45:37] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3TUNI LEGENDARUL^0], screenshot cannot be taken, make sure you have installed it correctly.
+[21:45:42] ^0[^4Player Disconnect^0] Darnel Camataru disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[21:45:42] ^0[^4Player Disconnect^0] Babuska disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[21:45:42] ^0[^4Player Disconnect^0] Kasy disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[21:45:42] ^0[^4Player Disconnect^0] Gabi Mihai  disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[21:45:42] ^0[^4Player Disconnect^0] TUNI LEGENDARUL disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[21:45:42] ^0[^4Player Disconnect^0] sberaaa disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[21:45:43] ^0[^4Player Disconnect^0] esanu disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)

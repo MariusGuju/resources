@@ -670,12 +670,15 @@ end)
 RegisterCommand('spawnveh',function(source)
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
-	if vRP.hasPermission({user_id,"spawn.masina"}) then
+	if vRP.hasPermission({user_id,"player.banoffline"}) and vRP.hasPermission({user_id, "acces.duty"}) then
 		vRP.prompt({player,"Vehicle Model:","",function(player,model)
 			if model ~= nil and model ~= "" then 
 				  BMclient.spawnVehicle(player,{model})
 			end
 		end})
+	else
+		vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
+	end
 end)
  
  RegisterCommand('asay', function(source, args, rawCommand)
