@@ -67,9 +67,11 @@ local function tr_tick(tr) -- do transformer tick
 
           -- consume reagents
           if recipe.in_money > 0 then vRP.tryPayment(user_id,recipe.in_money) end
-          for l,w in pairs(recipe.reagents) do
-            vRP.tryGetInventoryItem(user_id,l,w,true)
+            if recipe.reagents~=nil then
+             for l,w in pairs(recipe.reagents) do
+              vRP.tryGetInventoryItem(user_id,l,w,true)
           end
+        end
 
           -- produce products
           if recipe.out_money > 0 then vRP.giveMoney(user_id,recipe.out_money) end

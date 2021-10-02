@@ -676,6 +676,17 @@ function tvRP.openAdminMenu()
   vRP.openAdminMenu(source)
 end
 
+function vRP.sendStaffMessage(msg)
+  local users = vRP.getUsers()
+  
+  for user_id, player in pairs(users) do
+      if vRP.hasPermission(user_id, "admin.tickets") then
+          TriggerClientEvent("chatMessage", player, msg)
+      end
+  end
+end
+
+
 vRP.registerMenuBuilder("main", function(add, data)
   local user_id = vRP.getUserId(data.player)
   if user_id ~= nil then

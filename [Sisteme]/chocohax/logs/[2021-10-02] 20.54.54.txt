@@ -1,0 +1,29 @@
+
+[20:54:54] ^0[^4Config^0] Configuration loaded successfully...
+[20:54:54] Loaded language ^0[^3eng^0]
+[20:55:02] ChocoHax [^31.4.2^0] is starting, Please wait...
+[20:55:04] Successfully connected to the authentication server
+[20:55:04] Connected to: ^0[^3Shiina Mashiro (hentai.systems) BZ^0]
+[20:55:04] Current username: ^0[^3Maru^0]
+[20:55:04] Current server IP: ^0[^395.76.64.150^0]
+[20:55:04] ^5MOTD: ^0hello :)
+[20:55:04] There is a new update available
+[20:55:04] Current version: 1.4.2
+[20:55:04] Latest version: 1.5.0
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3token.json^0] file
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3indexes.json^0] file
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3discord.json^0] file
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3xbl.json^0] file
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3live.json^0] file
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3steam.json^0] file
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3fivem.json^0] file
+[20:55:04] ^0[^4Ban Loader^0] Successfully loaded ^0[^3license.json^0] file
+[20:55:04] Sending Heartbeat to `^3ChocoHax^0` servers
+[20:55:06] ChocoHax Global Ban List updated successfully...
+[20:55:13] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[20:55:45] ^0[^31^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
+[20:58:22] ^0[^4Player Connect^0] ^0[^3alex____^0] connecting...
+[20:59:49] ^0[^4Player Connect^0] ^0[^3Gabi Mihai ^0] connecting...
+[21:02:04] ^0[^4Player Disconnect^0] alex____ disconnected... (^3Exiting^0)
+[21:08:13] ^0[^4Player Disconnect^0] Kasy disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[21:08:13] ^0[^4Player Disconnect^0] Gabi Mihai  disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)

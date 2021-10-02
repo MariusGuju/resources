@@ -1048,7 +1048,6 @@ local ch_playergivemoneyto = {function(player,choice)
                     vRP.giveMoney({pID,amount})
                     vRPclient.notify(player,{lang.money.given({amount})})
                     vRPclient.notify(target,{lang.money.received({amount})})
-
                   else
                     vRPclient.notify(player,{lang.money.not_enough()})
                   end

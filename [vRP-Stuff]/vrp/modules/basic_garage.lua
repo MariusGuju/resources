@@ -290,10 +290,10 @@ veh_actions["Vinde masina"] = {function(playerID,player,vtype,name)
 											vRPclient.notify(player,{"Acest jucator detine deja acest vehicul",2000,2})
 										else
 											local tmpdata = vRP.getUserTmpTable(playerID)
-											if tmpdata.rent_vehicles[name] == true then
+											--[[if tmpdata.rent_vehicles[name] == true then
 												vRPclient.notify(player,{"Nu poti vinde o masina inchiriata",2000,2})
 												return
-											else
+											--else]]
 												vRP.request(target,GetPlayerName(player).." vrea sa iti vanda : " ..name.. " Pret: $"..amount, 10, function(target,ok)
 													if ok then
 														local pID = vRP.getUserId(target)
@@ -312,7 +312,7 @@ veh_actions["Vinde masina"] = {function(playerID,player,vtype,name)
 														vRPclient.notify(target,{"Ai refuzat sa ii cumperi lui "..GetPlayerName(player).." vehiculul",2000,2})
 													end
 												end)
-											end
+											--end
 											vRP.closeMenu(player)
 										end
 									end) 

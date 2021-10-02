@@ -182,7 +182,7 @@ cfg.item_transformers = {
     r=255,g=125,b=0, -- color
     max_units=20,
     units_per_minute=4,
-    x=1275.5522460938,y=-1710.7652587891,z=54.771457672119, --- 569.61779785156,-3126.7106933594,18.768608093262
+    x=,y=,z=, --- 569.61779785156,-3126.7106933594,18.768608093262
     radius=2, height=1.0, -- area   
     recipes = {
       ["hacking"] = { -- action name
@@ -208,13 +208,13 @@ cfg.item_transformers = {
     max_units=10,
     units_per_minute=4,
     
-    x=1271.6812744141,y=-1711.8430175781,z=54.771434783936,   --- -11.529201507568,-599.06646728516,79.430198669434
+    x=,y=,z=,   --- -11.529201507568,-599.06646728516,79.430198669434
     radius=2, height=1.0, -- area
     recipes = {
       ["Fura Bani"] = { -- action name
         description="Fura Bani de pe Carduri", -- action description
         in_money= 0, -- money taken per unit
-        out_money= 0, -- money earned per unit
+        out_money= 100, -- money earned per unit
         reagents={
 		["credit"] = 1
 		}, -- items taken per unit

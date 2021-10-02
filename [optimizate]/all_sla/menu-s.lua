@@ -173,8 +173,8 @@ vRP.registerMenuBuilder({"main", function(add, data)
 					menu.css={top="75px",header_color="rgba(200,0,0,0.75)"}
 					menu.onclose = function(player) vRP.openMainMenu({player}) end -- nest menu
 					menu["Fix ~ Masina"] = {yt_fixCar,"🔧 > Repara-ti masina"}
-					menu["Primeste Mancare&Viata"] = {yt_revive,"🏥 > Da-ti apa&mancare full"}
-					menu["YouTuber Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
+					menu["Primeste Mancare&Revive"] = {yt_revive,"🏥 > Da-ti apa&mancare full"}
+					--menu["YouTuber Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
 					menu["Pachet cu arme"] = {yt_weapons,"🔫 > Primeste un pachet cu Arme"}
 					menu["YouTuber ~ Masina"] = {yt_ytawnCar,"🏎️ > Primeste masina de YouTuber"}
 					--[[menu["Black Racer"] = {yt_blackracerSkin,"💥 > Change the text with your description</br>(Change the text with your description)"}
@@ -189,8 +189,8 @@ vRP.registerMenuBuilder({"main", function(add, data)
 					menu.css={top="75px",header_color="rgba(200,0,0,0.75)"}
 					menu.onclose = function(player) vRP.openMainMenu({player}) end -- nest menu
 					menu["Fix ~ Masina"] = {yt_fixCar,"🔧 > Repara-ti masina"}
-					menu["Primeste Mancare&Viata"] = {yt_revive,"🏥 > Da-ti apa&mancare full"}
-					menu["Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
+					menu["Primeste Mancare&Revive"] = {yt_revive,"🏥 > Da-ti apa&mancare full"}
+					--menu["Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
 					menu["Pachet cu arme"] = {sponsor_weapons,"🔫 > Primeste un pachet cu Arme"}
 					menu["Masina Sponsor"] = {yt_ytawnCar,"🏎️ > Primeste masina de Sponsor"}
 					menu["Elicopter Sponsor"] = {sp_spawnheli,"🏎️ > Spawneaza elicopter"}
@@ -215,7 +215,7 @@ vRP.registerMenuBuilder({"main", function(add, data)
 					menu.name = "Booster Pack"
 					menu.css={top="75px",header_color="rgba(200,0,0,0.75)"}
 					menu.onclose = function(player) vRP.openMainMenu({player}) end -- nest menu
-					menu["💎Refa Mancare&Apa💎"] = {yt_revive,"🌊🍔 > Refati Mancarea + Apa Boost"}
+					menu["💎Refa Mancare&Revive💎"] = {yt_revive,"🌊🍔 > Refati Mancarea + Apa Boost"}
 					menu["💎Booster Car💎 "] = {yt_ytawnCar,"💎 > Spawneaza Masina pentru Nitro Boost"}
 					vRP.openMenu({player,menu})
 				end})
@@ -230,8 +230,8 @@ vRP.registerMenuBuilder({"main", function(add, data)
 						menu["Fix ~ Masina"] = {yt_fixCar,"🔧 > Repara-ti masina"}
 					end
 					if vRP.hasPermission({user_id, "vip2.masini"}) then
-						menu["🍔Refa Mancare&Apa🌊"] = {yt_revive,"🌊🍔 > Refati Mancarea + Apa VIP"}
-						menu["Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
+						menu["🍔Refa Mancare&Revive🌊"] = {yt_revive,"🌊🍔 > Refati Mancarea + Apa VIP"}
+						--menu["Revive"] =  {yt_rev,"🔮 > Da-ti revive"}
 					end
 					if vRP.hasPermission({user_id, "vip1.masini"}) then
 						menu["🔧Vaslui Edition🔧"] = {sp_VIPweaponsVaslui,"🔧 >  Pregateste sabia si calul, mergem in Vaslui"}

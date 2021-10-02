@@ -81,6 +81,7 @@ AddEventHandler('vrp:hacker', function()
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
 	local ore = vRP.getUserHoursPlayed({source})
+	print(ore)
 	if vRP.hasGroup({user_id,"Hacker"}) then
 	vRPclient.notify(player, {"~r~Deja ai job-ul de Hacker !"})
 	else if ore >= 25  then
@@ -157,7 +158,6 @@ AddEventHandler('vrp:demisioneaza', function()
 		vRP.addUserGroup({user_id,"Somer"})
 		vRPclient.notify(player, {"~r~Felicitari. ~b~Acum esti un ~h~~r~Somer"})
 end)
-
 
 
 

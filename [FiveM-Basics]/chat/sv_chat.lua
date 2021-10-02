@@ -5,6 +5,9 @@ vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP","vRP_chatroles")
 vRPsp = Proxy.getInterface("vRP_sponsor")
 
+
+local webhookAdmin = 'https://discord.com/api/webhooks/890205214160846858/xKwKDlEHCe1nVChgprWGxX5WyO98XHipVj04Fer3vb5OLEwcYxHUALL-Pw7z3KiHByM9'
+
 RegisterServerEvent('chat:init')
 RegisterServerEvent('chat:addTemplate')
 RegisterServerEvent('chat:addMessage')
@@ -288,7 +291,8 @@ RegisterCommand('rev', function(source, args, msg)
 	if msg:len() >= 1 then
 	  msg = tonumber(msg)
 	  local target = vRP.getUserSource({msg})
-	  if target ~= nil then
+	  if target ~= nil then 
+		local pID = vRP.getUserId({target})
 		if vRP.hasPermission({user_id, "admin.tickets"}) and vRP.hasPermission({user_id, "acces.duty"}) then
 		  vRPclient.varyHealth(target,{300})
 		  vRP.varyHunger({msg,-100})
@@ -297,6 +301,22 @@ RegisterCommand('rev', function(source, args, msg)
 		  TriggerClientEvent('chatMessage', target, "^8Server^7 : Adminul "..GetPlayerName(source).." ti-a dat revive !")
 		 vRPclient.notify(source,{"[~g~Server~w~] : I-ai dat Revive lui : "..GetPlayerName(target).."!"})
 		 vRPclient.notify(target,{"[~g~Server~w~] : Adminul "..GetPlayerName(source).." ti-a dat revive !"})
+
+		 local embed = {
+			{
+			  ["color"] = 1234521,
+			  ["title"] = "**".. "Revive".."**",
+			  ["description"] = "Administratorul "..GetPlayerName(source).."["..user_id.."] i-a dat revive lui "..GetPlayerName(target).."["..pID.."]",
+			  ["thumbnail"] = {
+				["url"] = "https://toppng.com/uploads/preview/hand-drawn-heart-11549459255jz1gvm6cwh.png",
+			  },
+			  ["footer"] = {
+			  ["text"] = "",
+			  },
+			}
+		  }
+		  PerformHttpRequest(webhookAdmin, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
+
 		else
 			vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
 		end
@@ -650,15 +670,12 @@ end)
 RegisterCommand('spawnveh',function(source)
 	local user_id = vRP.getUserId({source})
 	local player = vRP.getUserSource({user_id})
-	if vRP.hasPermission({user_id,"player.banoffline"}) and vRP.hasPermission({user_id, "acces.duty"}) then
+	if vRP.hasPermission({user_id,"spawn.masina"}) then
 		vRP.prompt({player,"Vehicle Model:","",function(player,model)
 			if model ~= nil and model ~= "" then 
 				  BMclient.spawnVehicle(player,{model})
 			end
 		end})
-	else
-		vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
-	end
 end)
  
  RegisterCommand('asay', function(source, args, rawCommand)
