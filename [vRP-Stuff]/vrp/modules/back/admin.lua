@@ -2,7 +2,7 @@ local htmlEntities = module("lib/htmlEntities")
 local Tools = module("lib/Tools")
 
 
-local webhookAdmin = 'https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4'
+local webhookAdmin = 'https://discord.com/api/webhooks/894246408868200468/CgvGbd9dKS_WO8h3vAaSTdapdyI6YPItYgT14rlv7sky3tr6ucvonHu-q3qJOpwGKwFy'
 
 function vRP.sendStaffMessage(msg)
 	for k, v in pairs(vRP.rusers) do
@@ -500,7 +500,7 @@ local function ch_calladmin(player,choice)
                   ["description"] = "Administratorul "..GetPlayerName(v).."("..sender_id..") i-a acceptat ticket-ul lui "..GetPlayerName(player).."["..user_id.."]"
                 }
               }
-              PerformHttpRequest("https://discord.com/api/webhooks/843422702496776212/WQb9ip9QiNk9NTuT4-c_gCU9I8_Htfi90CCKljsYcfzFqx-tfHtMR78k__ivUz-mG3q4", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+              PerformHttpRequest("https://discord.com/api/webhooks/894248319214313512/O3AoKxX4RwsibES12ZpE0epk9cem9ZQnhpAoMRzVUL08V-7ywJ1DcsMKn0pAvZupYkvK", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
             else
               vRPclient.notify(v,{"Ticket dejaluat."})
             end

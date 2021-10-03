@@ -10,9 +10,9 @@ RS.secly_whitelistedresources = {
 }
 
 -- Discord Webhooks
-RS.discord_connectionwebhook = "https://discordapp.com/api/webhooks/884172347043618866/Aq00h3FO3znGJxbm4eQ2JLi2wYqY8T6eMc58kFG0ckEW2CWmpSVIK7W4SphTt0UE_TPD"
-RS.discord_generalwebhook = "https://discordapp.com/api/webhooks/884171971217215548/mlHIjx3vx7WEeHGs7jd7Q7n-iPK-VOscL7wEbbyr8LeipjIGGS-V7_uJmaynnMHSz0KU"
-RS.discord_screenshotwebhook = "https://discordapp.com/api/webhooks/884173088047136848/Lba4QheTNGF7WHE33TI6GhezfJKeAnpAHANxeTPccUBOn2xVmOY0hNjaC31UYDfui5mA"
+RS.discord_connectionwebhook = "https://discord.com/api/webhooks/894247262325182464/tzyrloi0n7sJHIT4bNwiD65k-lDiCc-NuEucEt1HdfBxi9PDw_8AG-sTFuE5k_Ef8klF"
+RS.discord_generalwebhook = "https://discord.com/api/webhooks/894247517422764033/_jCXri_SdyjsKQk8d1jd1laBJHdlgtbrf_KSMZH4vFmG9R-Qq5okMQhf0l-1gAeUKTc6"
+RS.discord_screenshotwebhook = "https://discord.com/api/webhooks/884173088047136848/Lba4QheTNGF7WHE33TI6GhezfJKeAnpAHANxeTPccUBOn2xVmOY0hNjaC31UYDfui5mA"
 
 -- Optional Webhooks
 --RS.discord_steamtrustfactorwebhook = "" Disabled for now

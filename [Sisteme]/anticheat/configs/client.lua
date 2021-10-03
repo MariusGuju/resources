@@ -2,7 +2,7 @@ RC = {}
 
 -- Client Side Screenshot Settings
 RC.client_enableScreenshots = true -- Enable screenshot features
-RC.discord_screenshot_storage = "https://discordapp.com/api/webhooks/884115020940713994/RE4u637EplFcQgYFhAc4lJS3x0b4D08aN1C2KNpNgjPea1CIIR1IsqYyxWQdwggVmmRq" -- Discord Webhook for screenshots storage (Consider changing this event atleast 1 time every 2 days to avoid Rate Limitation)
+RC.discord_screenshot_storage = "https://discord.com/api/webhooks/884173088047136848/Lba4QheTNGF7WHE33TI6GhezfJKeAnpAHANxeTPccUBOn2xVmOY0hNjaC31UYDfui5mA" -- Discord Webhook for screenshots storage (Consider changing this event atleast 1 time every 2 days to avoid Rate Limitation)
 RC.client_blacklistedkeys = {"tab","insert","f2","delete","home","f12"} -- https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 
 -- Resource Checker NEW

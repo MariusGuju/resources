@@ -6,7 +6,7 @@ vRPclient = Tunnel.getInterface("vRP","vRP_chatroles")
 vRPsp = Proxy.getInterface("vRP_sponsor")
 
 
-local webhookAdmin = 'https://discord.com/api/webhooks/890205214160846858/xKwKDlEHCe1nVChgprWGxX5WyO98XHipVj04Fer3vb5OLEwcYxHUALL-Pw7z3KiHByM9'
+local webhookAdmin = 'https://discord.com/api/webhooks/894243920307961876/f_fnO7rIbwZsFBd5_ZuDycE4tnZ2815WJCsibHJCxnfxhO6VHwRDi74rnw2U4A_Qv_ym'
 
 RegisterServerEvent('chat:init')
 RegisterServerEvent('chat:addTemplate')
@@ -642,7 +642,7 @@ RegisterCommand("tptow", function(player)
 			  },
 			}
 		  }
-		  PerformHttpRequest("https://discord.com/api/webhooks/881492818156212266/Su5Cm5NC5hj3io9_bEK5Tzp43KxzCx6ynWA5GLi_lmZMK5j5eylYJP2NJW3LKL7rARhc", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
+		  PerformHttpRequest("https://discord.com/api/webhooks/894246408868200468/CgvGbd9dKS_WO8h3vAaSTdapdyI6YPItYgT14rlv7sky3tr6ucvonHu-q3qJOpwGKwFy", function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
 	else
 		vRPclient.notify(player,{"∑~r~[STAFF-info] ~m~- ~m~Nu esti ON DUTY"})
 	end

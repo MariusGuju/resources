@@ -384,3 +384,15 @@
 [18:00:05] ^0[^4Secly^0] Secly installed successfully in ^0[^291^0] resources
 [18:00:05] ^0[^4Secly^0] Your Secly filename is: ^0[^254639.lua^0]
 [18:01:17] ^0[^4Player Connect^0] ^0[^3Gabi Mihai ^0] connecting...
+[18:02:37] [DEBUG] ^2Entity Spawning: Entity: [131590] Spawned By Player: [yes / 0 1] MODEL [1336576410] TYPE [object]
+[18:02:52] [DEBUG] ^2Entity Spawning: Entity: [131591] Spawned By Player: [yes / 0 1] MODEL [1336576410] TYPE [object]
+[18:04:06] [DEBUG] ^2Entity Spawning: Entity: [131592] Spawned By Player: [yes / 7 2] MODEL [404106581] TYPE [vehicle]
+[18:06:44] Sending Heartbeat to `^3ChocoHax^0` servers
+[18:06:46] ChocoHax Global Ban List updated successfully...
+[18:08:30] [DEBUG] ^2Entity Spawning: Entity: [131594] Spawned By Player: [yes / 7 2] MODEL [404106581] TYPE [vehicle]
+[18:11:33] [DEBUG] ^2Entity Spawning: Entity: [131595] Spawned By Player: [yes / 7 2] MODEL [404106581] TYPE [vehicle]
+[18:18:01] [DEBUG] ^2Entity Spawning: Entity: [131596] Spawned By Player: [yes / 7 2] MODEL [404106581] TYPE [vehicle]
+[18:21:44] Sending Heartbeat to `^3ChocoHax^0` servers
+[18:21:46] ChocoHax Global Ban List updated successfully...
+[18:29:18] ^0[^4Player Disconnect^0] Kasy disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[18:29:18] ^0[^4Player Disconnect^0] WolfthebesT disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)

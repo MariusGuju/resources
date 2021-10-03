@@ -28,14 +28,14 @@ local function findThePlayer(player,choice)
 			  ["title"] = "__".. "Hitman".."__",
 			  ["description"] = "[ "..GetPlayerName(player).." ] il urmareste pe [ "..GetPlayerName(theTarget).." ]",
 			  ["thumbnail"] = {
-				["url"] = "https://i.imgur.com/Bi2iC6K.png",
+				["url"] = "https://static.wikia.nocookie.net/hitman/images/6/6b/Agent47HITMAN2016.png/revision/latest/scale-to-width-down/2000?cb=20210121120030",
 			  },
 			  ["footer"] = {
 			  ["text"] = "Hitman Log",
 			  },
 			}
 		  }
-		  PerformHttpRequest('https://discordapp.com/api/webhooks/882967035024384060/iyXAFO7kKfruL8Dd73OAozE2P8IwjDLQsSlKCJHxVj5nMUXCuMY7VQRZwH8IX7_sOLBC', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
+		  PerformHttpRequest('https://discord.com/api/webhooks/894246857851699261/Fp4WwxWgk-Fr4l_cEeH0u4ypI-M5azIS1wrXtHUE-Ayj55TESqv0fgOhyZN2ZCB4uFKs', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' }) 
 		vRP.closeMenu({player})
 	end
 end

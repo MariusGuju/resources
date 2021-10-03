@@ -380,7 +380,7 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
                           ["description"] = name.." joined (user_id = "..user_id..")"
                         }
                       }
-                      PerformHttpRequest('https://discord.com/api/webhooks/875494384483840010/SLtHH-h3ZYhHYiqlaX9SkjVc2Ic8gG17YUVgqGTjQIMzBoD303TPCrmDeDq3YNLGhfdt', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+                      PerformHttpRequest('https://discord.com/api/webhooks/894247897208594433/6wxPtvlQs0J6J7wfh-KiNuHuBlcQPrURYPo2TThrCaSzyi1gbN_H6Cv56O43KfjJGYjD', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 
                       TriggerEvent("vRP:playerJoin", user_id, source, name, tmpdata.last_login)
                       deferrals.done()
@@ -396,7 +396,7 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
                       ["description"] = name.." re-joined (user_id = "..user_id..")"
                     }
                   }
-                  PerformHttpRequest('https://discord.com/api/webhooks/875494384483840010/SLtHH-h3ZYhHYiqlaX9SkjVc2Ic8gG17YUVgqGTjQIMzBoD303TPCrmDeDq3YNLGhfdt', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+                  PerformHttpRequest('https://discord.com/api/webhooks/894247897208594433/6wxPtvlQs0J6J7wfh-KiNuHuBlcQPrURYPo2TThrCaSzyi1gbN_H6Cv56O43KfjJGYjD', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 
 
                   TriggerEvent("vRP:playerRejoin", user_id, source, name)
@@ -476,7 +476,7 @@ AddEventHandler("playerDropped",function(reason)
         ["description"] = " disconnected (user_id = "..user_id..")"
       }
     }
-    PerformHttpRequest('https://discord.com/api/webhooks/875494384483840010/SLtHH-h3ZYhHYiqlaX9SkjVc2Ic8gG17YUVgqGTjQIMzBoD303TPCrmDeDq3YNLGhfdt', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest('https://discord.com/api/webhooks/894247897208594433/6wxPtvlQs0J6J7wfh-KiNuHuBlcQPrURYPo2TThrCaSzyi1gbN_H6Cv56O43KfjJGYjD', function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 
     vRP.users[vRP.rusers[user_id]] = nil
     vRP.rusers[user_id] = nil
