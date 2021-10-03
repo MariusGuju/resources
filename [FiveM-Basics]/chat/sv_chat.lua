@@ -86,22 +86,22 @@ AddEventHandler('_chat:muitzaqmessageEntered', function(author, color, message)
 				tag = "Gang "
 				rgb = {242, 0, 0}
 			elseif vRP.hasGroup({user_id, "Lider Hitman"}) then
-				tag = "Civil~ "
-				rgb = {0, 0, 0} 
+				tag = "🔎Lider Hitman🔎"
+				rgb = {61, 59, 60} 
 			elseif vRP.hasGroup({user_id, "Hitman"}) then
-				tag = "Civil "
-				rgb = {0, 0, 0}
+				tag = "🔎Hitman"
+				rgb = {61, 59, 60}
 			elseif vRP.hasGroup({user_id, "vip1"}) then
-				tag = "V.I.P"
+				tag = "🥉V.I.P Bronze🥉"
 				rgb = {153, 77, 0}    
 			elseif vRP.hasGroup({user_id, "vip2"}) then
-				tag = "V.I.P"
+				tag = "🥈V.I.P Silver🥈"
 				rgb = {128, 128, 128}  
 			elseif vRP.hasGroup({user_id, "vip3"}) then
-				tag = "V.I.P"
+				tag = "🌟V.I.P Gold🌟"
 				rgb = {230, 184, 0}  
 			elseif vRP.hasGroup({user_id, "vip4"}) then
-				tag = "V.I.P"
+				tag = "💎V.I.P Diamond💎"
 				rgb = {0, 255, 255}                                                                                                     --- Politie ---
 			else
 				tag = "Civil"

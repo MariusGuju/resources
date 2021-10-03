@@ -30,3 +30,18 @@
 [19:49:56] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
 [19:59:00] Sending Heartbeat to `^3ChocoHax^0` servers
 [19:59:02] ChocoHax Global Ban List updated successfully...
+[20:06:14] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[20:06:22] ^0[^4Player Disconnect^0] alex____ disconnected... (^3Disconnected.^0)
+[20:06:43] ^0[^4Player Connect^0] ^0[^3alex____^0] connecting...
+[20:12:18] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[20:14:00] Sending Heartbeat to `^3ChocoHax^0` servers
+[20:14:02] ChocoHax Global Ban List updated successfully...
+[20:19:27] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[20:21:22] ^0[^4Player Connect^0] ^0[^3MDMA^0] connecting...
+[20:23:46] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[20:24:16] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3MDMA^0], screenshot cannot be taken, make sure you have installed it correctly.
+[20:29:00] Sending Heartbeat to `^3ChocoHax^0` servers
+[20:29:03] ChocoHax Global Ban List updated successfully...
+[20:33:19] ^0[^4Player Disconnect^0] alex____ disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[20:33:19] ^0[^4Player Disconnect^0] Kasy disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
+[20:33:19] ^0[^4Player Disconnect^0] MDMA disconnected... (^3Server shutting down: Server restarting (Kasy420).^0)
