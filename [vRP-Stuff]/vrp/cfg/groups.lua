@@ -129,9 +129,6 @@
 		["flocea"] = {
 			"flocea.masina"
 		},
-		["dorian"] = {
-			"dorian.skin"
-		},
 		["marchi"] = {
 			"marchi.masina"
 		},

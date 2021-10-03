@@ -5,7 +5,7 @@ local cfg = {}
 
 -- prepare surgeries customizations
 local surgery_male = { model = "mp_m_freemode_01" }
-local SkinDorian = { model = "Child"}
+local SkinDorian = { model = "Salvador Dali"}
 local surgery_female = { model = "mp_f_freemode_01" }
 local emergency_male = { model = "s_m_m_paramedic_01" }
 local emergency_female = { model = "s_f_y_paramedic_01" }
@@ -33,8 +33,8 @@ end
 ---- not_uniform (optional): if true, the cloakroom will take effect directly on the player, not as a uniform you can remove
 cfg.cloakroom_types = {
   ["SkinDorian"] = {
-    _config = { permissions = {"dorian.skin"} },
-    ["SkinDorian"] = SkinDorian
+    _config = { permissions = {"casa.masini"} },
+    ["Costum"] = SkinDorian
 },
 ["surgery"] = {
   _config = { not_uniform = true },
