@@ -1,0 +1,129 @@
+
+[13:11:13] ^0[^4Config^0] Configuration loaded successfully...
+[13:11:13] Loaded language ^0[^3eng^0]
+[13:11:20] ChocoHax [^31.4.2^0] is starting, Please wait...
+[13:11:22] Successfully connected to the authentication server
+[13:11:22] Connected to: ^0[^3Shiina Mashiro (hentai.systems) BZ^0]
+[13:11:22] Current username: ^0[^3Maru^0]
+[13:11:22] Current server IP: ^0[^395.76.64.150^0]
+[13:11:22] ^5MOTD: ^0hello :)
+[13:11:22] There is a new update available
+[13:11:22] Current version: 1.4.2
+[13:11:22] Latest version: 1.5.0
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3steam.json^0] file
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3license.json^0] file
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3indexes.json^0] file
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3token.json^0] file
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3fivem.json^0] file
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3live.json^0] file
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3discord.json^0] file
+[13:11:22] ^0[^4Ban Loader^0] Successfully loaded ^0[^3xbl.json^0] file
+[13:11:22] Sending Heartbeat to `^3ChocoHax^0` servers
+[13:11:24] ChocoHax Global Ban List updated successfully...
+[13:12:11] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[13:12:57] [DEBUG] ^2Entity Spawning: Entity: [131073] Spawned By Player: [yes / 0 1] MODEL [225514697] TYPE [ped]
+[13:13:07] ^0[^31^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
+[13:25:22] ^0[^4Player Connect^0] ^0[^3WolfthebesT^0] connecting...
+[13:26:08] [DEBUG] ^2Entity Spawning: Entity: [131329] Spawned By Player: [yes / 0 2] MODEL [225514697] TYPE [ped]
+[13:26:22] Sending Heartbeat to `^3ChocoHax^0` servers
+[13:26:24] ChocoHax Global Ban List updated successfully...
+[13:27:03] [DEBUG] ^2Entity Spawning: Entity: [131585] Spawned By Player: [yes / 7 2] MODEL [-1442200536] TYPE [vehicle]
+[13:39:59] [DEBUG] ^2Entity Spawning: Entity: [131586] Spawned By Player: [yes / 7 2] MODEL [-532475078] TYPE [vehicle]
+[13:40:58] ^0[^4Player Connect^0] ^0[^3Maru^0] connecting...
+[13:41:22] Sending Heartbeat to `^3ChocoHax^0` servers
+[13:41:24] ChocoHax Global Ban List updated successfully...
+[13:41:48] [DEBUG] ^2Entity Spawning: Entity: [131842] Spawned By Player: [yes / 0 3] MODEL [225514697] TYPE [ped]
+[13:41:58] ^0[^33^0] ^0[^3Maru^0] authentificated as ChocoHax Admin/Moderator
+[13:42:02] [DEBUG] ^2Entity Spawning: Entity: [132098] Spawned By Player: [yes / 0 3] MODEL [1336576410] TYPE [object]
+[13:42:47] [DEBUG] ^2Entity Spawning: Entity: [132099] Spawned By Player: [yes / 0 3] MODEL [1336576410] TYPE [object]
+[13:51:01] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3WolfthebesT^0], screenshot cannot be taken, make sure you have installed it correctly.
+[13:51:58] [DEBUG] ^2Entity Spawning: Entity: [132100] Spawned By Player: [yes / 7 3] MODEL [-1216765807] TYPE [vehicle]
+[13:52:51] [DEBUG] Explosion: 
+[13:52:58] [DEBUG] Explosion: 
+[13:53:24] ^0[^4Player Connect^0] ^0[^3alex____^0] connecting...
+[13:54:04] [DEBUG] ^2Entity Spawning: Entity: [132865] Spawned By Player: [yes / 0 4] MODEL [225514697] TYPE [ped]
+[13:54:33] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[13:55:26] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[13:56:22] Sending Heartbeat to `^3ChocoHax^0` servers
+[13:56:24] ChocoHax Global Ban List updated successfully...
+[13:56:26] [DEBUG] Explosion: 
+[13:58:41] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[13:59:18] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:01:25] [DEBUG] ^2Entity Spawning: Entity: [133122] Spawned By Player: [yes / 0 3] MODEL [1336576410] TYPE [object]
+[14:01:36] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:02:57] [DEBUG] ^2Entity Spawning: Entity: [131587] Spawned By Player: [yes / 7 1] MODEL [-429774847] TYPE [vehicle]
+[14:03:03] [DEBUG] ^2Entity Spawning: Entity: [132101] Spawned By Player: [yes / 0 3] MODEL [974883178] TYPE [object]
+[14:04:20] [DEBUG] ^2Entity Spawning: Entity: [134657] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:20] [DEBUG] ^2Entity Spawning: Entity: [134658] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:20] [DEBUG] ^2Entity Spawning: Entity: [134659] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:23] [DEBUG] ^2Entity Spawning: Entity: [134660] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:23] [DEBUG] ^2Entity Spawning: Entity: [134661] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:24] [DEBUG] ^2Entity Spawning: Entity: [134662] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:24] [DEBUG] ^2Entity Spawning: Entity: [134663] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:25] [DEBUG] ^2Entity Spawning: Entity: [134664] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:26] [DEBUG] ^2Entity Spawning: Entity: [134665] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:26] [DEBUG] ^2Entity Spawning: Entity: [134666] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:26] [DEBUG] ^2Entity Spawning: Entity: [134667] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:04:33] [DEBUG] ^2Entity Spawning: Entity: [135169] Spawned By Player: [yes / 7 3] MODEL [782665360] TYPE [vehicle]
+[14:04:33] [DEBUG] ^2Entity Spawning: Entity: [135170] Spawned By Player: [yes / 7 3] MODEL [782665360] TYPE [vehicle]
+[14:04:33] [DEBUG] ^2Entity Spawning: Entity: [135171] Spawned By Player: [yes / 7 3] MODEL [782665360] TYPE [vehicle]
+[14:04:51] [DEBUG] ^2Entity Spawning: Entity: [135937] Spawned By Player: [yes / 7 3] MODEL [-1216765807] TYPE [vehicle]
+[14:04:52] [DEBUG] ^2Entity Spawning: Entity: [136193] Spawned By Player: [yes / 7 3] MODEL [-1216765807] TYPE [vehicle]
+[14:04:55] [DEBUG] ^2Entity Spawning: Entity: [135938] Spawned By Player: [yes / 7 4] MODEL [-1216765807] TYPE [vehicle]
+[14:05:05] [DEBUG] ^2Entity Spawning: Entity: [136194] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:05] [DEBUG] ^2Entity Spawning: Entity: [136195] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:05] [DEBUG] ^2Entity Spawning: Entity: [136196] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:08] [DEBUG] ^2Entity Spawning: Entity: [136197] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:08] [DEBUG] ^2Entity Spawning: Entity: [136198] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:08] [DEBUG] ^2Entity Spawning: Entity: [136199] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:12] [DEBUG] ^2Entity Spawning: Entity: [135939] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:12] [DEBUG] ^2Entity Spawning: Entity: [135940] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:12] [DEBUG] ^2Entity Spawning: Entity: [135941] Spawned By Player: [yes / 7 3] MODEL [970385471] TYPE [vehicle]
+[14:05:15] [DEBUG] ^2Entity Spawning: Entity: [135942] Spawned By Player: [yes / 7 3] MODEL [782665360] TYPE [vehicle]
+[14:05:15] [DEBUG] ^2Entity Spawning: Entity: [135943] Spawned By Player: [yes / 7 3] MODEL [782665360] TYPE [vehicle]
+[14:05:15] [DEBUG] ^2Entity Spawning: Entity: [135944] Spawned By Player: [yes / 7 3] MODEL [782665360] TYPE [vehicle]
+[14:05:29] [DEBUG] ^2Entity Spawning: Entity: [135945] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:31] [DEBUG] ^2Entity Spawning: Entity: [135946] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:32] [DEBUG] ^2Entity Spawning: Entity: [135947] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:33] [DEBUG] ^2Entity Spawning: Entity: [135948] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:47] [DEBUG] ^2Entity Spawning: Entity: [135949] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:47] [DEBUG] ^2Entity Spawning: Entity: [136200] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:48] [DEBUG] ^2Entity Spawning: Entity: [135950] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:49] [DEBUG] ^2Entity Spawning: Entity: [135951] Spawned By Player: [yes / 7 1] MODEL [970385471] TYPE [vehicle]
+[14:05:55] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:06:45] [DEBUG] ^2Entity Spawning: Entity: [135952] Spawned By Player: [yes / 0 4] MODEL [1336576410] TYPE [object]
+[14:06:50] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:08:59] [DEBUG] ^2Entity Spawning: Entity: [135953] Spawned By Player: [yes / 0 1] MODEL [1336576410] TYPE [object]
+[14:09:50] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3WolfthebesT^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:09:55] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:09:58] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3WolfthebesT^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:11:22] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:11:24] ChocoHax Global Ban List updated successfully...
+[14:18:28] [DEBUG] ^2Entity Spawning: Entity: [131588] Spawned By Player: [yes / 7 1] MODEL [-498528574] TYPE [vehicle]
+[14:18:58] [DEBUG] ^2Entity Spawning: Entity: [131589] Spawned By Player: [yes / 7 1] MODEL [-606563792] TYPE [vehicle]
+[14:19:00] [DEBUG] ^2Entity Spawning: Entity: [134917] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:19:00] [DEBUG] ^2Entity Spawning: Entity: [135177] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:19:00] [DEBUG] ^2Entity Spawning: Entity: [135428] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:19:14] [DEBUG] ^2Entity Spawning: Entity: [131590] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:19:23] [DEBUG] ^2Entity Spawning: Entity: [132103] Spawned By Player: [yes / 7 1] MODEL [2076472358] TYPE [vehicle]
+[14:19:31] [DEBUG] ^2Entity Spawning: Entity: [132355] Spawned By Player: [yes / 7 3] MODEL [329848940] TYPE [vehicle]
+[14:19:31] [DEBUG] ^2Entity Spawning: Entity: [132610] Spawned By Player: [yes / 7 3] MODEL [329848940] TYPE [vehicle]
+[14:19:46] [DEBUG] ^2Entity Spawning: Entity: [131591] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:21:22] [DEBUG] ^2Entity Spawning: Entity: [132104] Spawned By Player: [yes / 7 2] MODEL [1747439474] TYPE [vehicle]
+[14:23:10] [DEBUG] ^2Entity Spawning: Entity: [132611] Spawned By Player: [yes / 7 1] MODEL [-1216765807] TYPE [vehicle]
+[14:25:48] ^0[^4Player Connect^0] ^0[^3Norb^0] connecting...
+[14:26:22] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:26:24] ChocoHax Global Ban List updated successfully...
+[14:27:31] [DEBUG] ^2Entity Spawning: Entity: [133124] Spawned By Player: [yes / 0 5] MODEL [225514697] TYPE [ped]
+[14:27:32] ^0[^4Ban Loader^0] Successfully loaded ^0[^3steam.json^0] file
+[14:27:32] ^0[^4Ban Loader^0] Successfully loaded ^0[^3license.json^0] file
+[14:27:32] ^0[^4Ban Loader^0] Successfully loaded ^0[^3indexes.json^0] file
+[14:27:32] ^0[^4Ban Loader^0] Successfully loaded ^0[^3token.json^0] file
+[14:27:32] ^0[^4Ban Loader^0] Successfully loaded ^0[^3fivem.json^0] file
+[14:27:33] ^0[^4Ban Loader^0] Successfully loaded ^0[^3live.json^0] file
+[14:27:33] ^0[^4Ban Loader^0] Successfully loaded ^0[^3discord.json^0] file
+[14:27:33] ^0[^4Ban Loader^0] Successfully loaded ^0[^3xbl.json^0] file
+[14:27:33] ^0[^33^0] ^0[^3Maru^0] executed reloadbans command
+[14:27:40] Deleted 6 entities
+[14:27:40] ^0[^33^0] ^0[^3Maru^0] executed clear command
+[14:27:45] ^0[^35^0] ^0[^3Norb^0] authentificated as ChocoHax Admin/Moderator

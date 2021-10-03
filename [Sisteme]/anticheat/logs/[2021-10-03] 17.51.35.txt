@@ -1,0 +1,34 @@
+
+[17:51:35] ^0[^4Config^0] Configuration loaded successfully...
+[17:51:35] Loaded language ^0[^3eng^0]
+[17:51:42] ChocoHax [^31.4.2^0] is starting, Please wait...
+[17:51:44] Successfully connected to the authentication server
+[17:51:44] Connected to: ^0[^3Shiina Mashiro (hentai.systems) BZ^0]
+[17:51:44] Current username: ^0[^3Maru^0]
+[17:51:44] Current server IP: ^0[^395.76.64.150^0]
+[17:51:44] ^5MOTD: ^0hello :)
+[17:51:44] There is a new update available
+[17:51:44] Current version: 1.4.2
+[17:51:44] Latest version: 1.5.0
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3discord.json^0] file
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3license.json^0] file
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3token.json^0] file
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3live.json^0] file
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3fivem.json^0] file
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3indexes.json^0] file
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3xbl.json^0] file
+[17:51:44] ^0[^4Ban Loader^0] Successfully loaded ^0[^3steam.json^0] file
+[17:51:44] Sending Heartbeat to `^3ChocoHax^0` servers
+[17:51:46] ChocoHax Global Ban List updated successfully...
+[17:52:09] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[17:52:14] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[17:52:30] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[17:52:31] ^0[^4Player Connect^0] ^0[^3WolfthebesT^0] connecting...
+[17:52:35] ^0[^4Player Connect^0] ^0[^3WolfthebesT^0] connecting...
+[17:52:38] ^0[^4Player Connect^0] ^0[^3WolfthebesT^0] connecting...
+[17:53:03] [DEBUG] ^2Entity Spawning: Entity: [131073] Spawned By Player: [yes / 0 1] MODEL [225514697] TYPE [ped]
+[17:53:10] ^0[^31^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
+[17:53:17] ^0[^4Player Connect^0] ^0[^3WolfthebesT^0] connecting...
+[17:54:21] [DEBUG] ^2Entity Spawning: Entity: [131331] Spawned By Player: [yes / 0 2] MODEL [225514697] TYPE [ped]
+[17:54:28] [DEBUG] ^2Entity Spawning: Entity: [131586] Spawned By Player: [yes / 0 2] MODEL [1336576410] TYPE [object]
+[17:54:31] ^0[^32^0] ^0[^3WolfthebesT^0] authentificated as ChocoHax Admin/Moderator

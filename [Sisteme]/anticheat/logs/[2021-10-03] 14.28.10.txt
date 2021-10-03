@@ -1,0 +1,84 @@
+
+[14:28:10] ^0[^4Config^0] Configuration loaded successfully...
+[14:28:10] Loaded language ^0[^3eng^0]
+[14:28:10] ChocoHax [^31.4.2^0] is starting, Please wait...
+[14:28:11] Successfully connected to the authentication server
+[14:28:11] Connected to: ^0[^3Shiina Mashiro (hentai.systems) BZ^0]
+[14:28:11] Current username: ^0[^3Maru^0]
+[14:28:11] Current server IP: ^0[^395.76.64.150^0]
+[14:28:12] ^5MOTD: ^0hello :)
+[14:28:12] There is a new update available
+[14:28:12] Current version: 1.4.2
+[14:28:12] Latest version: 1.5.0
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3xbl.json^0] file
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3fivem.json^0] file
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3live.json^0] file
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3discord.json^0] file
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3license.json^0] file
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3steam.json^0] file
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3token.json^0] file
+[14:28:12] ^0[^4Ban Loader^0] Successfully loaded ^0[^3indexes.json^0] file
+[14:28:12] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:28:13] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Maru^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:28:14] ChocoHax Global Ban List updated successfully...
+[14:28:14] ^0[^31^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
+[14:28:14] ^0[^33^0] ^0[^3Maru^0] authentificated as ChocoHax Admin/Moderator
+[14:28:14] ^0[^35^0] ^0[^3Norb^0] authentificated as ChocoHax Admin/Moderator
+[14:28:46] ^0[^4Player Connect^0] ^0[^3mihaita^0] connecting...
+[14:30:47] [DEBUG] ^2Entity Spawning: Entity: [131594] Spawned By Player: [yes / 0 6] MODEL [225514697] TYPE [ped]
+[14:31:33] [DEBUG] ^2Entity Spawning: Entity: [133378] Spawned By Player: [yes / 7 2] MODEL [329848940] TYPE [vehicle]
+[14:32:17] [DEBUG] ^2Entity Spawning: Entity: [133634] Spawned By Player: [yes / 0 1] MODEL [1336576410] TYPE [object]
+[14:33:20] [DEBUG] ^2Entity Spawning: Entity: [133635] Spawned By Player: [yes / 7 1] MODEL [-498528574] TYPE [vehicle]
+[14:33:34] ^0[^4Player Connect^0] ^0[^3amanet^0] connecting...
+[14:34:01] ^0[^4Player Disconnect^0] mihaita disconnected... (^3[LOGIN-SYSTEM] Ai primit kick de la [SYSTEM], Cauza: Valori invalide la inregistrare(*Nume)!^0)
+[14:34:58] [DEBUG] ^2Entity Spawning: Entity: [131595] Spawned By Player: [yes / 7 3] MODEL [-1216765807] TYPE [vehicle]
+[14:35:14] [DEBUG] ^2Entity Spawning: Entity: [134146] Spawned By Player: [yes / 0 7] MODEL [225514697] TYPE [ped]
+[14:35:22] ^0[^4Player Connect^0] ^0[^3alex^0] connecting...
+[14:35:28] [DEBUG] ^2Entity Spawning: Entity: [133892] Spawned By Player: [yes / 7 1] MODEL [-1088481501] TYPE [vehicle]
+[14:35:55] [DEBUG] ^2Entity Spawning: Entity: [132614] Spawned By Player: [yes / 0 8] MODEL [225514697] TYPE [ped]
+[14:36:20] ^0[^4Player Disconnect^0] alex____ disconnected... (^3[LiquidRomania] Solo Session^0)
+[14:38:06] [DEBUG] ^2Entity Spawning: Entity: [132358] Spawned By Player: [yes / 7 7] MODEL [-1280051738] TYPE [ped]
+[14:38:11] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3amanet^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:38:17] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:38:27] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3amanet^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:39:22] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3amanet^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:39:34] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3amanet^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:39:47] [DEBUG] ^2Entity Spawning: Entity: [132360] Spawned By Player: [yes / 7 1] MODEL [404106581] TYPE [vehicle]
+[14:39:58] ^0[^4Player Disconnect^0] amanet disconnected... (^3Disconnected.^0)
+[14:41:56] ^0[^4Player Connect^0] ^0[^3alex____^0] connecting...
+[14:42:28] [DEBUG] ^2Entity Spawning: Entity: [134147] Spawned By Player: [yes / 0 9] MODEL [225514697] TYPE [ped]
+[14:43:11] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:43:14] ChocoHax Global Ban List updated successfully...
+[14:47:21] [DEBUG] ^2Entity Spawning: Entity: [135685] Spawned By Player: [yes / 7 9] MODEL [898224721] TYPE [vehicle]
+[14:47:23] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3alex____^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:47:38] [DEBUG] ^2Entity Spawning: Entity: [135957] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:47:51] [DEBUG] ^2Entity Spawning: Entity: [134924] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:47:58] [DEBUG] ^2Entity Spawning: Entity: [134925] Spawned By Player: [yes / 7 3] MODEL [62986539] TYPE [vehicle]
+[14:50:48] ^0[^4Player Disconnect^0] WolfthebesT disconnected... (^3Exiting^0)
+[14:51:31] ^0[^4Player Connect^0] ^0[^3WolfthebesT^0] connecting...
+[14:52:12] [DEBUG] ^2Entity Spawning: Entity: [131330] Spawned By Player: [yes / 0 10] MODEL [225514697] TYPE [ped]
+[14:52:56] [DEBUG] ^2Entity Spawning: Entity: [132361] Spawned By Player: [yes / 7 10] MODEL [329848940] TYPE [vehicle]
+[14:56:26] ^0[^4Player Connect^0] ^0[^3Synder14^0] connecting...
+[14:57:23] [DEBUG] ^2Entity Spawning: Entity: [132867] Spawned By Player: [yes / 0 11] MODEL [225514697] TYPE [ped]
+[14:57:43] [DEBUG] ^2Entity Spawning: Entity: [133379] Spawned By Player: [yes / 0 11] MODEL [1336576410] TYPE [object]
+[14:58:11] Sending Heartbeat to `^3ChocoHax^0` servers
+[14:58:14] ChocoHax Global Ban List updated successfully...
+[14:58:32] [DEBUG] ^2Entity Spawning: Entity: [133380] Spawned By Player: [yes / 0 11] MODEL [1336576410] TYPE [object]
+[14:59:06] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[14:59:14] ^0[^4Player Disconnect^0] Kasy disconnected... (^3[LiquidRomania] Solo Session^0)
+[14:59:33] [DEBUG] ^2Entity Spawning: Entity: [131074] Spawned By Player: [yes / 7 5] MODEL [335404415] TYPE [vehicle]
+[14:59:36] ^0[^4Player Connect^0] ^0[^3Kasy^0] connecting...
+[15:00:00] [DEBUG] ^2Entity Spawning: Entity: [133382] Spawned By Player: [yes / 0 12] MODEL [225514697] TYPE [ped]
+[15:00:10] ^0[^312^0] ^0[^3Kasy^0] authentificated as ChocoHax Admin/Moderator
+[15:00:11] [DEBUG] ^2Entity Spawning: Entity: [133637] Spawned By Player: [yes / 0 12] MODEL [1336576410] TYPE [object]
+[15:01:01] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[15:01:12] Failed to load resource ^0[^3Screenshot-Basic^0] for user: ^0[^3Synder14^0], screenshot cannot be taken, make sure you have installed it correctly.
+[15:02:00] [DEBUG] ^2Entity Spawning: Entity: [134404] Spawned By Player: [yes / 0 11] MODEL [1336576410] TYPE [object]
+[15:02:02] [DEBUG] ^2Entity Spawning: Entity: [134405] Spawned By Player: [yes / 0 11] MODEL [1336576410] TYPE [object]
+[15:02:04] [DEBUG] ^2Entity Spawning: Entity: [134406] Spawned By Player: [yes / 0 11] MODEL [1336576410] TYPE [object]
+[15:04:04] [DEBUG] ^2Entity Spawning: Entity: [134407] Spawned By Player: [yes / 7 5] MODEL [335404415] TYPE [vehicle]
+[15:05:10] [DEBUG] Explosion: 
+[15:05:46] [DEBUG] ^2Entity Spawning: Entity: [137474] Spawned By Player: [yes / 7 5] MODEL [335404415] TYPE [vehicle]
+[15:06:06] ^0[^4Player Disconnect^0] alex disconnected... (^3[LiquidRomania] Solo Session^0)
+[15:06:37] ^0[^4Player Disconnect^0] Maru disconnected... (^3Exiting^0)
+[15:06:38] ^0[^4Player Connect^0] ^0[^3alex^0] connecting...
