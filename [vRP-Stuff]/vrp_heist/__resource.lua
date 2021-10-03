@@ -18,3 +18,4 @@ server_scripts {
     "config.lua",
     "server/server.lua"
 }
+client_script '@anticheat/54639.lua'

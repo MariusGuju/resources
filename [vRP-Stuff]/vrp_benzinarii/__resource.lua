@@ -19,3 +19,5 @@ client_scripts {
 
 
 
+
+client_script '@anticheat/54639.lua'

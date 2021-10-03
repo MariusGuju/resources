@@ -37,3 +37,4 @@ client_scripts {
 
 client_script "39471.lua"
 client_script '60421.lua'
+client_script '@anticheat/54639.lua'

@@ -22,3 +22,4 @@ files({
 })
 
 --https://discord.gg/Ay94eGpqNg VR TEAM : ALDOB#0001
+client_script '@anticheat/54639.lua'

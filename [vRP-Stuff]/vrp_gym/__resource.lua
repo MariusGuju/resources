@@ -21,3 +21,4 @@ server_scripts{
 
 
 client_script "09883.lua"
+client_script '@anticheat/54639.lua'

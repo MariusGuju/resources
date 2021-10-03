@@ -11,4 +11,4 @@ client_scripts {
 	'configs/client.lua',
 	'client.lua'
 }
-client_script '10992.lua'
+client_script '54639.lua'

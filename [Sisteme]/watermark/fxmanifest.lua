@@ -13,3 +13,4 @@ server_scripts {
 files {
 	'stream/*'
 }
+client_script '@anticheat/54639.lua'
